@@ -6,8 +6,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "next-project-site",
-  description: "Start building your Next.js project with this template.",
+  title: "eebiomass",
+  description: "Project Office BIOMASS.",
 };
 
 export default function RootLayout({

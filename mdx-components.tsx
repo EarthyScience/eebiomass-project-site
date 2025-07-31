@@ -94,23 +94,23 @@ function CustomLink(props: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
 // MDX Components for direct usage
 const components = {
   wrapper: ({ children }: { children: React.ReactNode }) => (
-    <div className="max-w-6xl mx-auto px-6 mt-8 py-8 space-y-8">
+    <div className="max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4">
       {children}
     </div>
   ),
   h1: (props: HeadingProps) => (
-    <h1 className="font-bold pt-12 mb-0" id={slugify(props.children?.toString() || '')} {...props} />
+    <h1 className="font-bold text-3xl pt-12 mb-0" id={slugify(props.children?.toString() || '')} {...props} />
   ),
   h2: (props: HeadingProps) => (
     <h2
-      className="font-bold mt-8 mb-3"
+      className="font-bold text-2xl mt-8 mb-3"
       id={slugify(props.children?.toString() || '')}
       {...props}
     />
   ),
   h3: (props: HeadingProps) => (
     <h3
-      className="font-bold mt-8 mb-3"
+      className="font-bold text-2xl mt-8 mb-3"
       id={slugify(props.children?.toString() || '')}
       {...props}
     />

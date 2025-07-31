@@ -3,7 +3,7 @@ export const navigation = [
     { 
       text: 'Project',
       isHome: true,
-      name: 'Next Project Site',
+      name: 'Project Office BIOMASS',
       description: "Start your new project site with a clean and modern design.",
       items: [
         { text: 'About', link: '/project/about',

@@ -37,16 +37,16 @@
   --paragraph-text: #374151;
   
   /* Work packages palette */
-  --var-wp-1: #F87171;
-  --var-wp-2: #60A5FA;
-  --var-wp-3: #34D399;
-  --var-wp-4: #FBBF24;
+  --var-wp-1: #00a295;
+  --var-wp-2: #274e13;
+  --var-wp-3: #f08080;
+  --var-wp-4: #ffe4c4;
   
   /* Accent colors */
   --accent-1: rgb(0, 121, 108);
-  --accent-2: #10B981;
-  --accent-3: #F59E0B;
-  --accent-4: #EF4444;
+  --accent-2: #66cdaa;
+  --accent-3: #ffe4c4;
+  --accent-4: #f08080;
   
   /* Code syntax highlighting */
   --sh-class: #eb9035;
