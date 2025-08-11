@@ -1,21 +1,57 @@
-# Contact
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
 
-# Project Office BIOMASS
+
+# Contact   Project Office BIOMASS
+<p></p>
+<p> ([<b>EMAIL</b>](mailto:ncarvalhais@bgc-jena.mpg.de;nboerner@bgc-jena.mpg.de))</p>
 <p></p>
 
-## Project Leader
-<p> Nuno Carvalhais ([<ins>Email</ins>](mailto:ncarvalhais@bgc-jena.mpg.de))</p>
+<ContentSplitSection
+    title="Project Leader" 
+    subtitle="Nuno Carvalhais"
+     media={
+        <Image src="/people/NC.JPG"
+        alt="Nuno Carvalhais"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
 
-## Project Coordinator / Communication    
-Nicole Börner ([<ins>Email</ins>](mailto:nboerner@bgc-jena.mpg.de))
-
+<ContentSplitSection
+    title="Project Coordinator / Communication" 
+    subtitle="Nicole Börner"
+     media={
+        <Image src="/people/Nicole.JPG"
+        alt="Nicole Boerner"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
 
 ## Address
-Max-Planck Institute for Biogeochemistry
-Hans-Knöll Str. 10
-07745 Jena
+Max-Planck Institute for Biogeochemistry   
+Hans-Knöll Str. 10   
+07745 Jena   
 Germany
 
-
+## Newsletter
 > <a style={{color: "var(--accent-1)"}} href='https://listserv.gwdg.de/mailman/listinfo/eebiomass-newsletter' target='_blank'> Subscribe to our newsletter !</a>
 
+<ContentSplitSection
+    title="EEBIOMASS Newsletter" 
+    subtitle="Subscribe to our newsletter to not miss any updates on ESA's BIOMASS mission!"
+     media={
+        <Image src="/Biomass_patch.png"
+        alt="BIOMASS"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+   
+/>
