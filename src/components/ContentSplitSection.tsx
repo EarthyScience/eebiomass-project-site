@@ -12,7 +12,7 @@ interface ContentSplitSectionProps {
 
 const ContentSplitSection = ({
   title = "Welcome to Our template",
-  titleFontSize = 'text-3xl px-2 md:text-4xl lg:text-5xl',
+  titleFontSize = 'text-1xl px-2 md:text-1xl lg:text-2xl',
   subtitle = "Discover amazing features that will transform your experience",
   media,
   mediaPosition = 'right',

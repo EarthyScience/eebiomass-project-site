@@ -29,14 +29,30 @@ export const navigation = [
          //   description: "Explore our comprehensive guides on various topics related to the project.",
          // },
          ] },
-   { text: 'Events', link: '/events' },
+
+             {   text: 'Events', link: '/events' ,
+        items: [
+          { text: 'Webinar Series', link: '/biomass/webinar',
+            description: "Access our latest research papers, reports, and articles.",
+          },
+          { text: 'Summer Schools', link: '/biomass/summerschool',
+            description: "Access our latest research papers, reports, and articles.",
+          },
+          { text: 'PolInSAR course', link: '/biomass/polinsar',
+            description: "Access our latest research papers, reports, and articles.",
+          },
+         // { text: 'Guides', link: '/resources/guides',
+         //   description: "Explore our comprehensive guides on various topics related to the project.",
+         // },
+         ] },
+  
     { text: 'News', link: '/blog' },
 
     {
         text: 'Resources',
         items: [
-          { text: 'Related Publications', link: '/resources/publications',
-            description: "Access our latest research papers, reports, and articles.",
+          { text: 'Further Reading', link: '/resources/publications',
+            description: "Access latest research papers, reports, and articles.",
           },
           { text: 'Related Missions and Projects', link: '/resources/relatedmissions',
             description: "Explore our comprehensive guides on various topics related to the project.",

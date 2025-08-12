@@ -1,10 +1,16 @@
-import TeamCardsGallery from '@/components/TeamCardsGallery';
+
 import ContentSplitSection from '@/components/ContentSplitSection';
 import Image from 'next/image';
 
- <TeamCardsGallery
-     path="project/team/cards"
-  title = "The Team"
+<ContentSplitSection
+    title="Team" 
+    subtitle=""
+     media={
+        <Image src="null"
+        alt=""
+        width={200} height={100}
+        />}
+    mediaPosition="right"    
 />
 
 <ContentSplitSection
@@ -151,6 +157,7 @@ import Image from 'next/image';
     subtitle="Andreas Huth leads the forest research group and is deputy head of the Department of Ecological Modelling, Helmholtz-Centre for Environmental Research UFZ, Leipzig, Germany. He also is a full Professor at Institute for Environmental Systems Research, University of Osnabrück, Germany. Prof. Dr. Huth is a member of the iDiV-German Institute for Environmental Systems Research and was scientific coordinator of the Helmholtz Alliance “Remote Senscing and Earth System Dynamics”(EDA)."
      media={
         <Image src="/people/AH.jpg"
+        alt="Andreas Huth"
         width={200} height={200}
         />}
     mediaPosition="left"
@@ -162,6 +169,7 @@ import Image from 'next/image';
     subtitle="Friedrich J. Bohn is researcher within the Helmholtz Initiative “Climate adaptation and mitigation” (HI-CAM) and forest modelling group of the Department of Ecological Modelling, Helmholtz-Centre for Environmental Research UFZ, Leipzig, Germany. He was and is contributing to several projects: omBEF-Across, PROFOUND, FORMASAM, Helmholtz alliance EDA."
      media={
         <Image src="/people/Friedrich.png"
+        alt="Friedrich Bohn"
         width={200} height={200}
         />}
     mediaPosition="left"
