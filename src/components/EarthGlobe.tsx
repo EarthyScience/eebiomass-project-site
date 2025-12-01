@@ -16,7 +16,7 @@ const Sphere = ({
   scale = 2.0,
   initialRotation = [0, 0.41, 0]
 }: SphereProps) => {
-  const texture = useLoader(TextureLoader, './Above-ground_biomass_2022_pillars.jpg');
+  const texture = useLoader(TextureLoader, './biomass-globe.jpg');
   const meshRef = useRef<Mesh>(null);
   
   useFrame(() => {
