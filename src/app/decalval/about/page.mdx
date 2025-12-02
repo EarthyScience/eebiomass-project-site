@@ -1,0 +1,189 @@
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+import EarthGlobe from '@/components/EarthGlobe'; 
+import { Button } from "@/components/ui/button"
+import { SiGithub } from "react-icons/si";
+import { SiLucide } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMdx } from "react-icons/si";
+import { SiThreedotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaHeartbeat } from "react-icons/fa";
+
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+
+# Coordinated German Contribution to the BIOMASS Cal/Val Activities
+ 
+
+##  
+
+<ContentSplitSection
+    title="DE:CalVal" 
+    subtitle="Calibration and validation activities are instrumental for evaluating the potential of the BIOMASS data products and underlying algorithms to the BIOMASS mission objectives."
+        media={
+        <Image src="/decalval_logo_small.png"
+        alt="DECalVal"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+    >     
+</ContentSplitSection>
+
+<div className="text-left leading-relaxed">
+        <p> Our efforts involve </p>
+        <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+             <li>the collection of extensive databases of opportunity, with associate methods for comparison;</li>
+             <li>setting up a novel network of high measurement intensity sites (contributing to https://geo-trees.org/)</li>
+             <li>the design of observational campaigns to span the existing observational domains and forest density gradients</li>
+             <li>the utilization of process-based modelling frameworks to support high level data interpretation and cross-variable consistency.</li>
+        </ul>
+     </div>     
+
+  
+
+   The DE:CalVal project directly supports this by <b>combining harmonized in-situ, airborne and spaceborne datasets</b>. Complementary missions such as TanDEM-X, with its fine-scale X-band SAR, and NASA’s GEDI LiDAR provide critical additional perspectives. <b>Terrestrial laser scanning (TLS) and UAV LiDAR campaigns</b> will supply detailed 3D forest representations to assess <b>sub-grid variability and validate biomass estimates</b>. Moreover, <b>process-based models like FORMIND</b> link observed <b>forest structure to biomass dynamics</b>, enabling a deeper understanding of carbon cycling processes. By integrating BIOMASS-derived biomass and height with eddy covariance fluxes, sap flow data and local meteorology in advanced model–data assimilation frameworks, DECalVal will establish a unique foundation for evaluating BIOMASS products.
+
+
+ <div className="px-4 py-2">
+ <Accordion
+      type="single"
+      collapsible
+      className="w-full"
+      defaultValue="item-1" 
+    >
+    <AccordionItem value="item-1">
+        <AccordionTrigger className="bg-[var(--accent-3)] font-bold px-4 py-2">Workpackages</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+
+             <div className="px-4 py-2">
+             <Accordion
+               type="single"
+               collapsible
+               className="w-full"
+               defaultValue="item-1"
+             >
+            <AccordionItem value="item-1">
+                 <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2">WP1 - Data</AccordionTrigger>
+                    <AccordionContent className="leading-tight space-y-0">
+                     <p className="my-0">
+                     The objective of WP1 is to assemble the datasets as groundwork for subsequent tasks by conducting and process <b>comprehensive in-situ field campaigns</b> and <b>harmonising reference data</b> from airborne LiDAR, drone imagery, and legacy radar transect.
+                     </p>
+                     <p className="my-0">
+                     <u>Task T1.1: In situ campaigns (GFZ, TUD, DLR)</u>  
+                      We will conduct dedicated field campaigns in strategically selected tropical and subtropical regions to directly support the validation of BIOMASS mission products. 
+                     </p>
+                     <p className="my-0">
+                     <u>Task T1.2: Further reference data (TUD, WI)</u><br />
+                     The adapted validation framework will incorporate extensive tropical datasets, integrating both existing inventories and newly collected high-resolution ALS data, to provide robust comparative analyses. By aligning BIOMASS-derived estimates closely with independently collected field and ALS data, we will systematically quantify estimation uncertainties and biases across large geographic extents.
+                     </p>
+                    </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+                    <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2">WP2 - Assessing BIOMASS products</AccordionTrigger>
+                    <AccordionContent className="leading-tight space-y-0">
+                    <p>
+                    The primary objective here is to validate the BIOMASS products - <b>forest height</b> (FH), <b>forest change/disturbance</b> (FD) and <b>above ground biomass density</b> (AGBD)-- with the field inventory and reference data from WP1, including multi-sensor model links to forest structure.
+                    </p>
+                    <p className="my-0">
+                    <u>Task 2.1: Validation using existing ground and airborne reference data (GFZ)</u><br />
+                      Since the existing reference data vary considerably in plot size, plot shape, and geographical distribution, the associated AGBD and height measurement errors are also expected to vary as function of this diversity.   
+                     </p>
+                     <p className="my-0">
+                     <u>Task T2.2: Forest Change (Disturbances/Degradation) (TUD, WI)</u><br />
+                        Changes in forest cover and forest height from BIOMASS will be validated for the Tambopata region in Peru. 
+                     </p>
+                     <p className="my-0">
+                     <u>Task T2.3: Biomass stocks, height and vertical structure (UFZ, TUD, DLR)</u><br />
+                        This task combines measurements from all of three missions -- BIOMASS, GEDI, TanDEM-X -- and a powerful multi-scale forest growth model (FORMIND) to allow more accurate and finer resolved estimates of FH and AGBD.
+                     </p>
+                    </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+                    <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2">WP3 - Carbon Cycle Validation</AccordionTrigger>
+                    <AccordionContent className="leading-tight space-y-0">
+                    <p className="my-0">
+                     The main goal is to provide a calibration-validation exercise that directly evaluates the information content of BIOMASS data for characterizing temporal dynamics and spatial patterns in carbon, and water, cycles in forest ecosystems.
+                     </p>
+                     <p className="my-0">
+                     <u>Task T3.1: Reference and third-party data (DLR, UMD, MPG)</u><br />
+                     This task will collate complementary Earth observation and ground-based data streams to provide structurally and functionally consistent inputs and benchmarks for process-based evaluation of BIOMASS products at instrumented ecosystem sites. 
+                     </p>
+                     <p className="my-0">
+                     <u>Task T3.2: BIOMASS Carbon Cycle (UFZ, MPG)</u><br />
+                    The goal is to provide a robust initialization point for forest dynamics models, including continuous characterization of forest vertical and spatial structure, and by that validate the link between patterns and dynamics in BIOMASS products and the forest carbon cycle. 
+                     </p>
+                     <p className="my-0">
+                     <u>Task T3.3: BIOMASS Carbon and Water Fluxes (MPG, UFZ, DLR)</u><br />
+                    The goal is to provide a formal integration between BIOMASS observations and observed fluxes of carbon and water at ecosystem scales, which is key to assess and validate the value of BIOMASS data to address global carbon cycle challenges. 
+                     </p>
+                    </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4">
+                    <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2">WP4 - Coordination & Synthesis </AccordionTrigger>
+                    <AccordionContent className="leading-tight space-y-0">
+                      <p className="my-0">
+                     The overall goal of this task is to coordinate the work between the teams, disseminate and communicate results within and beyond the project.
+                     </p>
+                     <p className="my-0">
+                     <u>Task T4.1: Project coordination and management (MPG)</u><br />
+                     The project coordination ensures a successful project with on-time, high-quality and within budget deliverables and close collaboration across WPs. 
+                     </p>
+                     <p className="my-0">
+                     <u>Task T4.2: Dissemination and communication (MPG)</u><br />
+                     Providing relevant information to our user community will play a crucial role in maximising the impact of the project. 
+                     </p>
+                    </AccordionContent>
+            </AccordionItem>     
+            </Accordion>
+            </div>
+        </AccordionContent>
+        </AccordionItem>  
+    </Accordion>
+</div>
+
+
+<div className="px-4 py-2">
+    <Accordion
+      type="single"
+      collapsible
+      className="w-full"
+      defaultValue="item-1" 
+    >
+      <AccordionItem value="item-1">
+        <AccordionTrigger className="bg-[var(--accent-3)]  font-bold px-4 py-2">Partner</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+ 
+                             
+        </AccordionContent>
+        </AccordionItem>  
+    </Accordion>
+</div>
+
+
+<p></p>
+
+
+
+ <div className="flex justify-center mb-4">
+        <Image src="/Bild8.png" alt="institutional partner logos" width={800} height={200} classname="object-contain"
+        />
+    </div>  

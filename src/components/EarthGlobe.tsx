@@ -44,7 +44,7 @@ interface EarthGlobeProps {
 }
 
 const EarthGlobe = ({
-  width = "740px",
+  width = "400px",
   height = "350px",
   cameraPosition = [0, 0, -3.5],
   lightIntensity = 5,

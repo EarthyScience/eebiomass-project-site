@@ -8,7 +8,7 @@ interface ContentSplitSectionProps {
   mediaPosition?: 'left' | 'right';
   layout?: 'balanced' | 'text-emphasis' | 'media-emphasis';
   shadow?: boolean;
-}
+  }
 
 const ContentSplitSection = ({
   title = "Welcome to Our template",

@@ -32,7 +32,7 @@
   --toggle-bg: #F3F4F6;
   --toggle-hover: #E5E7EB;
   --toggle-active: #2563EB;
-  --toggle-shadow: rgba(0, 0, 0, 0.1);
+  --toggle-shadow: rgba(133, 130, 130, 0.1);
   --paragraph-bg: #F9FAFB;
   --paragraph-text: #374151;
   
@@ -41,12 +41,16 @@
   --var-wp-2: #274e13;
   --var-wp-3: #f08080;
   --var-wp-4: #ffe4c4;
+  --var-wp-5: #00413f;
   
   /* Accent colors */
-  --accent-1: rgb(0, 121, 108);
-  --accent-2: #66cdaa;
+  --accent-1: #00a295;
+  --accent-2: #B7FFE9;
   --accent-3: #ffe4c4;
   --accent-4: #f08080;
+  --accent-5: #00413f;
+  --accent-6: #d8b7b7;
+  --accent-7: #374151;
   
   /* Code syntax highlighting */
   --sh-class: #eb9035;
@@ -94,16 +98,20 @@
   --toggle-bg: #03040442;
   --toggle-hover: rgba(255, 255, 255, 0.1);
   --toggle-active: white;
-  --toggle-shadow: rgba(0, 0, 0, 0.3);
+  --toggle-shadow: rgba(145, 143, 143, 0.3);
   --paragraph-bg: #1F2428;
   --paragraph-text: #D1D5DB;
   
   /* Dark theme accents */
   --accent-1: #FF6B6B;
   /* --accent-1: rgb(2, 151, 141); */
-  --accent-2: #28a745;
-  --accent-3: #ffc107;
-  --accent-4: #dc3545;
+  --accent-1: #00a295;
+  --accent-2: #5f9994;
+  --accent-3: #ffe4c4;
+  --accent-4: #f08080;
+  --accent-5: #00413f;
+  --accent-6: #d8b7b7;
+  --accent-7: #374151;
   
   /* Additional dark theme variables */
   --destructive: oklch(0.704 0.191 22.216);

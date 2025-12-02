@@ -1,0 +1,281 @@
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+import EarthGlobe from '@/components/EarthGlobe'; 
+import { Button } from "@/components/ui/button"
+import { SiGithub } from "react-icons/si";
+import { SiLucide } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMdx } from "react-icons/si";
+import { SiThreedotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaHeartbeat } from "react-icons/fa";
+import { MdOutlineSatelliteAlt } from "react-icons/md";
+import { FaGlobeEurope } from "react-icons/fa";
+import { FaGlobeAmericas } from "react-icons/fa";
+import { TbCalendarTime } from "react-icons/tb";
+import { FaTools } from "react-icons/fa";
+import { GiOrbit } from "react-icons/gi";
+
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+<p className="w-full flex justify-center">
+# BIOMASS mission
+</p>
+
+<p></p>
+
+<div className="w-full flex justify-center">
+<div className="w-1/2 aspect-video">
+  <iframe
+    className="w-full h-full rounded-xl shadow"
+    src="https://www.youtube.com/embed/KOXfNfRnOYo"
+    title="YouTube video"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+</div>
+
+<a href="https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass" target='blank'>
+<ContentSplitSection
+    title=""
+    subtitle="The new Earth Explorer BIOMASS will improve our understanding of the role of the land biosphere on the global carbon cycle, with clear implications in a context of climate change. With the help of remote sensing, the mission is the first with an operational space-borne P-Band SAR, it will collect data on the state of mainly tropical forests."
+        media={
+        <Image src="/Biomass_patch.png"
+        alt="BIOMASS Logo"
+        width={300} height={300}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+    >     
+</ContentSplitSection>
+</a>
+
+<p></p>
+
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-0 justify-items-center">
+  
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+    <CardTitle style={{ fontVariant: 'small-caps' }}><WP number={1}>Mission Objectives</WP></CardTitle>
+      <CardDescription>
+            <b>Worldwide distribution of forest above-ground biomass</b><br />
+            Generate the first global forest biomass maps, assessing the amount of carbon stored in the world’s forests and how this changes over time
+
+            <b>Advanced knowledge of the global carbon cycle</b><br />
+            Support global action to reduce uncertainties in calculations of carbon stocks and fluxes on land and provide new insight into the role that forests play in the carbon cycle
+
+            <b>Science support for policy</b><br />
+            Provide scientific support for international treaties, agreements and programmes  
+            
+            <a style={{color: "var(--accent-1)"}} href='https://earth.esa.int/eogateway/missions/biomass/objectives' target='_blank'>Find out more. </a>  
+</CardDescription>
+    </CardHeader>
+  </Card>
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+    <CardTitle style={{ fontVariant: 'small-caps' }}><WP number={1}> Secondary Mission Objectives </WP></CardTitle>
+      <CardDescription>
+          <b>Subsurface Geology Mapping</b>
+          The first opportunity to map paleo-hydrology at continental scale in regions where water resources are a serious issue
+
+          <b>Ice Flow Measurements</b>
+          A unique way to measure the seasonal variation of large ice
+          sheets in relationship with climate change monitoring
+
+          <b>Digital Elevation Model</b>
+          An efficient way to obtain the surface topography under dense vegetation (then useful for biomass measurement)
+
+          <b>Ocean Surface Properties</b>
+          A new way to look at ocean surface structures + a unique
+          sensitivity to discriminate between fresh/saline water
+       </CardDescription>
+    </CardHeader>
+  </Card>
+</div>
+
+<hr className="border-t border-dotted border-[var(--accent-1)] my-4" />
+
+<p className="w-full flex justify-center text-4xl">
+<a href="https://eebiomass.org/wp-content/uploads/2025/04/BIOMASS_FactSheet_250210.pdf"><WP number={1}>Factsheet</WP></a>
+</p>
+<hr className="border-t border-dotted border-[var(--accent-1)] my-4" />
+
+
+<div className="p-6 rounded-xl flex flex-col items-center text-center shadow-lg bg-background dark:shadow-[0_0_55px_rgba(255,255,255,0.85)]">
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">Scientific Goals</h2>
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 
+                  border-[var(--accent-1)] bg-white mb-3">
+    <MdOutlineSatelliteAlt style={{ color: 'black' }} size={32} />
+  </div>
+  <p>
+    To deliver the first global, repeat systematic estimates of <b>forest biomass and height</b> 
+    to reduce major uncertainties in the knowledge of <b>carbon stocks and fluxes</b> on land, 
+    including carbon fluxes associated with land-use change, forest degradation and regrowth.
+  </p>
+</div>
+
+<div className="flex justify-center space-x-2">
+  <div className="p-6 rounded-xl flex flex-col items-center text-center shadow-lg bg-background dark:shadow-[0_0_55px_rgba(255,255,255,0.85)]">
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">Launch</h2>
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 
+                  border-[var(--accent-1)] bg-white mb-3">
+    <FaGlobeAmericas style={{ color: 'black' }} size={48} />
+  </div>
+  <p>
+    <b>April 29, 2025</b>, on a Vega-C rocket from Europe’s Spaceport in French Guiana
+  </p>
+</div>
+<div className="p-6 rounded-xl flex flex-col items-center text-center shadow-lg bg-background dark:shadow-[0_0_55px_rgba(255,255,255,0.85)]">
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">Altitude</h2>
+  <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[var(--accent-1)] mb-3">
+    <GiOrbit style={{ color: 'black' }} size={48} />
+  </div>
+  <p>
+    Polar, dawn-dusk, Sun-synchronous orbit, at an altitude of 666 km, inclined at 98 degrees.  
+    Three-day repeat cycle for interferometric acquisitions
+  </p>
+</div>
+  
+</div>
+
+<div className="flex justify-center space-x-2">
+   <div className="p-6 rounded-xl flex flex-col items-center text-center shadow-lg bg-background dark:shadow-[0_0_55px_rgba(255,255,255,0.85)]">
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">Lifetime</h2>
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 
+                  border-[var(--accent-1)] bg-white mb-3">
+    <TbCalendarTime style={{ color: 'black' }} size={32} />
+  </div>
+  <p>
+    5.5 years
+  </p>
+</div>
+<div className="p-6 rounded-xl flex flex-col items-center text-center shadow-lg bg-background dark:shadow-[0_0_55px_rgba(255,255,255,0.85)]">
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">Mass</h2>
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 
+                  border-[var(--accent-1)] bg-white mb-3">
+    <FaGlobeEurope style={{ color: 'black' }} size={48} />
+  </div>
+  <p>
+    1250 kg (including 132 kg fuel)
+  </p>
+</div>
+ <div className="p-6 rounded-xl flex flex-col items-center text-center shadow-lg bg-background dark:shadow-[0_0_55px_rgba(255,255,255,0.85)]">
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">Instuments</h2>
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 
+                  border-[var(--accent-1)] bg-white mb-3">
+    <FaTools style={{ color: 'black' }} size={32} />
+  </div>
+  <p>
+    Fully <b>polarimetric P-band</b> synthetic aperture radar with a <b>12 m diameter</b> passive reflector
+  </p>
+</div>
+
+
+</div>
+
+<p></p>
+
+<a href="/Biomass-infographic-1.pdf">
+ <div className="flex justify-center mb-4">
+        <Image src="/Biomass-infographic-news.jpg" alt="BIOMASS Infographic" width={800} height={200} classname="object-contain"
+        />
+    </div> 
+
+</a>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+  {/* Video 1 */}
+  <div className="w-full">
+    <div className="aspect-video w-full">
+      <iframe
+        className="w-full h-full rounded-xl shadow"
+        src="https://www.youtube.com/embed/Rp7dZsaP_Dc"
+        title="YouTube video 1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+
+  {/* Video 2 */}
+  <div className="w-full">
+    <div className="aspect-video w-full">
+      <iframe
+        className="w-full h-full rounded-xl shadow"
+        src="https://www.youtube.com/embed/aKCd3RH3KzM"
+        title="YouTube video 2"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+  {/* Video 1 */}
+  <div className="w-full">
+    <div className="aspect-video w-full">
+      <iframe
+        className="w-full h-full rounded-xl shadow"
+        src="https://www.youtube.com/embed/42u1E63BLkg"
+        title="YouTube video 1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+
+  {/* Video 2 */}
+  <div className="w-full">
+    <div className="aspect-video w-full">
+      <iframe
+        className="w-full h-full rounded-xl shadow"
+        src="https://www.youtube.com/embed/VZQOhoDZPxk"
+        title="YouTube video 2"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+  {/* Video 1 */}
+  <div className="w-full">
+    <div className="aspect-video w-full">
+      <iframe
+        className="w-full h-full rounded-xl shadow"
+        src="https://www.youtube.com/embed/BL0EIVc43p0"
+        title="YouTube video 1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+
+  {/* Video 2 */}
+  <div className="w-full">
+    <div className="aspect-video w-full">
+      <iframe
+        className="w-full h-full rounded-xl shadow"
+        src="https://www.youtube.com/embed/yfQHBN5tSJg"
+        title="YouTube video 2"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+</div>
+
+

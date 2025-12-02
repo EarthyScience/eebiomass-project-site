@@ -1,9 +1,9 @@
 // main navigation
 export const navigation = [
     { 
-      text: 'Project',
+      text: 'DE:Project Office',
       isHome: true,
-      name: 'Project Office BIOMASS',
+      name: 'EEBIOMASS',
       description: "Start your new project site with a clean and modern design.",
       items: [
         { text: 'About', link: '/project/about',
@@ -15,15 +15,30 @@ export const navigation = [
         { text: 'Work packages', link: '/project/wps',
           description: "Discover our partners and collaborators who support the project.",
          },
-        { text: 'Get Involved', link: '/project/publications',
-          description: "Find out how you can contribute to the project and make a difference.",
+        { text: 'Publications', link: '/project/publications',
+          description: "Access our latest research papers, reports, and articles.",
          },
       ]
     },
+     {   text: 'DE:CalVal', link: '/decalval/' ,
+        items: [
+          { text: 'About', link: '/decalval/about',
+            description: "Learn more about the project, its goals, and its impact.",
+          },
+         { text: 'Team', link: '/decalval/team',
+            description: "Meet the team behind the project, their roles, and contributions.",
+             },
+         // { text: 'Guides', link: '/resources/guides',
+         //   description: "Explore our comprehensive guides on various topics related to the project.",
+         // },
+         ] },
     {   text: 'BIOMASS Mission', link: '/biomass' ,
         items: [
+          { text: 'About', link: '/biomass/about',
+            description: "Learn more about Earth Explorer BIOMASS.",
+          },
           { text: 'Earth Explorers', link: '/biomass/earthexplorer',
-            description: "Access our latest research papers, reports, and articles.",
+            description: "Find out more about ESA Earth Explorers and International missions.",
           },
          // { text: 'Guides', link: '/resources/guides',
          //   description: "Explore our comprehensive guides on various topics related to the project.",
