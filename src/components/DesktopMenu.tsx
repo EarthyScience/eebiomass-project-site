@@ -74,7 +74,7 @@ const DesktopMenu = ({ items }: NavigationProps) => {
                             href={item.link || '/'}
                           >
                             <div className="mb-4 text-lg text-foreground">
-                               <Image src={withBasePath("/logo.png")} alt="logo" width={64} height={64} className="mr-4"/>
+                               <Image src={withBasePath("/Logo1.png")} alt="logo" width={64} height={64} className="mr-4 bg-black"/>
                             </div>
                             <div className="mb-2 text-lg font-medium var(--accent-1)">
                               {item.name}

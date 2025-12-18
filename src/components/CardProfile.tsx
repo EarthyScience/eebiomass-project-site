@@ -7,6 +7,12 @@ import {
   FaGithub, FaLinkedin, FaTwitter, FaInstagram, 
   FaFacebook, FaGlobe
 } from 'react-icons/fa';
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { SiOrcid } from "react-icons/si";
+import { FaGoogleScholar } from "react-icons/fa6";
+import { FaMastodon } from "react-icons/fa";
+import { FaBluesky } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 import ProtectedEmail from './ProtectedEmail';
 import './CardProfile.css'
 
@@ -18,6 +24,12 @@ const SOCIAL_ICONS: { [key: string]: React.ComponentType<{ size?: number }> } = 
   instagram: FaInstagram,
   facebook: FaFacebook,
   website: FaGlobe,
+  X:FaSquareXTwitter,
+  orcid: SiOrcid,
+  googleScholar: FaGoogleScholar,
+  mastodon: FaMastodon,
+  bluesky: FaBluesky,
+  youtube: FaYoutube
 };
 
 interface SocialLink {

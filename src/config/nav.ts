@@ -47,13 +47,13 @@ export const navigation = [
 
              {   text: 'Events', link: '/events' ,
         items: [
-          { text: 'Webinar Series', link: '/biomass/webinar',
+          { text: 'Webinar Series', link: '/events/webinar',
             description: "Access our latest research papers, reports, and articles.",
           },
-          { text: 'Summer Schools', link: '/biomass/summerschool',
+          { text: 'Summer Schools', link: '/events/summerschool',
             description: "Access our latest research papers, reports, and articles.",
           },
-          { text: 'PolInSAR course', link: '/biomass/polinsar',
+          { text: 'PolInSAR course', link: '/events/polinsar',
             description: "Access our latest research papers, reports, and articles.",
           },
          // { text: 'Guides', link: '/resources/guides',
