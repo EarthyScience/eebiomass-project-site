@@ -1,5 +1,6 @@
 // Adapted from https://github.com/vercel/examples/tree/main/solutions/blog MIT License
 import Link from 'next/link'
+import Image from "next/image";
 import { formatDate, getBlogPosts } from '@/utils/utilsBlog'
 
 export function BlogPosts() {
@@ -20,16 +21,38 @@ export function BlogPosts() {
           <Link
             key={post.slug}
             className="flex flex-col space-y-1 mb-1"
-            href={`/blog/${post.slug}`}
-          >
-            <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
-              <p className="text-neutral-600 dark:text-neutral-400 w-[200px]">
-                {formatDate(post.metadata.publishedAt, false)}
-              </p>
-              <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-                {post.metadata.title}
-              </p>
-            </div>
+            href={`/blog/${post.slug}`}>
+              
+            <article className="flex flex-col md:flex-row gap-6 border-b border-neutral-200 dark:border-neutral-800 pb-6">
+              
+              {/* Image (left) */}
+              {post.metadata.image1 && (
+                  <div className="flex-shrink-0 w-full md:w-[350px]">
+                    <Image
+                      src={post.metadata.image1}
+                      alt={post.metadata.title}
+                      width={250}
+                      height={150} // intrinsic ratio only
+                      className="w-full h-auto rounded-lg group-hover:scale-105 transition-transform"
+                    />
+                  </div>
+)}
+
+              {/* Text (right) */}
+              <div className="flex flex-col justify-center space-y-2">
+                <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                  {formatDate(post.metadata.publishedAt, false)}
+                </p>
+
+                <h2 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 group-hover:underline">
+                  {post.metadata.title}
+                </h2>
+
+                <p className="text-neutral-700 dark:text-neutral-300">
+                  {post.metadata.summary}
+                </p>
+              </div>
+            </article>
           </Link>
         ))}
     </div>

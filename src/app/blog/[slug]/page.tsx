@@ -4,6 +4,7 @@ import { CustomMDX } from '@/../mdx-components'
 import { formatDate, getBlogPosts } from '@/utils/utilsBlog'
 import { baseUrl } from '@/utils/sitemap'
 import Link from 'next/link'
+import Image from "next/image";
 
 export async function generateStaticParams() {
   const posts = getBlogPosts()
@@ -38,8 +39,8 @@ export default async function Blog({ params }: BlogParams) {
             datePublished: post.metadata.publishedAt,
             dateModified: post.metadata.publishedAt,
             description: post.metadata.summary,
-            image: post.metadata.image
-              ? `${baseUrl}${post.metadata.image}`
+            image: post.metadata.image2
+              ? `${baseUrl}${post.metadata.image2}`
               : `/og?title=${encodeURIComponent(post.metadata.title)}`,
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
@@ -66,13 +67,19 @@ export default async function Blog({ params }: BlogParams) {
           </p>
         </div>
       </div>
+      <p></p>
 
-      <div className="mb-8 flex justify-center">
-        <p className='max-w-2xl' style={{ background: 'var(--paragraph-bg)' }}>
-          {post.metadata.summary}
-        </p>
-      </div>
-      
+      {post.metadata.image2 && (
+         <div className="relative -mx-10 h-[350px] mb-6 rounded-xl">
+            <Image
+              src={post.metadata.image2}
+              alt={post.metadata.title}
+              fill
+              priority
+              className="object-contain"/>
+          </div>
+      )}
+
       <article className="prose">
         <CustomMDX source={post.content} />
       </article>
