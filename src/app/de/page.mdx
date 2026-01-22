@@ -1,0 +1,130 @@
+
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+import EarthGlobe from '@/components/EarthGlobe'; 
+import { Button } from "@/components/ui/button"
+import { SiGithub } from "react-icons/si";
+import { SiLucide } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMdx } from "react-icons/si";
+import { SiThreedotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaHeartbeat } from "react-icons/fa";
+
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+
+ <a href="/project/about" target='blank'> 
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+     <CardTitle className="flex justify-center mb-4 font-bold"> Project BUROOO BIOMASS </CardTitle><p></p>
+    <div className="flex justify-center mb-4">
+        <Image src="/image1.png" alt="eebiomass" width={500} height={200} />
+    </div> 
+
+      <CardDescription></CardDescription>
+    </CardHeader>
+  </Card>
+    </a>
+   <a href="/decalval/about" target='blank'> 
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+   <CardTitle className="flex justify-center mb-4 font-bold"> German BIOMASS Cal/Val Activities </CardTitle><p></p>
+    <div className="flex justify-center mb-4">
+        <Image src="/decalval_logo_small.png" alt="eebiomass" width={198} height={80} />
+    </div> 
+        </CardHeader>
+  </Card>
+  </a>
+ {<EarthGlobe />}
+ 
+</div>
+   <p></p>
+
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  
+
+
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+     <CardTitle className="flex justify-center mb-2"><a style={{color: "var(--accent-1)"}} href='https://lps25.esa.int/' target='_blank'>ESA Living Planet Symposium</a></CardTitle>  
+   
+    <div className="flex justify-center mb-4">
+        <a href='https://lps25.esa.int/'>
+        <Image src="/materials/lps25.png" alt="LPS2025" width={500} height={200} />
+        </a>
+    </div> 
+    
+    </CardHeader>
+  </Card>
+    
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+    <CardTitle className="flex justify-center mb-2"><a style={{color: "var(--accent-1)"}} href='https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/Biomass_satellite_returns_striking_first_images_of_forests_and_more' target='_blank'>First images of BIOMASS!</a></CardTitle>
+    <div className="flex justify-center mb-4">
+        <a href='https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/Biomass_satellite_returns_striking_first_images_of_forests_and_more' target='_blank'>
+        <Image src="/first_image.png" alt="first images of BIOMASS" width={400} height={200} />
+        </a>
+    </div> 
+    </CardHeader>
+    
+  </Card>
+  
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+     <CardTitle className="flex justify-center mb-2"><a style={{color: "var(--accent-1)"}} href='https://eo-college.org/resource/calibration-and-validation-cal-val-activities-in-earth-observation-missions-like-esa-biomass/' target='_blank'>BIOMASS Cal/Val activities</a></CardTitle>  
+    <div className="flex justify-center mb-4">
+         <a href='https://eo-college.org/resource/calibration-and-validation-cal-val-activities-in-earth-observation-missions-like-esa-biomass/' target='_blank'>
+         <Image src="/materials/commphase.png" alt="eebiomass" width={500} height={200} />
+         </a>
+    </div> 
+  
+    
+    </CardHeader>
+  </Card>
+ 
+</div>
+
+<br></br>
+
+In April 2025, ESA launched the Earth Explorer BIOMASS. Its mission is to improve our understanding on the role of the land biosphere on the global carbon cycle, with clear implications in a context of climate change. With the help of remote sensing, the mission is the first with an operational space-borne P-Band SAR, it will collect data on the state of mainly tropical forests.
+
+The <b><WP number={1}>Project Office BIOMASS</WP></b> is a collaboration of the Max-Planck Institute for Biogeochemistry, Friedrich-Schiller University Jena, the German Aerospace Center (DLR) and the Helmholtz Centre for Environmental Research (UFZ). We aim to
+ <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+-    synthesize, produce and disseminate relevant information within the national BIOMASS community 
+-    identify gaps
+-    investigate solutions within the context of the BIOMASS mission
+-    establish communication to maintain a necessary dialogue within the broader context of the BIOMASS mission.
+</ul>
+
+The <b><WP number={1}>Coordinated German Contribution to the BIOMASS Cal/Val Activities</WP></b> is a collaboration of the Max-Planck Institute for Biogeochemistry, GFZ Helmholtz Centre for Geosciences, the German Aerospace Center (DLR), the Helmholtz Centre for Environmental Research (UFZ) and the Technical University Dresden (TUD), supported by University of Maryland and Wilderness International. We aim to
+ <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+-    collection of extensive databases of opportunity by and harmonising reference data from airborne LiDAR, drone imagery, and legacy radar transect
+-    design observational campaigns to span the existing observational domains and forest density gradients
+-    validate BIOMASS products for above-ground biomass densities (AGBD), forest height (FH) and forest change / disturbances (FD)  
+-    utilize process-based modelling frameworks to support high level data interpretation and cross-variable consistency
+</ul>
+
+For our community, we host
+<ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+-    Regular webinars on topics related to BIOMASS science and applications <Button variant="secondary"><a href='/events/webinar' target='_blank'> Webinars → </a></Button>
+-    Summer schools on the upcoming BIOMASS mission and its context in current research goals <Button variant="secondary"><a href='/events/summerschools' target='_blank'>Summer Schools → </a></Button>
+-    Tutorials and background information on the BIOMASS mission via the eo-college <Button variant="secondary"><a href='https://eo-college.org/' target='_blank'>eo college → </a></Button>
+-    Support for the DLR’s PolInSAR courses <Button variant="secondary"><a href='/events/polinsar' target='_blank'>PolInSAR → </a></Button>  
+</ul>
+<p></p>
+
+<div className="flex justify-center mb-4">
+        <Image src="/BMWK-en.png" alt="Ministry for Economics and Climate" width={200} height={200} />
+</div>

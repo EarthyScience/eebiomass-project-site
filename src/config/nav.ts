@@ -6,10 +6,10 @@ export const navigation = [
       name: 'EEBIOMASS',
       description: "Start your new project site with a clean and modern design.",
       items: [
-        { text: 'About', link: '/project/about',
+        { text: 'About', link: '/en/project/about',
           description: "Learn more about the project, its goals, and its impact.",
          },
-        { text: 'Team', link: '/project/team',
+        { text: 'Team', link: '/en/project/team',
           description: "Meet the team behind the project, their roles, and contributions.",
          },
         { text: 'Work packages', link: '/project/wps',
