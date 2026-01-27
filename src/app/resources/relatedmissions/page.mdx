@@ -1,210 +1,24 @@
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Related missions and projects </WP>
+</div>
+<p></p>
 
-import ContentSplitSection from '@/components/ContentSplitSection';
-import Image from 'next/image';
-import SharedContent from './SharedContent.mdx'
-import { withBasePath } from '@/lib/utils';
+Find a list of other remote sensing missions and projects. We will continuously add on to the list. <a href="mailto:nboerner@bgc-jena.mpg.de">Contact us</a>, if you would like us to add something.
 
-## *next-project-site* file structure
+### Missions
 
-```
-├── components.json
-├── eslint.config.mjs
-├── LICENSE
-├── mdx-components.tsx
-├── next-env.d.ts
-├── next.config.ts
-├── package.json
-├── postcss.config.mjs
-├── public
-│   ├── logo.png
-│   ├── logoFP.png
-│   ├── logoVA.png
-│   └── t2m_despair_map.png
-├── README.md
-├── src
-│   ├── app
-│   ├── assets
-│   ├── components
-│   ├── config
-│   ├── lib
-│   └── utils
-└── tsconfig.json
-```
+-     <a href= 'https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass' target='blank'> <WP number={1}>BIOMASS P-band</WP> </a>
+-     <a href= 'https://nisar.jpl.nasa.gov/' target='blank'> <WP number={1}>NISAR</WP> </a>
+-     <a href= 'https://www.eorc.jaxa.jp/ALOS/en/index.htm' target='blank'> <WP number={1}>ALOS</WP> </a>
+-     <a href= 'https://icesat.gsfc.nasa.gov/icesat/glas.php' target='blank'> <WP number={1}>GLAS ICESat</WP> </a>
+-     <a href= 'https://gedi.umd.edu/' target='blank'> <WP number={1}>GEDI</WP> </a>
+-     <a href= 'http://www.esa.int/Applications/Observing_the_Earth/SMOS' target='blank'> <WP number={1}>SMOS</WP> </a>
+-     <a href= 'https://icesat-2.gsfc.nasa.gov/' target='blank'> <WP number={1}>The Ice, Cloud, and Land Elevation Satellite-2 mission</WP> </a>
+-     <a href= 'https://sentinel.esa.int/web/sentinel/missions/sentinel-1' target='blank'> <WP number={1}>The Sentinel-1 mission</WP> </a>
 
-## Start adding your content by modifying any of the mdx files in the *app* directory
+### Projects
 
-```
-src/app
-├── blog
-│   ├── [slug]
-│   │   └── page.tsx
-│   ├── page.tsx
-│   └── posts
-│       ├── spaces-vs-tabs.mdx
-│       ├── static-typing.mdx
-│       └── vim.mdx
-├── contact
-│   └── page.mdx
-├── events
-│   └── page.mdx
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-├── not-found.js
-├── page.mdx
-├── project
-│   ├── about
-│   │   └── page.mdx
-│   └── team
-│       ├── cards
-│       │   ├── Alice.mdx
-│       │   ├── Laura.mdx
-│       │   └── Max.mdx
-│       └── page.mdx
-├── resources
-│   ├── guides
-│   │   ├── page.mdx
-│   │   └── SharedContent.mdx
-│   ├── publications
-│   │   └── page.mdx
-│   └── tools-data
-│       └── page.mdx
-└── terms
-    ├── imprint
-    │   └── page.mdx
-    └── privacy
-        └── page.mdx
-```
-
-## Create navegation menu
-
-```
-// main navigation
-export const navigation = [
-    { 
-      text: 'Project',
-      isHome: true,
-      name: 'Next Project Site',
-      description: "Start your new project site with a clean and modern design.",
-      items: [
-        { text: 'About', link: 'projectoffice/about',
-          description: "Learn more about the project, its goals, and its impact.",
-         },
-        { text: 'Team', link: '/projectoffice/team',
-          description: "Meet the team behind the project, their roles, and contributions.",
-         },
-        { text: 'Partners', link: '/projectoffice/partners',
-          description: "Discover our partners and collaborators who support the project.",
-         },
-        { text: 'Get Involved', link: '/projectoffice/get-involved',
-          description: "Find out how you can contribute to the project and make a difference.",
-         },
-      ]
-    },
-    {
-        text: 'Resources',
-        items: [
-          { text: 'Publications', link: '/resources/publications',
-            description: "Access our latest research papers, reports, and articles.",
-          },
-          { text: 'Guides', link: '/resources/guides',
-            description: "Explore our comprehensive guides on various topics related to the project.",
-          },
-          { text: 'Data & Tools', link: '/resources/tools-data',
-            description: "Utilize our tools and datasets to support your work and research.",
-           },
-          { text: 'FAQs', link: '/resources/faqs',
-            description: "Find answers to frequently asked questions about the project and its resources.",
-          },
-        ]
-      },
-    { text: 'Events', link: '/events' },
-    { text: 'News', link: '/blog' },
-    { text: 'Contact', link: '/contact' },
-  ];
-  
-// footer links
- export const navFooter = [
-    { text: 'Imprint', link: '/terms/imprint' },
-    { text: 'Privacy Policy', link: '/terms/privacy' },
-  ]
-```
-
-## Some built-in components
-```
-<ContentSplitSection
-    title="Elevate Your Project" 
-    subtitle="Our template helps you reach new heights with innovative solutions"
-    media={
-        <Image 
-          src={withBasePath("/logo.png")}
-          alt="A futuristic concept" 
-          width={100} 
-          height={100} 
-          className="rounded-lg shadow-lg"
-        />}
-    shadow="true"
-/>
-```
-
-<ContentSplitSection
-    title="Elevate Your Project" 
-    subtitle="Our template helps you reach new heights with innovative solutions"
-    media={
-        <Image 
-          src={withBasePath("/logo.png")}
-          alt="A futuristic concept" 
-          width={100} 
-          height={100} 
-          className="rounded-lg shadow-lg"
-        />}
-    shadow="true"
-/>
-
-```
-export const SharedContentComponent = () => (
-  <div>
-    This is the shared content that can be imported into other MDX files.
-    You can include any MDX or React components <strong>here</strong>.
-  </div>
-);
-
-
-<ContentSplitSection
-    title="Elevate Your Project" 
-    subtitle="Our template helps you reach new heights with innovative solutions"
-    media={<SharedContentComponent />}
-    mediaPosition="left"
-/>
-```
-export const SharedContentComponent = () => (
-  <div>
-    This is the shared content that can be imported into other MDX files.
-    You can include any MDX or React components <strong>here</strong>.
-  </div>
-);
-
-
-<ContentSplitSection
-    title="Elevate Your Project" 
-    subtitle="Our template helps you reach new heights with innovative solutions"
-    media={<SharedContentComponent />}
-    mediaPosition="left"
-/>
-
-```
-<ContentSplitSection
-    title="Elevate Your Project" 
-    subtitle="Our template helps you reach new heights with innovative solutions"
-    media={<SharedContent />}
-    mediaPosition="left"
-    shadow="true"
-/>
-```
-<ContentSplitSection
-    title="Elevate Your Project" 
-    subtitle="Our template helps you reach new heights with innovative solutions"
-    media={<SharedContent />}
-    mediaPosition="left"
-    shadow="true"
-/>
+-     <a href= 'https://globbiomass.org/' target='blank'> <WP number={1}>GlobBiomass</WP> </a>
+-     <a href= 'https://climate.esa.int/en/projects/biomass/' target='blank'> <WP number={1}>CCI Biomass</WP> </a>
+-     <a href= 'https://cordis.europa.eu/project/id/776810' target='blank'> <WP number={1}>VERIFY</WP> </a>
+-     <a href= 'https://eo4society.esa.int/projects/biomascat/' target='blank'> <WP number={1}>BIOMASCAT</WP> </a>

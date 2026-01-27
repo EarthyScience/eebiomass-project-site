@@ -6,8 +6,11 @@ import {
 } from "@/components/ui/accordion"
 
 
-# Upcoming workshops
+<div  className="flex flex-wrap gap-4 my-6">
+# <WP number={1}> Upcoming workshops </WP>
+</div>
 <p></p>
+
 <hr className="mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
 
 <div className="text-[var(--accent-1)] text-3xl" font-bold  mb-0 pb-0>
@@ -57,11 +60,12 @@ Registration: <a className="text-[var(--accent-1)]" href='blank'>closed</a>
 
 <hr className="mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />	
 
+
 # Past workshops
 <i>Click on the title of the workshop for more details and presentation slides.</i>
 <p></p>
 <div className="px-4 py-2 my-0">
-  <Accordion type="single" collapsible className="w-full" defaultValue="item-17">
+  <Accordion type="single" collapsible className="w-full">
 
     {/* XVIII */}
     <AccordionItem value="item-18">

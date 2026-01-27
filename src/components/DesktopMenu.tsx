@@ -1,8 +1,8 @@
-import * as React from "react"
-import Link from "next/link"
-import { cn } from "@/lib/utils"
-import Image from "next/image"
-import { withBasePath } from '@/lib/utils';
+import * as React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { cn } from "@/lib/utils";
+import { withBasePath } from "@/lib/utils";
 
 import {
   NavigationMenu,
@@ -12,39 +12,48 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
+} from "@/components/ui/navigation-menu";
 
 type MenuItem = {
-  text: string
-  link?: string
-  description?: string
-  items?: MenuItem[]
-  isHome?: boolean
-  name?: string
-}
+  text: string;
+  link?: string;
+  description?: string;
+  items?: MenuItem[];
+  featured?: {
+    logo: string;
+    name: string;
+    description?: string;
+  };
+};
 
 type NavigationProps = {
-  items: MenuItem[]
-}
+  items: MenuItem[];
+};
 
+/* ✅ Directory item component */
 const ListItem = React.forwardRef<
   React.ElementRef<typeof Link>,
   React.ComponentPropsWithoutRef<typeof Link> & { title: string }
 >(({ className, title, children, ...props }, ref) => {
   return (
-    <li>
+    <li className="w-full">
       <NavigationMenuLink asChild>
         <Link
           ref={ref}
           className={cn(
-            "block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block w-full select-none rounded-md px-3 py-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
             className
           )}
           {...props}
         >
-          <div className="text-sm font-medium mb-1 text-foreground">{title}</div>
+          <div
+            className="text-sm text-foreground tracking-wide leading-[1]"
+          >
+            {title}
+          </div>
+
           {children && (
-            <p className="text-sm leading-snug text-muted-foreground -m-3">
+            <p className="mt-1 text-sm text-muted-foreground leading-[1]">
               {children}
             </p>
           )}
@@ -55,69 +64,107 @@ const ListItem = React.forwardRef<
 });
 ListItem.displayName = "ListItem";
 
-const DesktopMenu = ({ items }: NavigationProps) => {
+/* ✅ Featured grey block */
+function FeaturedBlock({ item }: { item: MenuItem }) {
+  if (!item.featured) return null;
+
+  return (
+    <li className="h-full">
+      <NavigationMenuLink asChild>
+        <Link
+          href={item.link || "/"}
+          className="flex h-full w-full select-none flex-col justify-end rounded-md p-5 no-underline outline-none focus:shadow-md"
+          style={{
+            background: `linear-gradient(180deg, #7ac6c0, #ebe8e8)`,
+          }}
+        >
+          <Image
+            src={withBasePath(item.featured.logo)}
+            alt="logo"
+            width={64}
+            height={64}
+            className="mb-3 rounded-md"
+          />
+
+          {/* ✅ tighter spacing */}
+          <div className="text-base font-medium text-foreground font-semibold leading-none">
+            {item.featured.name}
+          </div>
+
+          {item.featured.description && (
+            <p className="mt-1 text-sm text-muted-foreground leading-none">
+              {item.featured.description}
+            </p>
+          )}
+        </Link>
+      </NavigationMenuLink>
+    </li>
+  );
+}
+
+/* ✅ Directory grid (used by featured right side AND normal dropdowns) */
+function DirectoryGrid({
+  items,
+  columns = 1,
+}: {
+  items: MenuItem[];
+  columns?: 1 | 2;
+}) {
+  return (
+    <ul
+      className={cn(
+        "grid gap-1",
+        columns === 1
+          ? "grid-cols-1"
+          : "grid-cols-1 sm:grid-cols-2"
+      )}
+    >
+      {items.map((subItem) => (
+        <ListItem
+          key={subItem.text}
+          title={subItem.text}
+          href={subItem.link || "#"}
+          className="min-w-[220px]" // ✅ gives items more room
+        >
+          {subItem.description}
+        </ListItem>
+      ))}
+    </ul>
+  );
+}
+
+export default function DesktopMenu({ items }: NavigationProps) {
   return (
     <NavigationMenu>
       <NavigationMenuList>
         {items.map((item) => (
           <NavigationMenuItem key={item.text}>
-            {item.items ? (
+            {item.items?.length ? (
               <>
                 <NavigationMenuTrigger>{item.text}</NavigationMenuTrigger>
+
                 <NavigationMenuContent>
-                  {item.isHome ? (
-                    <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                      <li className="row-span-3">
-                        <NavigationMenuLink asChild>
-                          <Link
-                            className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                            href={item.link || '/'}
-                          >
-                            <div className="mb-4 text-lg text-foreground">
-                               <Image src={withBasePath("/Logo1.png")} alt="logo" width={64} height={64} className="mr-4 bg-black"/>
-                            </div>
-                            <div className="mb-2 text-lg font-medium var(--accent-1)">
-                              {item.name}
-                            </div>
-                            {item.description && (
-                              <p className="text-sm leading-tight text-muted-foreground -m-3">
-                              {item.description}
-                              </p>
-                            )}
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <ul className="col-span-1 space-y-2">
-                        {item.items.map((subItem) => (
-                          <ListItem
-                            key={subItem.text}
-                            title={subItem.text}
-                            href={subItem.link || '#'}
-                          >
-                            {subItem.description}
-                          </ListItem>
-                        ))}
-                      </ul>
-                    </ul>
+                  {/* ✅ FEATURED dropdown layout */}
+                  {item.featured ? (
+                    <div className="grid gap-4 p-4 md:w-[550px] grid-cols-[240px_1fr]">
+                      <FeaturedBlock item={item} />
+
+                      <div className="flex flex-col justify-center">
+                        <DirectoryGrid items={item.items} columns={1} />
+                      </div>
+                    </div>
                   ) : (
-                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                      {item.items.map((subItem) => (
-                        <ListItem
-                          key={subItem.text}
-                          title={subItem.text}
-                          href={subItem.link || '#'}
-                        >
-                        {subItem.description}
-                        </ListItem>
-                      ))}
-                    </ul>
+                    /* ✅ NORMAL dropdown layout (auto sizing, no huge box) */
+                    <div className="p-4 md:w-[550px]">
+                      <DirectoryGrid items={item.items} columns={2} />
+                    </div>
                   )}
                 </NavigationMenuContent>
               </>
             ) : (
               <NavigationMenuLink asChild>
-                <Link 
-                  href={item.link || '#'} 
+                <Link
+                  href={item.link || "#"}
                   className={navigationMenuTriggerStyle()}
                 >
                   {item.text}
@@ -128,7 +175,5 @@ const DesktopMenu = ({ items }: NavigationProps) => {
         ))}
       </NavigationMenuList>
     </NavigationMenu>
-  )
+  );
 }
-
-export default DesktopMenu

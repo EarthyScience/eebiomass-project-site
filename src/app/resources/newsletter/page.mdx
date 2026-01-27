@@ -1,0 +1,28 @@
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Newsletter </WP>
+</div>
+<p></p>
+
+
+<b>Follow the BIOMASS mission closely</b>  
+Our newsletter brings you updates on data products, scientific highlights, training events, and open-science activities.
+
+<a style={{color: "var(--accent-1)"}} href='https://listserv.gwdg.de/mailman/listinfo/eebiomass-newsletter' target='_blank'> 
+
+<ContentSplitSection
+    title="SUBSCRIBE NOW!" 
+    subtitle="and join our eebiomass mailing list to never miss any updates on ESA's BIOMASS mission!"
+     media={
+        <Image src="/biomass2.png"
+        alt="BIOMASS"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+
+/>
+</a>

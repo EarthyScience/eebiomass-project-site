@@ -20,7 +20,7 @@ export default function Menu() {
       <div className="max-w-[1440px] mx-auto px-2 md:px-8 py-1">
         <div className="flex justify-between h-12">
           <div className="flex">
-            <LogoProject icon="/Logo3.png" title={navigation[0]?.name || ''} />
+            <LogoProject icon="/Logo3.png" title='EEBIOMASS' />
             <div className="hidden md:ml-6 md:block py-1">
               <DesktopMenu items={navigation} />
             </div>

@@ -1,11 +1,11 @@
 import ContentSplitSection from '@/components/ContentSplitSection';
 import Image from 'next/image';
 
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Contact   Project Office BIOMASS </WP>
+</div>
+<p></p>
 
-# Contact   Project Office BIOMASS
-<p></p>
-<p> ([<b>EMAIL</b>](mailto:ncarvalhais@bgc-jena.mpg.de;nboerner@bgc-jena.mpg.de))</p>
-<p></p>
 
 <ContentSplitSection
     title="Project Leader" 
@@ -21,7 +21,7 @@ import Image from 'next/image';
 />
 
 <ContentSplitSection
-    title="Project Coordinator / Communication" 
+    title="Coordination / Communication" 
     subtitle="Nicole Börner"
      media={
         <Image src="/people/Nicole.JPG"
@@ -32,26 +32,41 @@ import Image from 'next/image';
     layout='text-emphasis'
     shadow="true"
 />
+<p> Get in touch with us: [<b>EMAIL</b>](mailto:ncarvalhais@bgc-jena.mpg.de;nboerner@bgc-jena.mpg.de)</p>
+<p></p>
 
 ## Address
+
+<div className="flex flex-col sm:flex-row  gap-2 ">
+
 Max-Planck Institute for Biogeochemistry   
 Hans-Knöll Str. 10   
 07745 Jena   
 Germany
 
-## Newsletter
-> <a style={{color: "var(--accent-1)"}} href='https://listserv.gwdg.de/mailman/listinfo/eebiomass-newsletter' target='_blank'> Subscribe to our newsletter !</a>
+<div className="w-full h-[400px] rounded-lg overflow-hidden">
+  <iframe
+    title="Max Planck Institute for Biogeochemistry"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=11.576%2C50.890%2C11.596%2C50.905&layer=mapnik&marker=50.8975%2C11.586"
+    className="w-full h-full"
+    loading="lazy"
+  />
+</div>
+</div>
 
+## Newsletter
+
+<a style={{color: "var(--accent-1)"}} href='https://listserv.gwdg.de/mailman/listinfo/eebiomass-newsletter' target='_blank'> 
 <ContentSplitSection
     title="EEBIOMASS Newsletter" 
     subtitle="Subscribe to our newsletter to not miss any updates on ESA's BIOMASS mission!"
      media={
-        <Image src="/Biomass_patch.png"
+        <Image src="/biomass2.png"
         alt="BIOMASS"
         width={200} height={200}
         />}
     mediaPosition="left"
     layout='text-emphasis'
     shadow="true"
-   
 />
+</a>

@@ -1,7 +1,6 @@
 
 import ContentSplitSection from '@/components/ContentSplitSection';
 import Image from 'next/image';
-import EarthGlobe from '@/components/EarthGlobe'; 
 import { Button } from "@/components/ui/button"
 import { SiGithub } from "react-icons/si";
 import { SiLucide } from "react-icons/si";
@@ -23,22 +22,22 @@ import {
 } from "@/components/ui/card"
 
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+<div className="grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 gap-4 justify-center items-stretch max-w-5xl mx-auto">
 
  <a href="/project/about" target='blank'> 
-  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+  <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
     <CardHeader>
      <CardTitle className="flex justify-center mb-4 font-bold"> Project Office BIOMASS </CardTitle><p></p>
     <div className="flex justify-center mb-4">
-        <Image src="/image1.png" alt="eebiomass" width={500} height={200} />
+        <Image src="/image1.png" alt="eebiomass" width={400} height={200} />
     </div> 
-
       <CardDescription></CardDescription>
     </CardHeader>
   </Card>
     </a>
+   
    <a href="/decalval/about" target='blank'> 
-  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+  <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
     <CardHeader>
    <CardTitle className="flex justify-center mb-4 font-bold"> German BIOMASS Cal/Val Activities </CardTitle><p></p>
     <div className="flex justify-center mb-4">
@@ -47,22 +46,23 @@ import {
         </CardHeader>
   </Card>
   </a>
- {<EarthGlobe />}
- 
 </div>
-   <p></p>
+-----------------------
+<p></p>
+#### Latest News
+
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
   
-
-
   <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
     <CardHeader>
-     <CardTitle className="flex justify-center mb-2"><a style={{color: "var(--accent-1)"}} href='https://lps25.esa.int/' target='_blank'>ESA Living Planet Symposium</a></CardTitle>  
+     <CardTitle className="flex justify-center mb-2">
+     <a style={{color: "var(--accent-1)"}} href='/blog' target='_blank'>Now available: First BIOMASS products!</a>
+     </CardTitle>  
    
     <div className="flex justify-center mb-4">
-        <a href='https://lps25.esa.int/'>
-        <Image src="/materials/lps25.png" alt="LPS2025" width={500} height={200} />
+        <a href='/blog'>
+        <Image src="/news/news24.png" alt="LPS2025" width={500} height={200} />
         </a>
     </div> 
     
@@ -95,6 +95,12 @@ import {
   </Card>
  
 </div>
+
+<div className="flex justify-end w-ful">
+  <Button className="bg-[var(--accent-1)] text-white hover:opacity-90">NEWS → </Button>
+</div>
+
+------------------
 
 <br></br>
 

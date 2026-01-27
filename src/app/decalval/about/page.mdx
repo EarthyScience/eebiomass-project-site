@@ -1,5 +1,6 @@
 import ContentSplitSection from '@/components/ContentSplitSection';
 import Image from 'next/image';
+import Link from "next/link";
 import EarthGlobe from '@/components/EarthGlobe'; 
 import { Button } from "@/components/ui/button"
 import { SiGithub } from "react-icons/si";
@@ -28,11 +29,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Coordinated German Contribution to the BIOMASS Cal/Val Activities</WP>
+</div>
+<p></p>
 
-# Coordinated German Contribution to the BIOMASS Cal/Val Activities
- 
 
-##  
 
 <ContentSplitSection
     title="DE:CalVal" 
@@ -63,6 +65,7 @@ import {
    The DE:CalVal project directly supports this by <b>combining harmonized in-situ, airborne and spaceborne datasets</b>. Complementary missions such as TanDEM-X, with its fine-scale X-band SAR, and NASA’s GEDI LiDAR provide critical additional perspectives. <b>Terrestrial laser scanning (TLS) and UAV LiDAR campaigns</b> will supply detailed 3D forest representations to assess <b>sub-grid variability and validate biomass estimates</b>. Moreover, <b>process-based models like FORMIND</b> link observed <b>forest structure to biomass dynamics</b>, enabling a deeper understanding of carbon cycling processes. By integrating BIOMASS-derived biomass and height with eddy covariance fluxes, sap flow data and local meteorology in advanced model–data assimilation frameworks, DECalVal will establish a unique foundation for evaluating BIOMASS products.
 
 
+<p className="bg-[var(--accent-3)]  font-bold px-4 py-2">Work Packages</p>
  <div className="px-4 py-2">
  <Accordion
       type="single"
@@ -70,17 +73,6 @@ import {
       className="w-full"
       defaultValue="item-1" 
     >
-    <AccordionItem value="item-1">
-        <AccordionTrigger className="bg-[var(--accent-3)] font-bold px-4 py-2">Workpackages</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
-
-             <div className="px-4 py-2">
-             <Accordion
-               type="single"
-               collapsible
-               className="w-full"
-               defaultValue="item-1"
-             >
             <AccordionItem value="item-11">
                  <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2">WP1 - Data</AccordionTrigger>
                     <AccordionContent className="leading-tight space-y-0">
@@ -153,34 +145,130 @@ import {
                      </p>
                     </AccordionContent>
             </AccordionItem>     
-            </Accordion>
-            </div>
-        </AccordionContent>
-        </AccordionItem>  
-    </Accordion>
+  </Accordion>
 </div>
 
+<p className="bg-[var(--accent-3)]  font-bold px-4 py-2">Partners</p>
 
-<div className="px-4 py-2">
-    <Accordion
-      type="single"
-       collapsible
-      className="w-full"
-      defaultValue="item-2" 
+<div className="max-w-3xl mx-auto px-4 py-2">
+  <div className="grid grid-flow-col gap-2 auto-cols-max justify-center items-center">
+    
+    <Link
+      href="https://www.bgc-jena.mpg.de/en/bgi/mdi"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="MPI-BGC"
     >
-      <AccordionItem value="item-2">
-        <AccordionTrigger className="bg-[var(--accent-3)]  font-bold px-4 py-2">Partner</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
- 
-                             
-        </AccordionContent>
-        </AccordionItem>  
-    </Accordion>
-</div>  
+      <Image
+        src="/MPI_BGC_wide_E_green_cmyk.png"
+        alt="MPI-BGC"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
 
-<p></p>
-  <div className="flex justify-center mb-4">
-        <Image src="/Bild8.png" alt="institutional partner logos" width={800} height={200} className="object-contain"
-        />
-    </div> 
+    <Link
+      href="https://www.dlr.de/en/hr"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="DLR"
+    >
+      <Image
+        src="/DLR_AR_kurz_EN_bk.png"
+        alt="DLR"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
 
+    <Link
+      href="https://tu-dresden.de/bu/umwelt/geo/ipf/envrs"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="TU Dresden"
+    >
+      <Image
+        src="/Logo_TU_Dresden_2025.svg.png"
+        alt="TU Dresden"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+
+</div>
+
+<div className="grid grid-flow-col gap-2 auto-cols-max justify-center items-center">
+    <Link
+      href="https://www.gfz.de/en/section/remote-sensing-and-geoinformatics/overview"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="UFZ"
+    >
+      <Image
+        src="/GFZ_en.jpg"
+        alt="GFZ"
+        width={300}
+        height={150}
+        className="h-18 w-auto object-contain"
+      />
+    </Link>
+
+    <Link
+      href="https://www.ufz.de/index.php?en=36559"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="UFZ"
+    >
+      <Image
+        src="/UFZ_Logo_RGB_EN.png"
+        alt="UFZ"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+</div>
+
+<div className="grid grid-flow-col gap-2 auto-cols-max justify-center items-center">
+    <Link
+      href="https://www.wilderness-international.org/"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="Wilderness International"
+    >
+      <Image
+        src="/wilderness_international.png"
+        alt="Wilderness International"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+
+    <Link
+      href="https://geog.umd.edu/facultyprofile/dubayah/ralph"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="University of Maryland"
+    >
+      <Image
+        src="/university Maryland.png"
+        alt="University of Maryland"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+
+  </div>
+</div>

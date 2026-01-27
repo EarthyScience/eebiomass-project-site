@@ -2,9 +2,12 @@
 export const navigation = [
     { 
       text: 'DE:Project Office',
-      isHome: true,
-      name: 'EEBIOMASS',
-      description: "Start your new project site with a clean and modern design.",
+      link: "/project",
+      featured: {
+        logo: '/Logo3.png',
+        name: 'German Project Office BIOMASS',
+        description: "",
+      },
       items: [
         { text: 'About', link: '/project/about',
           description: "Learn more about the project, its goals, and its impact.",
@@ -13,14 +16,19 @@ export const navigation = [
           description: "Meet the team behind the project, their roles, and contributions.",
          },
         { text: 'Work packages', link: '/project/wps',
-          description: "Discover our partners and collaborators who support the project.",
+          description: "Explore the project’s core work packages, objectives, and scientific approach.",
          },
         { text: 'Publications', link: '/project/publications',
           description: "Access our latest research papers, reports, and articles.",
          },
       ]
     },
-     {   text: 'DE:CalVal', link: '/decalval/' ,
+     { text: 'DE:CalVal', 
+       link: '/decalval/' ,
+       featured: {
+        logo: '/decalval_logo_small.png',
+        name: 'German Contribution to the BIOMASS Cal/Val Activities',
+      },
         items: [
           { text: 'About', link: '/decalval/about',
             description: "Learn more about the project, its goals, and its impact.",
@@ -28,10 +36,14 @@ export const navigation = [
          { text: 'Team', link: '/decalval/team',
             description: "Meet the team behind the project, their roles, and contributions.",
              },
-         // { text: 'Guides', link: '/resources/guides',
-         //   description: "Explore our comprehensive guides on various topics related to the project.",
-         // },
+        { text: 'Work packages', link: '/decalval/wps',
+          description: "Learn more about the key activities, methods, and contributions that drive the project forward.",
+         },
+      //  { text: 'Publications', link: '/project/publications',
+      //    description: "Access our latest research papers, reports, and articles.",
+      //   },
          ] },
+
     {   text: 'BIOMASS Mission', link: '/biomass' ,
         items: [
           { text: 'About', link: '/biomass/about',
@@ -47,6 +59,8 @@ export const navigation = [
          //   description: "Explore our comprehensive guides on various topics related to the project.",
          // },
          ] },
+
+    { text: 'News', link: '/blog' },
 
              {   text: 'Events', link: '/events' ,
         items: [
@@ -64,7 +78,7 @@ export const navigation = [
          // },
          ] },
   
-    { text: 'News', link: '/blog' },
+
 
     {
         text: 'Resources',
@@ -73,12 +87,14 @@ export const navigation = [
             description: "Access latest research papers, reports, and articles.",
           },
           { text: 'Related Missions and Projects', link: '/resources/relatedmissions',
-            description: "Explore our comprehensive guides on various topics related to the project.",
+            description: "Find out about missions and projects related to biomass.",
           },
           { text: 'Teaching & Data & Tools', link: '/resources/tools-data',
             description: "Utilize our tools and datasets to support your work and research.",
            },
-        
+          { text: 'Newsletter', link: '/resources/newsletter',
+            description: "Subscribe to our eebiomass newsletter.",
+           },        
         ]
       },
 
