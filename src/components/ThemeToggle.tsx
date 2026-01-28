@@ -12,12 +12,12 @@ export default function ThemeToggle({ className }: ThemeToggleProps) {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+		setTimeout(() => {
+			setMounted(true);
+		}, 0);
+	}, []);
 
-  if (!mounted) {
-    return null;
-  }
+	if (!mounted) return null;
 
   const icons: { [key in ThemeType]: JSX.Element } = {
     light: (
