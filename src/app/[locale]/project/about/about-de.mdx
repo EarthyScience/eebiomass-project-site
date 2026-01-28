@@ -1,0 +1,62 @@
+import Image from 'next/image';
+import { FaGlobeEurope } from "react-icons/fa";
+import { FaSatelliteDish } from "react-icons/fa";
+
+<div className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Projektbüro BIOMASS</WP>
+</div>
+<p></p>
+<div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
+  <Image src="/Logo1.png" alt="eebiomass" width={200} height={10} className="object-contain bg-black" />
+  <p className="text-center sm:text-left whitespace-nowrap">
+        <h2 className="text-xl font-bold mb-3">eine Kooperation von</h2>
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.bgc-jena.mpg.de/'>Max-Planck-Institut für Biogeochemie (MPI-BGC)</a><br />
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.uni-jena.de/'>Friedrich-Schiller-Universität Jena (FSU)</a><br />
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.dlr.de/hr/'>Deutsches Zentrum für Luft- und Raumfahrt (DLR)</a><br />
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.ufz.de/'>Helmholtz-Zentrum für Umweltforschung (UFZ)</a>
+  </p>
+</div>
+
+<hr className="w-3/4 mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
+
+<div className="flex flex-col items-center text-center">
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 border-[var(--accent-1)] bg-white mb-3">
+    <FaSatelliteDish style={{ color: 'black' }} size={48} />
+  </div>
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">wir wollen</h2>
+  <p className="leading-tight">
+    Informationen in der nationalen BIOMASS-Community zusammenführen, aufbereiten und verbreiten<br />
+    Lücken identifizieren<br />
+    Lösungen im Kontext der BIOMASS-Mission untersuchen<br />
+    den Dialog im weiteren Kontext der BIOMASS-Mission pflegen
+  </p>
+</div>
+
+<hr className="w-3/4 mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
+
+<div className="flex flex-col items-center text-center">
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 border-[var(--accent-1)] bg-white mb-3">
+    <FaGlobeEurope style={{ color: 'black' }} size={48} />
+  </div>
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">für unsere Community bieten wir</h2>
+  <p className="leading-tight">
+    regelmäßige <a className="text-[var(--accent-1)]" href="/events/webinar">virtuelle Workshops</a> zu verschiedenen BIOMASS-Themen<br />
+    <a className="text-[var(--accent-1)]" href="/events/summerschool">Sommerschulen</a> (2022, 2024, 2025 in Jena)<br />
+    eine <a className="text-[var(--accent-1)]" href="https://eo-college.org/resource/the-esa-biomass-mission/">Online-Präsentation</a> zu allen Aspekten der BIOMASS-Mission über eo-college
+  </p>
+</div>
+
+<hr className="w-3/4 mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
+
+<div className="flex justify-center mb-4">
+  <Image src="/Biomass_mission-768x432.jpg" alt="BIOMASS-Satellit" width={420} height={200} className="object-contain" /> Earth Explorer BIOMASS @ ESA / Airbus Defence and Space
+</div>
+
+<p className="text-justify">
+Anlässlich der <a href='https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass' className="text-[var(--accent-1)]">ESA BIOMASS-Mission</a> ist es wichtig, den aktuellen Kenntnisstand zu Herausforderungen und Chancen bei der Beobachtung von Biomasse in terrestrischen Ökosystemen zu bündeln und weiterzuentwickeln. Bei den ESA Earth Explorers zielt BIOMASS darauf ab, die Rolle der Landbiosphäre im globalen Kohlenstoffkreislauf besser zu verstehen – mit deutlichen Auswirkungen im Kontext des Klimawandels. Der Informationsgehalt zur räumlichen und zeitlichen Variabilität von P-Band-Biomasse ist für terrestrische Ökosystemstudien beispiellos, besonders in Bezug auf Landnutzungsänderungen und Störungsdynamiken, und verbessert die Modellierung des globalen Kohlenstoffs. Die Mission bringt Herausforderungen in Instrumentendesign, Retrieval-Algorithmen, Kalibrierungs- und Validierungsstrategien sowie bei Datenkonzepten und Anwendungen mit sich.
+</p>
+
+<div className="flex justify-center mb-4">
+  <Image src="/Poster_AlumniDay22_BiomassOffice.CP.V01.jpg" alt="Poster zum Biomass-Büro" width={400} height={200} className="object-contain" />
+  Unsere Projektpartner Carsten Pathe und Christiane Schmullius (FSU) haben diese Übersicht zum Projektbüro und zur BIOMASS-Mission erstellt; sie können sie <a className="text-[var(--accent-1)]" href='https://eebiomass.org/wp-content/uploads/2022/11/Poster_AlumniDay22_BiomassOffice.CP_.V01.pdf'>hier</a> herunterladen.
+</div>
