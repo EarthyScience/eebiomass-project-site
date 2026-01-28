@@ -12,7 +12,7 @@ interface PageProps {
 
 export default async function Page({ params }: PageProps) {
   const { locale: raw } = await params
-  const locale: Locale = isValidLocale(raw) ? raw : defaultLocale
+  const locale: Locale = raw && isValidLocale(raw) ? raw : defaultLocale
   return (
     <section>
       <p></p>

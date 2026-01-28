@@ -13,7 +13,7 @@ interface PageProps {
 
 export default async function DiscDataPage({ params }: PageProps) {
   const { locale: raw } = await params
-  const locale: Locale = isValidLocale(raw) ? raw : defaultLocale
+  const locale: Locale = raw && isValidLocale(raw) ? raw : defaultLocale
   const Page = content[locale] ?? content.en
   return <Page />
 }

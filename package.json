@@ -15,10 +15,10 @@
   "packageManager": "pnpm@10.8.1",
   "scripts": {
     "prChecks": "pnpm lint && pnpm buildRepo",
-    "dev": "next dev --webpack",
+    "dev": "next dev",
     "buildRepo": "pnpm rmBuild && pnpm build",
     "rmBuild": "pnpm -r exec rm -rf out",
-    "build": "next build --webpack",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings=100"
   },
