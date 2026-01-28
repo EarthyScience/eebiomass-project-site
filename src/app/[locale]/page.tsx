@@ -14,6 +14,6 @@ interface PageProps {
 export default async function LocaleHomePage({ params }: PageProps) {
   const { locale: raw } = await params
   const locale: Locale = isValidLocale(raw) ? raw : defaultLocale
-  const Page = landing[locale] ?? landing.en
+  const Page = landing[locale] ?? landing[defaultLocale]
   return <Page />
 }

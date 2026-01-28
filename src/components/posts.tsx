@@ -45,7 +45,7 @@ export function BlogPosts({ locale }: { locale: Locale }) {
                   {formatDate(post.metadata.publishedAt, false)}
                 </p>
 
-                <h2 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 group-hover:underline">
+                <h2 className="text-lg font-semibold group-hover:underline">
                   {post.metadata.title}
                 </h2>
 

@@ -70,7 +70,7 @@ export default async function Blog({ params }: BlogParams) {
           </p>
         </div>
       </div>
-      <p></p>
+      <br/>
 
       {post.metadata.image2 && (
          <div className="relative -mx-10 h-[350px] mb-6 rounded-xl">

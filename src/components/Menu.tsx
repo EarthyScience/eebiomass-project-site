@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import LogoProject from './Logo'
 import ThemeToggle from '@/components/ThemeToggle'
+import LocaleSwitcher from '@/components/LocaleSwitcher'
 import Socials from '@/components/Socials'
 import DesktopMenu from './DesktopMenu'
 import MobileMenu from './MobileMenu'
@@ -31,10 +32,12 @@ export default function Menu({ locale }: { locale: Locale }) {
             <div className="hidden lg:block">
               <Socials socialLinks={socialLinks} />
             </div>
+            <LocaleSwitcher currentLocale={locale} />
             <ThemeToggle />
           </div>
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center gap-2">
+            <LocaleSwitcher currentLocale={locale} />
             <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
