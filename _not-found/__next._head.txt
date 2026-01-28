@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[94495,["/_next/static/chunks/5226450d7b067189.js","/_next/static/chunks/d3f6386b04640a93.js"],"ViewportBoundary"]
-3:I[94495,["/_next/static/chunks/5226450d7b067189.js","/_next/static/chunks/d3f6386b04640a93.js"],"MetadataBoundary"]
+2:I[60145,["/_next/static/chunks/ca430cf62795b082.js","/_next/static/chunks/74be3c8ea69de8b5.js"],"ViewportBoundary"]
+3:I[60145,["/_next/static/chunks/ca430cf62795b082.js","/_next/static/chunks/74be3c8ea69de8b5.js"],"MetadataBoundary"]
 4:"$Sreact.suspense"
-5:I[67392,["/_next/static/chunks/5226450d7b067189.js","/_next/static/chunks/d3f6386b04640a93.js"],"IconMark"]
-0:{"buildId":"jFHY4q9o5GHXslBWlZji8","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.1e9727e2.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],null]}],"loading":null,"isPartial":false}
+5:I[495,["/_next/static/chunks/ca430cf62795b082.js","/_next/static/chunks/74be3c8ea69de8b5.js"],"IconMark"]
+0:{"buildId":"HZWkwAEDfKVosn-n2d5ML","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.1e9727e2.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],null]}],"loading":null,"isPartial":false}
