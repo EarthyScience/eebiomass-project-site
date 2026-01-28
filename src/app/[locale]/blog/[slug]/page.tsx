@@ -1,26 +1,29 @@
 // Adapted from https://github.com/vercel/examples/tree/main/solutions/blog MIT License
 import { notFound } from 'next/navigation'
 import { CustomMDX } from '@/../mdx-components'
-import { formatDate, getBlogPosts } from '@/utils/utilsBlog'
+import { formatDate, getBlogPosts, getAllBlogPosts } from '@/utils/utilsBlog'
 import { baseUrl } from '@/utils/sitemap'
 import Link from 'next/link'
-import Image from "next/image";
+import Image from "next/image"
+import { isValidLocale, defaultLocale, type Locale } from '@/config/i18n'
 
 export async function generateStaticParams() {
-  const posts = getBlogPosts()
-  return posts.map((post) => ({
-    slug: post.slug,
-  }))
+  const all = getAllBlogPosts()
+  return all.map((post) => {
+    const locale: Locale = post.slug.endsWith('_de') ? 'de' : 'en'
+    return { locale, slug: post.slug }
+  })
 }
 
 interface BlogParams {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }
 
 export default async function Blog({ params }: BlogParams) {
-  const { slug } = await params;
-  const posts = getBlogPosts();
-  const post = posts.find((post) => post.slug === slug);
+  const { slug, locale: raw } = await params
+  const locale: Locale = isValidLocale(raw) ? raw : defaultLocale
+  const posts = getBlogPosts(locale)
+  const post = posts.find((p) => p.slug === slug)
   
   if (!post) {
     notFound()
@@ -42,7 +45,7 @@ export default async function Blog({ params }: BlogParams) {
             image: post.metadata.image2
               ? `${baseUrl}${post.metadata.image2}`
               : `/og?title=${encodeURIComponent(post.metadata.title)}`,
-            url: `${baseUrl}/blog/${post.slug}`,
+            url: `${baseUrl}/${locale}/blog/${post.slug}`,
             author: {
               '@type': 'Person',
               name: 'My Portfolio',
@@ -51,7 +54,7 @@ export default async function Blog({ params }: BlogParams) {
         }}
       />
       <div className="flex items-center mb-2">
-        <Link href="/blog" className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200">
+        <Link href={`/${locale}/blog`} className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200">
           ← Back to Posts
         </Link>
       </div>

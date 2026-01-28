@@ -6,23 +6,25 @@ import ThemeToggle from '@/components/ThemeToggle'
 import Socials from '@/components/Socials'
 import DesktopMenu from './DesktopMenu'
 import MobileMenu from './MobileMenu'
-import { navigation } from '@/config/nav'
+import { getNavigation } from '@/config/nav'
 import { socialLinks } from '@/utils/socials'
+import type { Locale } from '@/config/i18n'
 
-export default function Menu() {
+export default function Menu({ locale }: { locale: Locale }) {
   const [isOpen, setIsOpen] = useState(false)
   const handleLinkClick = () => {
       setIsOpen(false)
     }
+  const items = getNavigation(locale)
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-[var(--navbar-bg)] border-b border-[var(--navbar-border)] z-50">
       <div className="max-w-[1440px] mx-auto px-2 md:px-8 py-1">
         <div className="flex justify-between h-12">
           <div className="flex">
-            <LogoProject icon="/Logo3.png" title='EEBIOMASS' />
+            <LogoProject icon="/Logo3.png" title="EEBIOMASS" locale={locale} />
             <div className="hidden md:ml-6 md:block py-1">
-              <DesktopMenu items={navigation} />
+              <DesktopMenu items={items} />
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-4">
@@ -57,7 +59,7 @@ export default function Menu() {
       {isOpen && (
         <div className="md:hidden bg-[var(--card)] fixed inset-0 top-12 overflow-y-auto">
           <div className="pt-2 px-8 pb-3 space-y-1">
-            <MobileMenu items={navigation} onLinkClick={handleLinkClick} />
+            <MobileMenu items={items} onLinkClick={handleLinkClick} />
           </div>
           <Socials socialLinks={socialLinks} />
         </div>

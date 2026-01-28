@@ -10,8 +10,8 @@ export default function NotFound() {
           Let insight guide us back to familiar ground.
         </p>
         <div>
-          <Link href="/" className="underline">
-          Go back to Home
+          <Link href="/en" className="underline">
+            Go back to Home
           </Link>
         </div>
       </div>

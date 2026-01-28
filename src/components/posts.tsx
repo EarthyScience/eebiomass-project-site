@@ -2,9 +2,10 @@
 import Link from 'next/link'
 import Image from "next/image";
 import { formatDate, getBlogPosts } from '@/utils/utilsBlog'
+import type { Locale } from '@/config/i18n'
 
-export function BlogPosts() {
-  const allBlogs = getBlogPosts()
+export function BlogPosts({ locale }: { locale: Locale }) {
+  const allBlogs = getBlogPosts(locale)
 
   return (
     <div className='max-w-6xl mx-auto px-6 py-2 space-y-8'>
@@ -21,7 +22,7 @@ export function BlogPosts() {
           <Link
             key={post.slug}
             className="flex flex-col space-y-1 mb-1"
-            href={`/blog/${post.slug}`}>
+            href={`/${locale}/blog/${post.slug}`}>
               
             <article className="flex flex-col md:flex-row gap-6 border-b border-neutral-200 dark:border-neutral-800 pb-6">
               
