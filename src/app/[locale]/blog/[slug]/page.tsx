@@ -61,7 +61,7 @@ export default async function Blog({ params }: BlogParams) {
 
       <div className="flex justify-between items-center mb-4">
         <div className="w-1/4"></div>
-        <h1 className="title font-semibold text-2xl tracking-tighter text-center w-1/2">
+        <h1 className="title font-semibold text-neutral-600 dark:text-neutral-400 text-2xl tracking-tighter text-center w-1/2">
           {post.metadata.title}
         </h1>
         <div className="w-1/4 flex justify-end">

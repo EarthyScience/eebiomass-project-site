@@ -14,7 +14,7 @@
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(67.115% 0.13558 163.532 / 0.775);
+  --secondary: oklch(80.388% 0.15047 165.262 / 0.775);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
@@ -42,15 +42,16 @@
   --var-wp-3: #f08080;
   --var-wp-4: #ffe4c4;
   --var-wp-5: #00413f;
+  --var-wp-6: #282c34;
   
   /* Accent colors */
   --accent-1: #00a295;
-  --accent-2: #B7FFE9;
+  --accent-2: #5f9994;
   --accent-3: #ffe4c4;
   --accent-4: #f08080;
   --accent-5: #00413f;
   --accent-6: #d8b7b7;
-  --accent-7: #374151;
+  --accent-7: #282c34;
   
   /* Code syntax highlighting */
   --sh-class: #eb9035;
@@ -80,7 +81,7 @@
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.922 0 0);
   --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(81.082% 0.15231 168.446 / 0.792);
+  --secondary: #00a295;
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
@@ -88,7 +89,7 @@
   --accent-foreground: oklch(0.985 0 0);
   
   /* Dark theme custom colors */
-  --background-funding: rgb(32, 33, 38);
+  --background-funding: rgb(0, 109, 102);
   --navbar-bg: rgba(22, 22, 24, 0.95);
   --navbar-border:var(--border);
   --link-color: #e2e8f0;

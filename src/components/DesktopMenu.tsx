@@ -75,7 +75,7 @@ function FeaturedBlock({ item }: { item: MenuItem }) {
           href={item.link || "/"}
           className="flex h-full w-full select-none flex-col justify-end rounded-md p-5 no-underline outline-none focus:shadow-md"
           style={{
-            background: `linear-gradient(180deg, #7ac6c0, #ebe8e8)`,
+            background: `linear-gradient(180deg, #ebe8e8, #7ac6c0)`,
           }}
         >
           <Image
