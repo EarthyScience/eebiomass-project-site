@@ -1,0 +1,121 @@
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+import { Button } from "@/components/ui/button"
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+
+<div className="grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 gap-4 justify-center items-stretch max-w-5xl mx-auto">
+
+ <a href="/project/about" target='blank'> 
+  <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
+    <CardHeader>
+     <CardTitle className="flex justify-center mb-4 font-bold"> Projektbüro BIOMASS </CardTitle><p></p>
+    <div className="flex justify-center mb-4">
+        <Image src="/image1.png" alt="eebiomass" width={400} height={200} />
+    </div> 
+      <CardDescription></CardDescription>
+    </CardHeader>
+  </Card>
+    </a>
+   
+   <a href="/decalval/about" target='blank'> 
+  <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
+    <CardHeader>
+   <CardTitle className="flex justify-center mb-4 font-bold"> Deutsche BIOMASS Cal/Val-Aktivitäten </CardTitle><p></p>
+    <div className="flex justify-center mb-4">
+        <Image src="/decalval_logo_small.png" alt="eebiomass" width={198} height={80} />
+    </div> 
+        </CardHeader>
+  </Card>
+  </a>
+</div>
+-----------------------
+<p></p>
+#### Aktuelles
+
+
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+     <CardTitle className="flex justify-center mb-2">
+     <a style={{color: "var(--accent-1)"}} href='/blog'>Erste BIOMASS-Produkte verfügbar!</a>
+     </CardTitle>  
+   
+    <div className="flex justify-center mb-4">
+        <a href='/blog'>
+        <Image src="/news/news24.png" alt="LPS2025" width={500} height={200} />
+        </a>
+    </div> 
+    
+    </CardHeader>
+  </Card>
+    
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+    <CardTitle className="flex justify-center mb-2"><a style={{color: "var(--accent-1)"}} href='https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/Biomass_satellite_returns_striking_first_images_of_forests_and_more' target='_blank'>Erste BIOMASS-Bilder!</a></CardTitle>
+    <div className="flex justify-center mb-4">
+        <a href='https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/Biomass_satellite_returns_striking_first_images_of_forests_and_more' target='_blank'>
+        <Image src="/first_image.png" alt="Erste BIOMASS-Bilder" width={400} height={200} />
+        </a>
+    </div> 
+    </CardHeader>
+    
+  </Card>
+  
+  <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
+    <CardHeader>
+     <CardTitle className="flex justify-center mb-2"><a style={{color: "var(--accent-1)"}} href='https://eo-college.org/resource/calibration-and-validation-cal-val-activities-in-earth-observation-missions-like-esa-biomass/' target='_blank'>BIOMASS Cal/Val-Aktivitäten</a></CardTitle>  
+    <div className="flex justify-center mb-4">
+         <a href='https://eo-college.org/resource/calibration-and-validation-cal-val-activities-in-earth-observation-missions-like-esa-biomass/' target='_blank'>
+         <Image src="/materials/commphase.png" alt="eebiomass" width={500} height={200} />
+         </a>
+    </div> 
+    </CardHeader>
+  </Card>
+ 
+</div>
+
+<div className="flex justify-end w-ful">
+  <Button className="bg-[var(--accent-1)] text-white hover:opacity-90">AKTUELLES → </Button>
+</div>
+
+------------------
+
+<br></br>
+
+Im April 2025 startete die ESA den Earth Explorer BIOMASS. Die Mission verbessert unser Verständnis der Rolle der Landbiosphäre im globalen Kohlenstoffkreislauf, mit klaren Implikationen im Kontext des Klimawandels. Mit Hilfe der Fernerkundung ist BIOMASS die erste Mission mit einem operationellen P-Band-SAR im Weltraum und erfasst den Zustand vor allem tropischer Wälder.
+
+Das <b><WP number={1}>Projektbüro BIOMASS</WP></b> ist eine Kooperation des Max-Planck-Instituts für Biogeochemie, der Friedrich-Schiller-Universität Jena, des Deutschen Zentrums für Luft- und Raumfahrt (DLR) und des Helmholtz-Zentrums für Umweltforschung (UFZ). Wir wollen
+ <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+-    relevante Informationen in der nationalen BIOMASS-Community zusammenführen, aufbereiten und verbreiten
+-    Lücken identifizieren
+-    Lösungen im Kontext der BIOMASS-Mission untersuchen
+-    den Dialog im weiteren Kontext der BIOMASS-Mission pflegen
+</ul>
+
+Der <b><WP number={1}>Koordinierte Deutsche Beitrag zu den BIOMASS Cal/Val-Aktivitäten</WP></b> ist eine Kooperation des Max-Planck-Instituts für Biogeochemie, des GFZ Helmholtz-Zentrums für Geowissenschaften, des DLR, des UFZ und der Technischen Universität Dresden (TUD), unterstützt von der University of Maryland und Wilderness International. Wir wollen
+ <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+-    umfangreiche Gelegenheitsdatenbanken sammeln und Referenzdaten aus Airborne-LiDAR, Drohnenbildern und Radartransekten harmonisieren
+-    Beobachtungskampagnen planen, die existierende Domänen und Dichtegradienten abdecken
+-    BIOMASS-Produkte für oberirdische Biomasse (AGBD), Waldhöhe (FH) und Waldveränderungen validieren
+-    prozessbasierte Modelle für die Dateninterpretation nutzen
+</ul>
+
+Für unsere Community bieten wir
+<ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+-    Regelmäßige Webinare zu BIOMASS-Wissenschaft und Anwendungen <Button variant="secondary"><a href='/events/webinar' target='_blank'> Webinare → </a></Button>
+-    Sommerschulen zur BIOMASS-Mission <Button variant="secondary"><a href='/events/summerschool' target='_blank'>Sommerschulen → </a></Button>
+-    Tutorials und Hintergründe über das eo-college <Button variant="secondary"><a href='https://eo-college.org/' target='_blank'>eo college → </a></Button>
+-    Unterstützung für die DLR PolInSAR-Kurse <Button variant="secondary"><a href='/events/polinsar' target='_blank'>PolInSAR → </a></Button>  
+</ul>
+<p></p>
+
+<div className="flex justify-center mb-4">
+        <Image src="/BMWK-en.png" alt="Bundesministerium für Wirtschaft und Klimaschutz" width={200} height={200} />
+</div>

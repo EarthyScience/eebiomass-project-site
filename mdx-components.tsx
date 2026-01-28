@@ -5,6 +5,7 @@ import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote/rsc';
 import { highlight } from 'sugar-high';
 import { CardProfile } from '@/components/CardProfile';
 import { CopyButton } from '@/components/copy-button';
+import { LocaleLink } from '@/components/LocaleLink';
 
 // Type definitions
 type HeadingProps = ComponentPropsWithoutRef<'h1'>;
@@ -72,23 +73,16 @@ function Table({ data }: { data: TableData }) {
   );
 }
 
-// Custom link component with support for internal/external links
+// Custom link: internal links get /[locale] prefix via LocaleLink; external stay <a>
 function CustomLink(props: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
   const href = props.href;
-  
-  if (href && href.startsWith('/')) {
-    return (
-      <Link href={href} {...props}>
-        {props.children}
-      </Link>
-    );
+  if (href && (href.startsWith('http') || href.startsWith('//'))) {
+    return <a target="_blank" rel="noopener noreferrer" {...props} />;
   }
-  
   if (href && href.startsWith('#')) {
     return <a {...props} />;
   }
-  
-  return <a target="_blank" rel="noopener noreferrer" {...props} />;
+  return <LocaleLink {...props} />;
 }
 
 // MDX Components for direct usage

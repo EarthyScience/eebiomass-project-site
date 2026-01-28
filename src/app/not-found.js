@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { defaultLocale } from '@/config/i18n'
+
 export default function NotFound() {
   return (
     <div className="h-128 flex items-center justify-center">
@@ -10,8 +12,8 @@ export default function NotFound() {
           Let insight guide us back to familiar ground.
         </p>
         <div>
-          <Link href="/" className="underline">
-          Go back to Home
+          <Link href={`/${defaultLocale}`} className="underline">
+            Go back to Home
           </Link>
         </div>
       </div>

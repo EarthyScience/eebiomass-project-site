@@ -1,6 +1,7 @@
 // Adapted from https://github.com/vercel/examples/tree/main/solutions/blog MIT License
 import fs from 'fs'
 import path from 'path'
+import type { Locale } from '@/config/i18n'
 
 type Metadata = {
   title: string
@@ -38,6 +39,8 @@ function readMDXFile(filePath: fs.PathOrFileDescriptor) {
   return parseFrontmatter(rawContent)
 }
 
+const postsDir = path.join(process.cwd(), 'src/app', '[locale]', 'blog', 'posts')
+
 function getMDXData(dir: fs.PathLike) {
   const mdxFiles = getMDXFiles(dir)
   return mdxFiles.map((file) => {
@@ -52,8 +55,20 @@ function getMDXData(dir: fs.PathLike) {
   })
 }
 
-export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), 'src/app', 'blog', 'posts'))
+/** Whether a slug (filename without .mdx) belongs to the given locale. _de suffix -> de, else en. */
+function slugLocale(slug: string): Locale {
+  return slug.endsWith('_de') ? 'de' : 'en'
+}
+
+/** Returns blog posts for the given locale. _de files for de, all others for en. */
+export function getBlogPosts(locale: Locale) {
+  const all = getMDXData(postsDir)
+  return all.filter((p) => slugLocale(p.slug) === locale)
+}
+
+/** Returns all posts (both locales). For sitemap/generateStaticParams. */
+export function getAllBlogPosts() {
+  return getMDXData(postsDir)
 }
 
 export function formatDate(date: string, includeRelative = false) {

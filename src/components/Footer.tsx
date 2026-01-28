@@ -6,18 +6,19 @@ import Address from './Address';
 import Contacts from './Contacts';
 import Funding from './Funding';
 import ProjectFunding from '@/assets/ProjectFunding';
-import { navFooter  } from '@/config/nav';
+import { getNavFooter } from '@/config/nav';
 import { contactInfo } from '@/assets/contacts';
 import { fundsLogos } from '@/assets/fundingLogos';
-import Socials from '@/components/Socials'
-import { socialLinks } from '@/utils/socials'
+import Socials from '@/components/Socials';
+import { socialLinks } from '@/utils/socials';
+import type { Locale } from '@/config/i18n';
 
-const Footer = ({ className = "" }: FooterProps) => {
+const Footer = ({ className = '', locale }: FooterProps & { locale: Locale }) => {
+  const links = getNavFooter(locale);
   return (
       <footer className={`bg-[var(--navbar-bg)] border-t border-[var(--navbar-border)] ${className}`}>
           <Funding
             logo={fundsLogos}
-            // description={projectText} // injecting a quoted text here will also work
             description={<ProjectFunding />}
           />
           <div className="max-w-6xl mx-auto px-6 py-8 space-y-8">
@@ -29,7 +30,7 @@ const Footer = ({ className = "" }: FooterProps) => {
               
               <div className="pt-2 border-t border-[var(--navbar-border)] flex flex-col md:flex-row md:justify-between">
                 <Copyright text={contactInfo.copyright} />
-                <FooterLinks links={navFooter} />
+                <FooterLinks links={links} />
               </div>
           </div>
       </footer>
