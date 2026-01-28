@@ -1,7 +1,6 @@
 import ContentSplitSection from '@/components/ContentSplitSection';
 import Image from 'next/image';
 import Link from "next/link";
-import EarthGlobe from '@/components/EarthGlobe'; 
 import { Button } from "@/components/ui/button"
 import { SiGithub } from "react-icons/si";
 import { SiLucide } from "react-icons/si";
@@ -11,6 +10,7 @@ import { SiMdx } from "react-icons/si";
 import { SiThreedotjs } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaHeartbeat } from "react-icons/fa";
+import ThemeImage from "@/components/ThemeImage";
 
 import {
   Card,
@@ -65,7 +65,11 @@ import {
    The DE:CalVal project directly supports this by <b>combining harmonized in-situ, airborne and spaceborne datasets</b>. Complementary missions such as TanDEM-X, with its fine-scale X-band SAR, and NASA’s GEDI LiDAR provide critical additional perspectives. <b>Terrestrial laser scanning (TLS) and UAV LiDAR campaigns</b> will supply detailed 3D forest representations to assess <b>sub-grid variability and validate biomass estimates</b>. Moreover, <b>process-based models like FORMIND</b> link observed <b>forest structure to biomass dynamics</b>, enabling a deeper understanding of carbon cycling processes. By integrating BIOMASS-derived biomass and height with eddy covariance fluxes, sap flow data and local meteorology in advanced model–data assimilation frameworks, DECalVal will establish a unique foundation for evaluating BIOMASS products.
 
 
-<p className="bg-[var(--accent-3)]  font-bold px-4 py-2">Work Packages</p>
+
+  <p className="bg-[var(--accent-3)] font-bold px-4 py-2">
+    <WP number={6}> Work Packages</WP>
+  </p>
+
  <div className="px-4 py-2">
  <Accordion
       type="single"
@@ -148,7 +152,7 @@ import {
   </Accordion>
 </div>
 
-<p className="bg-[var(--accent-3)]  font-bold px-4 py-2">Partners</p>
+<p className="bg-[var(--accent-3)]  font-bold px-4 py-2"><WP number={6}>Partners</WP></p>
 
 <div className="max-w-3xl mx-auto px-4 py-2">
   <div className="grid grid-flow-col gap-2 auto-cols-max justify-center items-center">
@@ -160,8 +164,9 @@ import {
       className="flex items-center justify-center p-3 hover:opacity-90 transition"
       title="MPI-BGC"
     >
-      <Image
-        src="/MPI_BGC_wide_E_green_cmyk.png"
+      <ThemeImage
+        lightSrc="/MPI_BGC_wide_E_green_cmyk.png"
+        darkSrc="/MPI_BGC_wide_E_green_cmyk.png"
         alt="MPI-BGC"
         width={300}
         height={150}
@@ -176,8 +181,9 @@ import {
       className="flex items-center justify-center p-3 hover:opacity-90 transition"
       title="DLR"
     >
-      <Image
-        src="/DLR_AR_kurz_EN_bk.png"
+      <ThemeImage
+        lightSrc="/DLR_AR_kurz_EN_bk.png"
+        darkSrc="/DLR_AR_kurz_EN_wh.png"
         alt="DLR"
         width={300}
         height={150}
@@ -192,8 +198,9 @@ import {
       className="flex items-center justify-center p-3 hover:opacity-90 transition"
       title="TU Dresden"
     >
-      <Image
-        src="/Logo_TU_Dresden_2025.svg.png"
+      <ThemeImage
+        lightSrc="/Logo_TU_Dresden_en_2025.svg.png"
+        darkSrc="/TUD_weis_en.png"
         alt="TU Dresden"
         width={300}
         height={150}
@@ -211,8 +218,9 @@ import {
       className="flex items-center justify-center p-3 hover:opacity-90 transition"
       title="UFZ"
     >
-      <Image
-        src="/GFZ_en.jpg"
+      <ThemeImage
+        lightSrc="/GFZ_en.png"
+        darkSrc="/GFZ-grey.png"
         alt="GFZ"
         width={300}
         height={150}
@@ -245,12 +253,13 @@ import {
       className="flex items-center justify-center p-3 hover:opacity-90 transition"
       title="Wilderness International"
     >
-      <Image
-        src="/wilderness_international.png"
+      <ThemeImage
+        lightSrc="/wilderness_international.png"
+        darkSrc="/wilderness_international_wh.png"
         alt="Wilderness International"
-        width={300}
-        height={150}
-        className="h-24 w-auto object-contain"
+        width={600}
+        height={250}
+        className="h-30 w-auto object-contain"
       />
     </Link>
 
@@ -261,8 +270,9 @@ import {
       className="flex items-center justify-center p-3 hover:opacity-90 transition"
       title="University of Maryland"
     >
-      <Image
-        src="/university Maryland.png"
+      <ThemeImage
+        lightSrc="/university Maryland.png"
+        darkSrc="/university Maryland_wh.png"
         alt="University of Maryland"
         width={300}
         height={150}

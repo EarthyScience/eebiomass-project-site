@@ -1,15 +1,14 @@
 
 import ContentSplitSection from '@/components/ContentSplitSection';
 import Image from 'next/image';
+import ThemeImage from "@/components/ThemeImage";
 
 <div  className="flex flex-wrap justify-center gap-4 my-6">
 # <WP number={1}> Team </WP>
 </div>
 <p></p>
 
-
-
-<ContentSplitSection
+<ContentSplitSection 
     title="" 
     subtitle=""
      media={
@@ -19,6 +18,7 @@ import Image from 'next/image';
         />}
     mediaPosition="right"    
 />
+
 
 <ContentSplitSection
     title="Nuno Carvalhais" 
@@ -82,16 +82,24 @@ import Image from 'next/image';
     shadow="true"
 />
 
-<ContentSplitSection
-    title="" 
-    subtitle=""
-     media={
-        <Image src="/DLR_AR_kurz_EN_bk.png"
-        alt="DLR"
-        width={400} height={300}
-        />}
-    mediaPosition="right"    
-/>
+ <div className="max-w-6xl mx-auto p-6 space-y-12">
+      <ContentSplitSection
+        title=""
+        subtitle=""
+        media={
+          <ThemeImage
+            lightSrc="/DLR_AR_kurz_EN_bk.png"
+            darkSrc="/DLR_AR_kurz_EN_wh.png"
+            alt="DLR"
+            width={400}
+            height={300}
+          />
+        }
+        mediaPosition="right"
+      />
+</div>
+
+
 <ContentSplitSection
     title="Kostas Papathanassiou" 
     subtitle="Konstantinos Papathanassiou is senior scientist at the Microwaves and Radar Institute (DLR-HR) of the the German Aerospace Center (DLR). He is member of DLR’s TanDEM-X and Tandem-L science teams, JAXA’s ALOS-PalSAR Cal/Val teams, JAXA’s Carbon and Kyoto Initiative and NASA’s GEDI Mission Science Team. He has been actively involved in BIOMASS from the very beginning, contributing to the original BIOMASS proposal as early as 2005 in response to ESA’s Earth Explorer 7th Call. Since 2006, he has been a member of ESA’s BIOMASS Mission Advisory Group. Currently, he is involved in the development of the BIOMASS operational processor and the definition, implementation, and validation of the BIOMASS L2 algorithms for forest height and biomass."
@@ -108,7 +116,9 @@ import Image from 'next/image';
     title="" 
     subtitle=""
      media={
-        <Image src="/Bildmarke_blue_15cm.png"
+        <ThemeImage 
+        lightSrc="/Bildmarke_blue_15cm.png"
+        darkSrc="/Bildmarke_white_15cm.png"
         alt="FSU"
         width={400} height={300}
         />}
