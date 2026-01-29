@@ -33,7 +33,7 @@ const navigationEn: NavItem[] = [
     items: [
       { text: 'About', link: '/decalval/about', description: 'Learn more about the project, its goals, and its impact.' },
       { text: 'Team', link: '/decalval/team', description: 'Meet the team behind the project, their roles, and contributions.' },
-      { text: 'Work packages', link: '/decalval/wps', description: 'Learn more about the key activities, methods, and contributions that drive the project forward.' },
+      // { text: 'Work packages', link: '/decalval/wps', description: 'Learn more about the key activities, methods, and contributions that drive the project forward.' },
     ],
   },
   {
@@ -74,9 +74,9 @@ const navigationDe: NavItem[] = [
     link: '/project',
     featured: { logo: '/Logo3.png', name: 'Deutsches Projektbüro BIOMASS', description: '' },
     items: [
-      { text: 'Über uns', link: '/project/about', description: 'Erfahren Sie mehr über das Projekt, seine Ziele und Auswirkungen.' },
+      { text: 'Über uns', link: '/project/about', description: 'Erfahren Sie mehr über das Projektbüro, seine Ziele und Angebote.' },
       { text: 'Team', link: '/project/team', description: 'Lernen Sie das Team und seine Beiträge kennen.' },
-      { text: 'Arbeitspakete', link: '/project/wps', description: 'Die Arbeitspakete, Ziele und den wissenschaftlichen Ansatz.' },
+      { text: 'Arbeitspakete', link: '/project/wps', description: 'Die Arbeitspakete, Ziele und der wissenschaftliche Ansatz.' },
       { text: 'Publikationen', link: '/project/publications', description: 'Aktuelle Forschungsarbeiten, Berichte und Artikel.' },
     ],
   },
@@ -87,7 +87,7 @@ const navigationDe: NavItem[] = [
     items: [
       { text: 'Über uns', link: '/decalval/about', description: 'Erfahren Sie mehr über das Projekt.' },
       { text: 'Team', link: '/decalval/team', description: 'Lernen Sie das Team kennen.' },
-      { text: 'Arbeitspakete', link: '/decalval/wps', description: 'Schlüsselaktivitäten und Methoden.' },
+     // { text: 'Arbeitspakete', link: '/decalval/wps', description: 'Schlüsselaktivitäten und Methoden.' },
     ],
   },
   {
@@ -95,8 +95,8 @@ const navigationDe: NavItem[] = [
     link: '/biomass',
     items: [
       { text: 'Über die Mission', link: '/biomass/about', description: 'Earth Explorer BIOMASS.' },
-      { text: 'Earth Explorers', link: '/biomass/earthexplorer', description: 'ESA Earth Explorers und internationale Missionen.' },
-      { text: 'DISC & Daten', link: '/biomass/disc&data', description: 'Data Innovation and Science Cluster und offene Daten.' },
+      { text: 'Earth Explorers', link: '/biomass/earthexplorer', description: 'ESA Earth Explorer und internationale Missionen.' },
+      { text: 'DISC & Daten', link: '/biomass/disc&data', description: 'Data Innovation and Science Cluster und OPEN DATA.' },
     ],
   },
   { text: 'Aktuelles', link: '/blog' },

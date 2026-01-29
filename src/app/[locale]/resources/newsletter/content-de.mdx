@@ -1,0 +1,28 @@
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Newsletter </WP>
+</div>
+<p></p>
+
+
+<b>Verfolgen Sie die BIOMASS-Mission hautnah!</b>  
+Unser Newsletter informiert Sie über Datenprodukte, wissenschaftliche Highlights, Schulungsveranstaltungen und Open-Science-Aktivitäten.
+
+<a style={{color: "var(--accent-1)"}} href='https://listserv.gwdg.de/mailman/listinfo/eebiomass-newsletter' target='_blank'> 
+
+<ContentSplitSection
+    title="JETZT ABONNIEREN!" 
+    subtitle="Melden Sie sich für unseren eebiomass-Newsletter an, um keine Neuigkeiten zur BIOMASS-Mission der ESA zu verpassen!"
+     media={
+        <Image src="/biomass2.png"
+        alt="BIOMASS"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+
+/>
+</a>

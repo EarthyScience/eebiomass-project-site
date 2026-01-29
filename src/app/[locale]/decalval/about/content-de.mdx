@@ -1,0 +1,325 @@
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+import Link from "next/link";
+import { Button } from "@/components/ui/button"
+import { SiGithub } from "react-icons/si";
+import { SiLucide } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMdx } from "react-icons/si";
+import { SiThreedotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaHeartbeat } from "react-icons/fa";
+import ThemeImage from "@/components/ThemeImage";
+
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Koordinierter Deutscher Beitrag zu den BIOMASS Kalibrierungs- und Validierungsaktivitäten </WP>
+</div>
+<p></p>
+
+
+
+<ContentSplitSection
+    title="DE:CalVal" 
+    subtitle="Kalibrierungs- und Validierungsaktivitäten sind von entscheidender Bedeutung für die Bewertung des Potenzials der BIOMASS-Datenprodukte und der zugrunde liegenden Algorithmen für die BIOMASS-Missionsziele."
+        media={
+        <Image src="/decalval_logo_small.png"
+        alt="DECalVal"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+    >     
+</ContentSplitSection>
+
+<div className="text-left leading-relaxed">
+        <p> Unsere Bemühungen umfassen: </p>
+        <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
+             <li>die Sammlung umfangreicher Messdaten mit zugehörigen Vergleichsmethoden;</li>
+             <li>den Aufbau eines neuartigen Netzwerks von Messstationen mit hoher Messintensität (Beitrag zu <a href="https://geo-trees.org/">GeoTrees)</a></li>
+             <li>die Konzeption von Beobachtungskampagnen zur Abdeckung der bestehenden Beobachtungsgebiete und Walddichtegradienten</li>
+             <li>die Nutzung prozessbasierter Modellierungssysteme zur Unterstützung der Dateninterpretation auf hohem Niveau und der Konsistenz zwischen verschiedenen Variablen.</li>
+        </ul>
+     </div>     
+
+ 
+Das DE:CalVal-Projekt unterstützt dies direkt durch die Kombination harmonisierter <b>In-situ-, Flugzeug- und Weltraumdatensätze</b>. Ergänzende Missionen wie TanDEM-X mit seinem hochauflösenden X-Band-SAR und NASAs GEDI LiDAR liefern wichtige zusätzliche Perspektiven. <b>Terrestrisches Laserscanning (TLS)</b> und <b>UAV-LiDAR-Kampagnen</b> liefern detaillierte 3D-Waldmodelle, um die Variabilität auf Subgrid-Ebene zu bewerten und Biomasseabschätzungen zu validieren. Darüber hinaus verknüpfen <b>prozessbasierte Modelle wie FORMIND</b> die beobachtete <b>Waldstruktur mit der Biomassedynamik</b> und ermöglichen so ein tieferes Verständnis der Kohlenstoffkreislaufprozesse. Durch die Integration von BIOMASS-abgeleiteter Biomasse und Höhe mit Eddy-Kovarianz-Flüssen, Saftflussdaten und lokalen meteorologischen Daten in fortschrittlichen Modell-Daten-Assimilations-Frameworks schafft DECalVal eine einzigartige Grundlage für die Bewertung von BIOMASS-Produkten.
+
+
+
+  <p className="bg-[var(--accent-3)] font-bold px-4 py-2">
+    <WP number={6}> Arbeitspakete</WP>
+  </p>
+
+<div className="px-4 py-2">
+  <Accordion
+    type="single"
+    collapsible
+    className="w-full"
+    defaultValue="item-1"
+  >
+    <AccordionItem value="item-11">
+      <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2"> WP1 – Daten </AccordionTrigger>
+      <AccordionContent className="leading-tight space-y-0">
+        <p className="my-0">
+          Ziel von WP1 ist es, die Datengrundlage für nachfolgende Arbeitspakete
+          zu schaffen, indem <b>umfassende In-situ-Feldkampagnen</b> durchgeführt
+          und <b>Referenzdaten harmonisiert</b> werden, darunter luftgestützte
+          LiDAR-Daten, Drohnenbilder und bestehende Radar-Transekte.
+        </p>
+        <p className="my-0">
+          <u>Task T1.1: In-situ-Kampagnen (GFZ, TUD, DLR)</u><br />
+          Es werden gezielte Feldkampagnen in strategisch ausgewählten tropischen
+          und subtropischen Regionen durchgeführt, um die Validierung der
+          BIOMASS-Missionsprodukte direkt zu unterstützen.
+        </p>
+        <p className="my-0">
+          <u>Task T1.2: Weitere Referenzdaten (TUD, WI)</u><br />
+          Der angepasste Validierungsrahmen integriert umfangreiche tropische
+          Datensätze, einschließlich bestehender Inventare und neu erhobener
+          hochauflösender ALS-Daten, um robuste Vergleichsanalysen zu ermöglichen.
+          Durch die enge Abstimmung der aus BIOMASS abgeleiteten Schätzungen mit
+          unabhängig erhobenen Feld- und ALS-Daten werden Unsicherheiten und
+          Verzerrungen systematisch über große geografische Gebiete quantifiziert.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
+
+    <AccordionItem value="item-12">
+      <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2">         WP2 – Bewertung der BIOMASS-Produkte      </AccordionTrigger>
+      <AccordionContent className="leading-tight space-y-0">
+        <p className="my-0">
+          Das Hauptziel dieses Arbeitspakets ist die Validierung der
+          BIOMASS-Produkte – <b>Waldhöhe</b> (FH), <b>Waldveränderung/Störung</b> (FD)
+          und <b>oberirdische Biomassedichte</b> (AGBD) – mithilfe der
+          Feldinventare und Referenzdaten aus WP1, einschließlich multisensorischer
+          Modellverknüpfungen zur Waldstruktur.
+        </p>
+        <p className="my-0">
+          <u>Task T2.1: Validierung mit bestehenden boden- und luftgestützten Referenzdaten (GFZ)</u><br />
+          Da sich die vorhandenen Referenzdaten erheblich hinsichtlich
+          Flächengröße, Form und geografischer Verteilung unterscheiden, ist auch
+          mit variierenden Messfehlern für AGBD und Waldhöhe zu rechnen.
+        </p>
+        <p className="my-0">
+          <u>Task T2.2: Waldveränderungen (Störungen/Degradation) (TUD, WI)</u><br />
+          Veränderungen der Waldfläche und Waldhöhe aus BIOMASS-Daten werden für
+          die Region Tambopata in Peru validiert.
+        </p>
+        <p className="my-0">
+          <u>Task T2.3: Biomassevorräte, Höhe und vertikale Struktur (UFZ, TUD, DLR)</u><br />
+          Diese Aufgabe kombiniert Messungen aus allen drei Missionen – BIOMASS,
+          GEDI und TanDEM-X – mit einem leistungsfähigen multiskaligen
+          Waldwachstumsmodell (FORMIND), um genauere und höher aufgelöste
+          Schätzungen von FH und AGBD zu ermöglichen.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
+
+    <AccordionItem value="item-13">
+      <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2"> WP3 – Validierung des Kohlenstoffkreislaufs </AccordionTrigger>
+      <AccordionContent className="leading-tight space-y-0">
+        <p className="my-0">
+          Ziel dieses Arbeitspakets ist die Durchführung einer Kalibrierungs- und
+          Validierungsanalyse, um den Informationsgehalt der BIOMASS-Daten für die
+          Beschreibung zeitlicher Dynamiken und räumlicher Muster der Kohlenstoff-
+          und Wasserkreisläufe in Waldökosystemen direkt zu bewerten.
+        </p>
+        <p className="my-0">
+          <u>Task T3.1: Referenz- und Drittanbieterdaten (DLR, UMD, MPG)</u><br />
+          In dieser Aufgabe werden komplementäre Erdbeobachtungs- und bodengebundene
+          Datensätze zusammengeführt, um konsistente Eingangsgrößen und
+          Referenzwerte für die prozessbasierte Bewertung der BIOMASS-Produkte an
+          instrumentierten Ökosystemstandorten bereitzustellen.
+        </p>
+        <p className="my-0">
+          <u>Task T3.2: BIOMASS-Kohlenstoffkreislauf (UFZ, MPG)</u><br />
+          Ziel ist es, einen robusten Initialisierungspunkt für Modelle der
+          Walddynamik bereitzustellen, einschließlich einer kontinuierlichen
+          Charakterisierung der vertikalen und räumlichen Waldstruktur, um die
+          Verbindung zwischen Mustern und Dynamiken in BIOMASS-Produkten und dem
+          Waldkohlenstoffkreislauf zu validieren.
+        </p>
+        <p className="my-0">
+          <u>Task T3.3: BIOMASS-Kohlenstoff- und Wasserflüsse (MPG, UFZ, DLR)</u><br />
+          Ziel ist die formale Integration von BIOMASS-Beobachtungen mit gemessenen
+          Kohlenstoff- und Wasserflüssen auf Ökosystemskalen, um den Mehrwert der
+          BIOMASS-Daten für die Analyse globaler Kohlenstoffkreislaufprozesse zu
+          bewerten und zu validieren.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
+
+    <AccordionItem value="item-14">
+      <AccordionTrigger className="bg-[var(--accent-1)] text-white font-bold px-4 py-2"> WP4 – Koordination & Synthese </AccordionTrigger>
+      <AccordionContent className="leading-tight space-y-0">
+        <p className="my-0">
+          Ziel dieses Arbeitspakets ist die Koordination der Zusammenarbeit
+          zwischen den beteiligten Teams sowie die Verbreitung und Kommunikation
+          der Ergebnisse innerhalb und außerhalb des Projekts.
+        </p>
+        <p className="my-0">
+          <u>Task T4.1: Projektkoordination und -management (MPG)</u><br />
+          Die Projektkoordination stellt eine termingerechte, qualitativ
+          hochwertige und budgetkonforme Umsetzung des Projekts sowie eine enge
+          Zusammenarbeit zwischen den Arbeitspaketen sicher.
+        </p>
+        <p className="my-0">
+          <u>Task T4.2: Dissemination und Kommunikation (MPG)</u><br />
+          Die Bereitstellung relevanter Informationen für unsere Nutzer-Community
+          ist entscheidend, um die Wirkung des Projekts zu maximieren.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
+  </Accordion>
+</div>
+
+
+<p className="bg-[var(--accent-3)]  font-bold px-4 py-2"><WP number={6}>Partner</WP></p>
+
+<div className="max-w-3xl mx-auto px-4 py-2">
+  <div className="grid grid-flow-col gap-2 auto-cols-max justify-center items-center">
+    
+    <Link
+      href="https://www.bgc-jena.mpg.de/bgi/mdi"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="MPI-BGC"
+    >
+      <ThemeImage
+        lightSrc="/MPI_BGC_wide_D_green_rgb.png"
+        darkSrc="/MPI_BGC_wide_D_green_rgb.png"
+        alt="MPI-BGC"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+
+    <Link
+      href="https://www.dlr.de/de/hr"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="DLR"
+    >
+      <ThemeImage
+        lightSrc="/DLR_AR_kurz_DE_bk.png"
+        darkSrc="/DLR_AR_kurz_DE_wh.png"
+        alt="DLR"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+
+    <Link
+      href="https://tu-dresden.de/bu/umwelt/geo/ipf/envrs"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="TU Dresden"
+    >
+      <ThemeImage
+        lightSrc="/Logo_TU_Dresden_2025.svg.png"
+        darkSrc="/TUD_weis_de.svg"
+        alt="TU Dresden"
+        width={300}
+        height={150}
+        className="h-20 w-auto object-contain"
+      />
+    </Link>
+
+</div>
+
+<div className="grid grid-flow-col gap-2 auto-cols-max justify-center items-center">
+    <Link
+      href="https://www.gfz.de/sektion/fernerkundung-und-geoinformatik/ueberblick"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="UFZ"
+    >
+      <ThemeImage
+        lightSrc="/GFZ_de.png"
+        darkSrc="/GFZ-grey_de.png"
+        alt="GFZ"
+        width={300}
+        height={150}
+        className="h-18 w-auto object-contain"
+      />
+    </Link>
+
+    <Link
+      href="https://www.ufz.de/index.php?de=36559"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="UFZ"
+    >
+      <Image
+        src="/UFZ_Logo_RGB_DE.png"
+        alt="UFZ"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+</div>
+
+<div className="grid grid-flow-col gap-2 auto-cols-max justify-center items-center">
+    <Link
+      href="https://www.wilderness-international.org/"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="Wilderness International"
+    >
+      <ThemeImage
+        lightSrc="/wilderness_international.png"
+        darkSrc="/wilderness_international_wh.png"
+        alt="Wilderness International"
+        width={600}
+        height={250}
+        className="h-30 w-auto object-contain"
+      />
+    </Link>
+
+    <Link
+      href="https://geog.umd.edu/facultyprofile/dubayah/ralph"
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-center p-3 hover:opacity-90 transition"
+      title="University of Maryland"
+    >
+      <ThemeImage
+        lightSrc="/university Maryland.png"
+        darkSrc="/university Maryland_wh.png"
+        alt="University of Maryland"
+        width={300}
+        height={150}
+        className="h-24 w-auto object-contain"
+      />
+    </Link>
+
+  </div>
+</div>

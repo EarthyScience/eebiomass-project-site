@@ -1,0 +1,199 @@
+
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+import ThemeImage from "@/components/ThemeImage";
+
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Team </WP>
+</div>
+<p></p>
+
+<ContentSplitSection 
+    title="" 
+    subtitle=""
+     media={
+        <Image src="/MPI_BGC_wide_D_green_rgb.png"
+        alt="MPI-BGC"
+        width={400} height={300}
+        />}
+    mediaPosition="right"    
+/>
+
+
+<ContentSplitSection
+    title="Nuno Carvalhais" 
+    subtitle="Nuno Carvalhais  ist Gruppenleiter der Forschungsgruppe „Model-Data Integration“ in der Abteilung Biogeochemical Integration, MPI-BGC. Er promovierte in Umwelttechnik an der Fakultät für Wissenschaften und Technologie der Neuen Universität Lissabon, Portugal, über die Integration mehrerer Beobachtungsdatenströme und die diagnostische Modellierung von Kohlenstoffflüssen in Ökosystemen."
+     media={
+        <Image src="/people/NC.JPG"
+        alt="Nuno Carvalhais"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+
+<ContentSplitSection
+    title="Nicole Börner" 
+    subtitle="Nicole Börner ist die Projektkoordinatorin des Büros. Sie hat ein Diplom in Biologie von der Leibniz Universität Hannover. Nach ihrer Promotion in Geoökologie an der Technischen Universität Braunschweig koordinierte sie sechs Jahre lang ein deutsch-chinesisches Graduiertenkolleg zum Thema „Geoökosysteme im Wandel auf dem tibetischen Plateau“. Ihr Schwerpunkt liegt auf interdisziplinärer Kommunikation, Organisation und Veranstaltungsmanagement."
+     media={
+        <Image src="/people/Nicole.JPG"
+        alt="Nicole Boerner"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+<ContentSplitSection
+    title="Markus Reichstein" 
+    subtitle="Markus Reichstein ist Direktor der Abteilung Biogeochemical Integration des Max-Planck-Institut für Biogeochemie, Professor für Globale Geoökologie an der Universität Jena (2014) und Gründungsdirektor des Michael-Stifel-Zentrums Jena für datengetriebene und Simulationswissenschaften (2015). Dr. Reichstein ist Mitglied der BIOMASS Mission Advisory Group (MAG)."
+     media={
+        <Image src="/people/Markus.jpg"
+        alt="Markus Reichstein"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+<ContentSplitSection
+    title="Siyuan Wang" 
+    subtitle="Siyuan Wang  promoviert derzeit am Max-Planck-Institut für Biogeochemie in der Gruppe von Dr. Nuno Carvalhais. Er hat einen Hintergrund in Fernerkundung und einen Master-Abschluss in Kartografie und GIS von der Chinesischen Akademie der Wissenschaften."
+     media={
+        <Image src="/people/siyuan_wang.webp"
+        alt="Siyuan Wang"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+<ContentSplitSection
+    title="Xu Shan" 
+    subtitle="Xu Shan ist Forscher am Max-Planck-Institut für Biogeochemie und arbeitet in der Gruppe von Nuno Carvalhais. Er hat einen Bachelor-Abschluss in Mathematik und Wasserbau von der Tsinghua-Universität. Anschließend promovierte er an der Technischen Universität Delft im Bereich Mikrowellenfernerkundung. Seine Fachgebiete sind Mikrowellenfernerkundung, Landdatenassimilation und maschinelles Lernen."
+     media={
+        <Image src="/people/Xu.JPG"
+        alt="Xu Shan"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+
+ <div className="max-w-6xl mx-auto p-6 space-y-12">
+      <ContentSplitSection
+        title=""
+        subtitle=""
+        media={
+          <ThemeImage
+            lightSrc="/DLR_AR_kurz_DE_bk.png"
+            darkSrc="/DLR_AR_kurz_DE_wh.png"
+            alt="DLR"
+            width={400}
+            height={300}
+          />
+        }
+        mediaPosition="right"
+      />
+</div>
+
+
+<ContentSplitSection
+    title="Kostas Papathanassiou" 
+    subtitle="Konstantinos Papathanassiou ist leitender Wissenschaftler am Institut für Hochfrequenztechnik und Radarsysteme (DLR-HR) des Deutschen Zentrums für Luft- und Raumfahrt (DLR). Er ist Mitglied der DLR-Wissenschaftsteams TanDEM-X und Tandem-L, des ALOS-PalSAR Cal/Val-Teams der JAXA, der Carbon and Kyoto Initiative der JAXA und des GEDI Mission Science Teams der NASA. Er war von Anfang an aktiv an BIOMASS beteiligt und trug bereits 2005 zum ursprünglichen BIOMASS-Vorschlag als Antwort auf den Earth Explorer 7th Call der ESA bei. Seit 2006 ist er Mitglied der BIOMASS Mission Advisory Group der ESA. Derzeit ist er an der Entwicklung des BIOMASS-Betriebsprozessors sowie an der Definition, Implementierung und Validierung der BIOMASS-L2-Algorithmen für Waldhöhe und Biomasse beteiligt."
+     media={
+        <Image src="/people/KP.jpg"
+        alt="Kostas Papathannassiou"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+<ContentSplitSection
+    title="" 
+    subtitle=""
+     media={
+        <ThemeImage 
+        lightSrc="/Bildmarke_blue_15cm.png"
+        darkSrc="/Bildmarke_white_15cm.png"
+        alt="FSU"
+        width={400} height={300}
+        />}
+    mediaPosition="right"    
+/>
+<ContentSplitSection
+    title="Christiane Schmullius" 
+    subtitle="Christiane Schmullius war Science Team Lead für die Radar-Spaceshuttle-Missionen SIR-C/X-SAR und SRTM. Seit 2000 leitet sie die Abteilung für Erdbeobachtung an der Friedrich-Schiller-Universität Jena. Prof. Dr. Schmullius hat eine Reihe von großen Waldbiomasse-Projekten koordiniert: SIBERIA-I und -II, FRA-SAR, BIOMASAR, GlobBiomass. Sie war Mitglied im Earth Science Advisory Committee der ESA und im Deutschen Komitee Zukunft Erde."
+     media={
+        <Image src="/people/GS.jpg"
+        alt="Christiane Schmullius"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+<ContentSplitSection
+    title="Carsten Pathe" 
+    subtitle="Carsten Pathe  erhielt 2002 den Grad eines Dipl.Geogr. von der Friedrich-Schiller-Universität Jena, Deutschland, und promovierte 2009 an der Technischen Universität Wien, Österreich, für seine Forschung über die Abfrage der Bodenfeuchte aus mehrjährigen Envisat ASAR ScanSAR-Daten unter Verwendung einer Änderungserkennungstechnik. Von 2002 bis 2010 arbeitete er als Projektassistent und -leiter am Institut für Photogrammetrie und Fernerkundung (I.P.F.) der Technischen Universität Wien. Seit 2010 ist er am Lehrstuhl für Fernerkundung am Institut für Geographie der Friedrich-Schiller-Universität Jena tätig."
+     media={
+        <Image src="/people/CP.png"
+        alt="Carsten Pathe"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+<ContentSplitSection
+    title="" 
+    subtitle=""
+     media={
+        <Image src="/UFZ_Logo_RGB_DE.png"
+        alt="UFZ"
+        width={400} height={300}
+        />}
+    mediaPosition="right"    
+/>
+<ContentSplitSection
+    title="Andreas Huth" 
+    subtitle="Andreas Huth leitet die Forschungsgruppe Wald und ist stellvertretender Leiter des Departments für Ökologische Modellierung, Helmholtz-Zentrum für Umweltforschung UFZ, Leipzig, Deutschland. Er ist außerdem ordentlicher Professor am Institut für Umweltsystemforschung, Universität Osnabrück, Deutschland. Er ist Mitglied des iDiV-Deutsches Institut für Umweltsystemforschung. Prof. Dr. Huth beschäftigt sich seit mehr als 15 Jahren mit Vegetationsökologie und ökologischer Modellierung. Er war wissenschaftlicher Koordinator der Helmholtz-Allianz „Fernerkundung und Erdsystemdynamik“(EDA)."
+     media={
+        <Image src="/people/AH.jpg"
+        alt="Andreas Huth"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+<ContentSplitSection
+    title="Friedrich Bohn" 
+    subtitle="Friedrich J. Bohn  ist Forscher in der Helmholtz-Initiative „Klimaanpassung und Mitigation“ (HI-CAM) und Waldmodellierungsgruppe des Departments Ökologische Modellierung, Helmholtz-Zentrum für Umweltforschung UFZ, Leipzig, Deutschland. Er war und ist an mehreren Projekten beteiligt: omBEF-Across, PROFOUND, FORMASAM, Helmholtz-Allianz EDA. Seine Forschung konzentriert sich hauptsächlich auf den Einfluss von Biodiversität und Struktur auf Kohlenstoffpools und -flüsse von Wäldern."
+     media={
+        <Image src="/people/Friedrich.png"
+        alt="Friedrich Bohn"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>
+
+### Ehemalige
+
+<ContentSplitSection
+    title="Hui Yang" 
+    subtitle="Hui Yang war PostDoc am Max-Planck-Institut für Biogeochemie in der Gruppe von Nuno Carvalais bis sie Anfang 2024 an die Peking University berufen wurde. Nach ihrem Bachelor-Abschluss in Statistik an der Nankai Universität promovierte sie an der Peking Universität in Physikalischer Geographie. Im Jahr 2018 begann Hui ihre Karriere in der BIOMASS-Gemeinschaft im Laboratoire des Sciences du Climat et de l’Environnement, Frankreich. Von Dezember 2020 bis April 2024 war sie als PostDoc für das Projektbüro BIOMASS tätig."
+     media={
+        <Image src="/people/Hui.JPG"
+        alt="Hui Yang"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+/>

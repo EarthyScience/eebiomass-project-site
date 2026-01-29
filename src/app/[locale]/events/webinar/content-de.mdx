@@ -1,0 +1,636 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+
+<div  className="flex flex-wrap gap-4 my-6">
+# <WP number={1}> Kommende Workshops </WP>
+</div>
+<p></p>
+
+<hr className="mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
+
+<div className="text-[var(--accent-1)] text-3xl" font-bold  mb-0 pb-0>
+<WP number={1}>XVIII. EEBIOMASS Virtueller Workshop </WP>
+</div> 
+<div className="text-2xl "><b>BIOMASS Cal/Val Aktivitäten </b>  
+TBD</div>
+
+<div className="flex justify-center">
+<p>
+<b>Tagesordnung (Agenda) </b>
+</p>
+</div>
+<div className="flex justify-center">
+<table className="min-w-3/4 border-collapse border border-gray-400">
+  <tbody>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">13:00 – 13:05</td>
+      <td className="border border-gray-400 px-4 py-2">Willkommen vom EEBiomass Projektbüro  
+        Nuno Carvalhais (Max-Planck-Institut für Biogeochemie)</td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">13:05 – 13:35</td>
+      <td className="border border-gray-400 px-4 py-2">	</td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">13:35 – 14:05</td>
+      <td className="border border-gray-400 px-4 py-2"></td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">14:05 – 14:35</td>
+      <td className="border border-gray-400 px-4 py-2"></td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">14:35 – 15:05</td>
+      <td className="border border-gray-400 px-4 py-2"></td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">15:05 – 16:00</td>
+      <td className="border border-gray-400 px-4 py-2">Gemeinsame Diskussion & Zusammenfassung</td>
+    </tr>    
+  </tbody>
+</table>
+</div>
+
+Anmeldung: <a className="text-[var(--accent-1)]" href='blank'>geschlossen </a>
+
+<hr className="mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />	
+
+
+# Vergangene Workshops 
+<i>Klicken Sie auf den Titel des Workshops für weitere Details und Präsentationsfolien.</i>
+<p></p>
+<div className="px-4 py-2 my-0">
+  <Accordion type="single" collapsible className="w-full">
+
+    {/* XVIII */}
+    <AccordionItem value="item-18">
+      <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+        <b>XVIII. BIOMASS DISC – Daten-, Innovations- und Wissenschaftscluster </b> (BIOMASS DISC – Data, Innovation and Science Cluster) 3. Dezember 2025
+      </AccordionTrigger>
+      <AccordionContent className="flex flex-col gap-4 text-balance">
+        <p>Jetzt, da BIOMASS gestartet ist und Daten produziert, ist es an der Zeit, dass der BIOMASS DISC seine Arbeit aufnimmt. Dieses Webinar wird Ihnen den BIOMASS DISC vorstellen: Was ist der DISC? Wer ist beteiligt? Was macht er eigentlich? Und warum ist das wichtig?</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/18_Albinet_Introduction to BIOMASS DISC.pdf'><Image src="/workshop/18_Albinet_Introduction to BIOMASS DISC.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/18_Tebaldini_Biomass_December_2025.pdf'><Image src="/workshop/18_Tebaldini_Biomass_December_2025.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>                 
+        <div className="flex justify-center">
+          <table className="min-w-3/4 border-collapse border border-gray-400">
+  <tbody>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">13:00 – 13:05</td>
+      <td className="border border-gray-400 px-4 py-2">Willkommen vom EEBiomass Projektbüro  
+        Nuno Carvalhais (Max-Planck-Institut für Biogeochemie)</td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">13:05 – 13:35</td>
+      <td className="border border-gray-400 px-4 py-2">	Einführung in den BIOMASS Data Innovation and Science Cluster (DISC) (Introduction to the BIOMASS Data Innovation and Science Cluster)  
+        Clement Albinet (Leiter Datenqualität und Cal/Val in der Abteilung Mission Management und Ground Segment, ESA) </td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">13:35 – 14:05</td>
+      <td className="border border-gray-400 px-4 py-2">Die Rolle der Expert Support Laboratories (The role of the Expert Support Laboratories)  
+        Eric Jeansou (BIOMASS DISC Service Manager, ACRI-ST)</td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">14:05 – 14:35</td>
+      <td className="border border-gray-400 px-4 py-2">BIOMASS von den Prinzipien zur Anwendung: Wissenschaftliche Antriebe und gelernte Lektionen (BIOMASS from Principles to Application: Science Drivers and Lessons Learned)  
+        Stefano Tebaldini (BIOMASS DISC Science Lead, Politecnico di Milano)</td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">14:35 – 15:05</td>
+      <td className="border border-gray-400 px-4 py-2">Open-Source-Strategie und wie die Community beitragen kann (Open Source strategy and how the community can contribute)  
+        Yoann Rey-Ricord (ARGANS, CRI-ST)</td>
+    </tr>
+    <tr>
+      <td className="border border-gray-400 px-4 py-2">15:05 – 16:00</td>
+      <td className="border border-gray-400 px-4 py-2">Gemeinsame Diskussion & Zusammenfassung</td>
+    </tr>    
+  </tbody>
+</table>
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+
+    {/* XVII */}
+    <AccordionItem value="item-17">
+      <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+        <b>XVII. Kommende Chancen und Herausforderungen in Waldmissionen (Upcoming opportunities and challenges in Forest missions)</b> 27. März 2025
+      </AccordionTrigger>
+      <AccordionContent className="flex flex-col gap-4 text-balance">
+        <p>Der BIOMASS-Satellit ist endlich startbereit. Zu diesem Anlass haben wir eine Sonderausgabe des Workshops, in der wir den neuesten Missionsstatus und mögliche geplante zukünftige Aktivitäten (z.B. über Missionsinitiative, Cal/Val) präsentieren.</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
+               <a href='/workshop/17 EEBiomass Seminar reduced.pdf'><Image src="/workshop/17 EEBiomass Seminar reduced.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/17 NISAR_EEBIOMASS_2025.pdf'><Image src="/workshop/17 NISAR_EEBIOMASS_2025.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/17 GEOTREES_March27_2025.pdf'><Image src="/workshop/17 GEOTREES_March27_2025.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>                 
+        <div className="flex justify-center">
+          <table className="min-w-3/4 border-collapse border border-gray-400">
+            <tbody>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">13:00 – 13:05</td>
+                <td className="border border-gray-400 px-4 py-2">Willkommen vom EEBiomass Projektbüro <br /> Nuno Carvalhais (Max-Planck-Institut für Biogeochemie)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">13:05 – 13:35</td>
+                <td className="border border-gray-400 px-4 py-2">BIOMASS: ESA’s Forest Satellite set for Launch  <br /> Klaus Scipal (Biomass Mission Manager, ESA)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">13:35 – 14:05</td>
+                <td className="border border-gray-400 px-4 py-2">Current status of the Global Ecosystem Dynamics Investigation (GEDI) and opportunities for SAR-lidar fusion <br /> Ralph O. Dubayah (NASA GEDI Principal Investigator)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">14:05 – 14:35</td>
+                <td className="border border-gray-400 px-4 py-2">NISAR for Ecosystems <br /> Paul Siqueira (Science Team Lead NISAR, University of Massachusetts)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">14:35 – 15:05</td>
+                <td className="border border-gray-400 px-4 py-2">Geo-Trees: the 4th mission <br /> Jerome Chave (Program Director Geo-Trees, CNRS)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">15:05 – 16:00</td>
+                <td className="border border-gray-400 px-4 py-2">Joint Discussion & Wrap-up</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+
+    {/* XVI */}
+    <AccordionItem value="item-16">
+      <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+        <b>XVI. Anwendung zukünftiger BIOMASS-Produkte und Daten durch industrielle Benutzer (Application of future BIOMASS products and data by industry users)</b> 26. Februar 2025
+      </AccordionTrigger>
+      <AccordionContent className="flex flex-col gap-4 text-balance">
+      <p></p>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4 justify-items-center">
+               <a href='/workshop/16 TCCAS-EEBIOMASS-25.pdf'><Image src="/workshop/16 TCCAS-EEBIOMASS-25.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div> 
+        <div className="flex justify-center">
+          <table className="min-w-3/4 border-collapse border border-gray-400">
+            <tbody>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">10:00 – 10:10</td>
+                <td className="border border-gray-400 px-4 py-2">Willkommen vom EEBiomass Projektbüro <br /> Nuno Carvalhais (Max-Planck-Institut für Biogeochemie)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">10:10 – 10:20</td>
+                <td className="border border-gray-400 px-4 py-2">The Inversion Lab <br /> Thomas Kaminski</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">10:20 – 10:30</td>
+                <td className="border border-gray-400 px-4 py-2">Planetek Italia s.r.l. <br /> Maurizio Laterza & Adriano Vulpio</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">10:30 – 10:40</td>
+                <td className="border border-gray-400 px-4 py-2">ZEBRIS Geo-IT GmbH <br /> Gernot Rücker</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">10:40 – 11:30</td>
+                <td className="border border-gray-400 px-4 py-2">Gemeinsame Diskussion & Zusammenfassung (Joint Discussion & Wrap-up)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+
+    {/* XV */}
+    <AccordionItem value="item-15">
+      <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+        <b>XV. Hochauflösende Bilder und maschinelles Lernen zur Waldüberwachung (High-resolution images and machine learning for forest monitoring)</b> 9. Dezember 2024
+      </AccordionTrigger>
+      <AccordionContent className="flex flex-col gap-4 text-balance">
+      <p></p>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4 justify-items-center">
+               <a href='/workshop/15_Ricardo_Mapping_Tropical_Forests_Degradation_EEBIOMASS.pdf'><Image src="/workshop/15_Ricardo_Mapping_Tropical_Forests_Degradation_EEBIOMASS.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>                 
+        <div className="flex justify-center">
+          <table className="min-w-3/4 border-collapse border border-gray-400">
+            <tbody>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">18:00 – 18:10</td>
+                <td className="border border-gray-400 px-4 py-2">Welcome by EEBiomass Project Office <br /> Nuno Carvalhais (Max-Planck Institute for Biogeochemistry)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">18:10 – 18:35</td>
+                <td className="border border-gray-400 px-4 py-2">Mapping tropical forest degradation in high resolution with deep learning <br /> Ricardo Dalagnol (University of California)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">18:35 – 18:50</td>
+                <td className="border border-gray-400 px-4 py-2">[adjourned] Characterising remotely-sensed biomass change across the World’s forests. <br /> Nezha Acil (University of Leicester)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">18:50 – 19:30</td>
+                <td className="border border-gray-400 px-4 py-2">Joint Discussion & Wrap-up</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+
+    {/* XIV */}
+    <AccordionItem value="item-14">
+      <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+        <b>XIV. Verbindungen zwischen globalen Vegetationseigenschaften und Waldbiomasse (Links between Global Vegetation Traits and Forest Biomass)</b> 24. September 2024
+      </AccordionTrigger>
+      <AccordionContent className="flex flex-col gap-4 text-balance">
+      <p></p>
+          
+        <div className="flex justify-center">
+          <table className="min-w-3/4 border-collapse border border-gray-400">
+            <tbody>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">13:30 – 13:40</td>
+                <td className="border border-gray-400 px-4 py-2">Willkommen vom EEBiomass Projektbüro <br /> Nuno Carvalhais (Max-Planck-Institut für Biogeochemie)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">13:40 – 14:05</td>
+                <td className="border border-gray-400 px-4 py-2">Globale Blatteigenschafts-Kartierung <br /> Benjamin Dechant (Synthesis Centre for Biodiversity Sciences (sDiv), German Centre for Integrative Biodiversity Research (iDiv))</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">14:05 – 14:30</td>
+                <td className="border border-gray-400 px-4 py-2">Globale Muster der Holzdichte von Bäumen <br /> Hui Yang (Peking University)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">14:30 – 14:55</td>
+                <td className="border border-gray-400 px-4 py-2">Beckenweit Variable der hydraulischen Sicherheitsmargen von Bäumen sagen die Kohlenstoffbilanz der Amazonaswälder voraus <br /> Julia Tavares (Uppsala University)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">15:55 – 15:35</td>
+                <td className="border border-gray-400 px-4 py-2">Gemeinsame Diskussion & Zusammenfassung (Joint Discussion & Wrap-up)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+
+    {/* XIII */}
+    <AccordionItem value="item-13">
+      <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+        <b>XIII. Hochauflösende Satellitenbilder und maschinelles Lernen zur Waldüberwachung (High-resolution satellite imagery and machine learning for forest monitoring)</b> 28. März 2024
+      </AccordionTrigger>
+      <AccordionContent className="flex flex-col gap-4 text-balance">
+      <p></p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
+               <a href='/workshop/13 AGB_CGR_EGU.pdf'><Image src="/workshop/13 AGB_CGR_EGU.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/13 EEA_2024_martin_brandt.pdf'><Image src="/workshop/13 EEA_2024_martin_brandt.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/13 Prof Gorgens - Amazon dynamics.pdf'><Image src="/workshop/13 Prof Gorgens - Amazon dynamics.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+        <div className="flex justify-center">
+          <table className="min-w-3/4 border-collapse border border-gray-400">
+            <tbody>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">14:30 – 14:40</td>
+                <td className="border border-gray-400 px-4 py-2">Willkommen vom EEBiomass Projektbüro <br /> Nuno Carvalhais (Max-Planck-Institut für Biogeochemie)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">14:30 – 14:40</td>
+                <td className="border border-gray-400 px-4 py-2">Kohlenstoffbestände auf Baumebene im kontinentalen Maßstab <br /> Martin Brandt (University of Copenhagen)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">15:05 – 15:30</td>
+                <td className="border border-gray-400 px-4 py-2">Verfolgung der Dynamik des Amazonas-Waldes <br /> Eric Bastos Gorgens (Universidade Federal dos Vales do Jequitinhonha e Mucuri) <br /> Robson Borges de Lima (Universidade do Estado do Amapá)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">15:30 – 15:55</td>
+                <td className="border border-gray-400 px-4 py-2">Kartierung der tropischen Walddegradation in hoher Auflösung mit Deep Learning (VERTAGT) <br /> Ricardo Dalagnol (University of California, Los Angeles, UCLA)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">15:55 – 16:15</td>
+                <td className="border border-gray-400 px-4 py-2">Gemeinsame Diskussion (Joint Discussion)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">16:15 – 16:35</td>
+                <td className="border border-gray-400 px-4 py-2">Offene vertiefte Diskussion (Open In-Depth Discussion)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Während der konstruktiven Diskussionen wurden mehrere Klarstellungen zu baumgestützten Methoden gegeben: die Vergleiche mit Biomasseprodukten sind in einem ergänzenden Teil verfügbar; LIDAR ist eine Hauptquelle für Trainingsmodelle (Liu et al 2023; und Li et al 2023); Daten zur Kronenhöhe sind bei 30 m und auf Anfrage bei 3 m verfügbar; Auswertung mit Bodenbeobachtungen (Li et al 2023; Li et al preprint).</p>
+      </AccordionContent>
+    </AccordionItem>
+
+
+{/* XII */}
+<AccordionItem value="item-12">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>XII. Störungen und Ökosystem-Wiederherstellung (Disturbances and ecosystem recovery)</b> 24. Januar 2024
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
+               <a href='/workshop/12 eebiomass_virtual_workshop_jan2024.pdf'><Image src="/workshop/12 eebiomass_virtual_workshop_jan2024.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/12 Seidl_EEBiomass.pdf'><Image src="/workshop/12 Seidl_EEBiomass.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/12 Workshop_Biogeochemical and biophysical effects of tropical f orest disturbance_240125.pdf'><Image src="/workshop/12 Workshop_Biogeochemical and biophysical effects of tropical f orest disturbance_240125.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">12:30 – 12:40</td><td className="border px-4 py-2">Welcome by EEBiomass Project Office <br /> Nuno Carvalhais (Max-Planck Institute for Biogeochemistry)</td></tr>
+          <tr><td className="border px-4 py-2">12:40 – 13:05</td><td className="border px-4 py-2">Disturbance and resilience of Europe’s forests <br /> Rupert Seidl (Technische Universität München)</td></tr>
+          <tr><td className="border px-4 py-2">13:05 – 13:30</td><td className="border px-4 py-2">The carbon sink of recovering degraded and secondary forests across the tropics: Science, Satellites and Policy <br /> Viola Heinrich (GFZ German Research Centre for Geosciences)</td></tr>
+          <tr><td className="border px-4 py-2">13:30 – 13:55</td><td className="border px-4 py-2">Biogeochemical and biophysical effects of tropical forest disturbance <br /> Lei Zhu (Tsinghua University)</td></tr>
+          <tr><td className="border px-4 py-2">13:55 – 14:20</td><td className="border px-4 py-2">How degradation, wildfire, and climate change threaten the northern peatland carbon sink <br /> Sophie Wilkinson (Simon Fraser University)</td></tr>
+          <tr><td className="border px-4 py-2">14:20 – 14:30</td><td className="border px-4 py-2">Joint Discussion</td></tr>
+          <tr><td className="border px-4 py-2">14:30 – 14:50</td><td className="border px-4 py-2">Open In-Depth Discussion</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* XI */}
+<AccordionItem value="item-11">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>XI. Biomasse und Klimawandel (Biomass and Climate Change)</b> 9. November 2023
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+    <p>Pflanzen auf der Erde spielen eine entscheidende Rolle bei der Begrenzung des Klimawandels durch die Bindung von Kohlenstoff. Ihre Fähigkeit dazu ändert sich jedoch in Reaktion auf den Klimawandel und wird durch menschliche Aktivitäten und natürliche Störungen bedroht. Die Überwachung des Zusammenhangs zwischen Kohlenstoffbindung (Biomasse) und Klimawandel ist wesentlich, um die Entwicklung der Klimapolitik zu unterstützen.</p>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/11 eebiomass_Forzieri_v04.pdf'><Image src="/workshop/11 eebiomass_Forzieri_v04.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/11 Max Planck presentation November 2023_Nancy Harris.pdf'><Image src="/workshop/11 Max Planck presentation November 2023_Nancy Harris.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/11 ruehrS_EEBIOMASS.pdf'><Image src="/workshop/11 ruehrS_EEBIOMASS.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/11 Smith_EEBiomass_Nov2023.pdf'><Image src="/workshop/11 Smith_EEBiomass_Nov2023.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">15:00 – 15:10</td><td className="border px-4 py-2">Welcome by EEBiomass Project Office <br /> Nuno Carvalhais (Max Planck Institute for Biogeochemistry)</td></tr>
+          <tr><td className="border px-4 py-2">15:10 – 15:35</td><td className="border px-4 py-2">Tracking Changes in Global Vegetation Resilience <br /> Taylor Smith (University of Potsdam)</td></tr>
+          <tr><td className="border px-4 py-2">15:35 – 16:00</td><td className="border px-4 py-2">Emerging signals of a global drift in forest resilience under climate change <br /> Giovanni Forzieri (University of Florence)</td></tr>
+          <tr><td className="border px-4 py-2">16:00 – 16:25</td><td className="border px-4 py-2">Global Forest Watch: What’s New in Forest Carbon Monitoring <br /> Nancy Harris (World Resource Institute)</td></tr>
+          <tr><td className="border px-4 py-2">16:25 – 16:50</td><td className="border px-4 py-2">Evidence and attribution of the land carbon sink’s historic enhancement <br /> Sophie Ruehr (University of California Berkeley)</td></tr>
+          <tr><td className="border px-4 py-2">16:50 – 17:15</td><td className="border px-4 py-2">Joint Discussion</td></tr>
+          <tr><td className="border px-4 py-2">17:15 – 17:30</td><td className="border px-4 py-2">Open In-Depth Discussion</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* X */}
+<AccordionItem value="item-10">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>X. Licht auf die Photosynthese werfen: Ferngestützte Fluoreszenz (Shining Light from Photosynthesis: Remote Sensing of Fluorescence)</b> 28. September 2023
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/10 230928_FLEX_Projektbüro_eeBIOMASS_Bendig.pdf'><Image src="/workshop/10 230928_FLEX_Projektbüro_eeBIOMASS_Bendig.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/10 230928_FLEX_Projektbüro_eeBIOMASS_Rascher.pdf'><Image src="/workshop/10 230928_FLEX_Projektbüro_eeBIOMASS_Rascher.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/10 Pierrat_2023_EEBIOMASS2.pdf'><Image src="/workshop/10 Pierrat_2023_EEBIOMASS2.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/10 presentation david martini.pdf'><Image src="/workshop/10 presentation david martini.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">13:00 – 13:05</td><td className="border px-4 py-2">Welcome <br /> Nuno Carvalhais, Max-Planck Institute for Biogeochemistry</td></tr>
+          <tr><td className="border px-4 py-2">13:05 – 13:25</td><td className="border px-4 py-2">Flex Projektbüro: Introduction to ESA’s Fluorescence EXplorer (FLEX) <br /> Juliane Bendig, Forschungszentrum Jülich</td></tr>
+          <tr><td className="border px-4 py-2">13:25 – 13:45</td><td className="border px-4 py-2">The Science behind FLEX <br /> Uwe Rascher(FZ Jülich)</td></tr>
+          <tr><td className="border px-4 py-2">13:45 – 14:05</td><td className="border px-4 py-2">Conservation of excitation energy to understand the dynamics of sun-induced fluorescence <br /> David Martini (MPI for Biogeochemistry)</td></tr>
+          <tr><td className="border px-4 py-2">14:05 – 14:25</td><td className="border px-4 py-2">Proximal remote sensing of solar-induced chlorophyll fluorescence: opportunities, challenges, and need for coordinated campaigns <br /> Zoe Pierrat (NASA)</td></tr>
+          <tr><td className="border px-4 py-2">14:25 – 15:00</td><td className="border px-4 py-2">Joint Discussion</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* IX */}
+<AccordionItem value="item-9">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>IX. Die Zukunft der Walddemographie (The Future of Forest Demography)</b> 25. Mai 2023
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/9 EEBIOMASS_Cox.pdf'><Image src="/workshop/9 EEBIOMASS_Cox.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/9 EEBIOMASS_DEM_workshop_Argles.pdf'><Image src="/workshop/9 EEBIOMASS_DEM_workshop_Argles.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/9 EEBIOMASS_Fisher.pdf'><Image src="/workshop/9 EEBIOMASS_Fisher.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/9 EEBIOMASS_Pugh_v2.pdf'><Image src="/workshop/9 EEBIOMASS_Pugh_v2.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">13:00 – 13:05</td><td className="border px-4 py-2">Willkommen <br /> Nuno Carvalhais, Max-Planck-Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">13:05 – 13:25</td><td className="border px-4 py-2">Variation in der Struktur demografischer DGVMs <br /> Rosie Fisher (CICERO)</td></tr>
+          <tr><td className="border px-4 py-2">13:25 – 13:45</td><td className="border px-4 py-2">Können wir Walddemographie global modellieren? Bewertung von hochmodernen demografischen DGVMs <br /> Annemarie Eckes-Shephard (Lund University)</td></tr>
+          <tr><td className="border px-4 py-2">13:45 – 14:05</td><td className="border px-4 py-2">Was können demografische Modelle für uns tun? Kopplung von Modellen und Fernerkundung <br /> Thomas Pugh (Lund University, University of Birmingham)</td></tr>
+          <tr><td className="border px-4 py-2">14:05 – 14:25</td><td className="border px-4 py-2">Verwendung des RED DGVM-Gleichgewichts zum Ableiten von Demographie aus Fernerkundung <br /> Arthur Argles  (Met Office Hadley Centre)</td></tr>
+          <tr><td className="border px-4 py-2">14:25 – 14:45</td><td className="border px-4 py-2">Einführung der Hypothese der demografischen Optimalität in Wäldern <br /> Peter Cox (University of Exeter)</td></tr>
+          <tr><td className="border px-4 py-2">14:45 – 15:00</td><td className="border px-4 py-2">Gemeinsame Diskussion (Joint Discussion)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* VIII */}
+<AccordionItem value="item-8">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>VIII. Unsicherheit (Uncertainty)</b> 23. März 2023
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/8 BGC_NC_Intro_new_22032023.pdf'><Image src="/workshop/8 BGC_NC_Intro_new_22032023.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/8 Herold_GFZ_EEBiomass_23Maerz23.pdf'><Image src="/workshop/8 Herold_GFZ_EEBiomass_23Maerz23.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">13:00 – 13:10</td><td className="border px-4 py-2">Willkommen <br /> Nuno Carvalhais, Max-Planck-Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">13:10 – 13:40</td><td className="border px-4 py-2">Unsicherheiten bei globalen und nationalen Biomasseschätzungen anhand von Weltraum-Daten <br /> Martin Herold, GFZ German Research Centre for Geosciences, Helmholtz Centre Potsdam</td></tr>
+          <tr><td className="border px-4 py-2">13:40 – 14:10</td><td className="border px-4 py-2">Hochauflösende Fernerkundung von Wäldern: Umgang mit Unsicherheiten bei Daten und Methoden <br /> Emily Lines, University of Cambridge</td></tr>
+          <tr><td className="border px-4 py-2">14:10 – 14:30</td><td className="border px-4 py-2">Gemeinsame Diskussion, Zusammenfassung & Ausblick (Joint discussion, wrap up & Outlook)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* VII */}
+<AccordionItem value="item-7">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>VII. Calibration / Validation</b> November 24th, 2022
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">16:00 – 16:10</td><td className="border px-4 py-2">Welcome <br /> Nuno Carvalhais, Max-Planck Institute for Biogeochemistry</td></tr>
+          <tr><td className="border px-4 py-2">16:10 – 16:40</td><td className="border px-4 py-2">Recommendations from the CEOS biomass validation protocol <br /> Laura Duncanson, University of Maryland</td></tr>
+          <tr><td className="border px-4 py-2">16:40 – 17:10</td><td className="border px-4 py-2">‘Biomass harmonization’ activities <br /> Neha Hunka, University of Maryland</td></tr>
+          <tr><td className="border px-4 py-2">17:10 – 17:30</td><td className="border px-4 py-2">Joint discussion, wrap up & Outlook</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* VI */}
+<AccordionItem value="item-6">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>VI. Verbindung von Waldstruktur und -funktion (Linking Forest Structure and Function)</b> 27. Oktober 2022
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/6 2022_structure_fluxes_biomass_workshop_Migliavacca.pdf'><Image src="/workshop/6 2022_structure_fluxes_biomass_workshop_Migliavacca.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/6 Mercado_EEBIOMASS_final.pdf'><Image src="/workshop/6 Mercado_EEBIOMASS_final.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">15:00 – 15:10</td><td className="border px-4 py-2">Willkommen <br /> Nuno Carvalhais, Max-Planck-Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">15:10 – 15:40</td><td className="border px-4 py-2">Modellierung großflächiger Walddynamik in neotropischen Tiefland- und Bergwäldern <br /> Lina Mercado, University of Exeter</td></tr>
+          <tr><td className="border px-4 py-2">15:40 – 16:10</td><td className="border px-4 py-2">Wechselspiel zwischen Ökosystemstruktur, Funktionen und entstehenden Kohlenstoff- und Wasserflüssen <br /> Mirco Migliavacca, European Commission Joint Research Centre</td></tr>
+          <tr><td className="border px-4 py-2">16:10 – 16:30</td><td className="border px-4 py-2\">Gemeinsame Diskussion, Zusammenfassung & Ausblick (Joint discussion, wrap up & Outlook)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* V */}
+<AccordionItem value="item-5">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>V. Amazonas Kohlenstoff-Walddynamik (Amazon Carbon Forest Dynamics)</b> 5. Mai 2022
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/5 Jena_05042022.pdf'><Image src="/workshop/5 Jena_05042022.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/5 Max Planck Jena seminar Amazonia Short 4 May 2022.pdf'><Image src="/workshop/5 Max Planck Jena seminar Amazonia Short 4 May 2022.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+       </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">16:00 – 16:10</td><td className="border px-4 py-2">Welcome <br /> Nuno Carvalhais, Max-Planck Institute for Biogeochemistry</td></tr>
+          <tr><td className="border px-4 py-2">16:10 – 16:30</td><td className="border px-4 py-2">The changing carbon balance in Amazonia <br /> Paulo Artaxo – Instituto de Física da Universidade de Sao Paulo</td></tr>
+          <tr><td className="border px-4 py-2">16:30 – 16:50</td><td className="border px-4 py-2">Emissions from forest degradation in Amazonia <br /> Luiz Aragão – INPE – National Institute for Space research – Brazil</td></tr>
+          <tr><td className="border px-4 py-2">16:50 – 17:10</td><td className="border px-4 py-2">How weather events modify gas concentrations <br /> Luiz Machado, Max Planck Institute for Chemistry / Instituto de Física da Universidade de Sao Paulo</td></tr>
+          <tr><td className="border px-4 py-2">17:10 – 17:30</td><td className="border px-4 py-2">Joint discussion, wrap up & Outlook</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* IV */}
+<AccordionItem value="item-4">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>IV. Baumsterblichkeit (Tree Mortality)</b> 3. Februar 2022
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">15:00 – 15:05</td><td className="border px-4 py-2">Willkommen <br /> Nuno Carvalhais, Max-Planck-Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">15:05 – 15:35</td><td className="border px-4 py-2">Das Potenzial der Erdbeobachtung zur Verbesserung der Zuordnung von Biomasseveränderungen zu menschlichen vs. natürlichen Antriebsfaktoren <br /> Ana Bastos, Max-Planck-Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">15:35 – 16:05</td><td className="border px-4 py-2">Zunehmende Baumsterblichkeit durch Klimawandel? – Herausforderungen bei der Bewertung und Skalierung von Mortalitätstrends <br /> Henrik Hartmann, Max-Planck-Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">16:05 – 16:15</td><td className="border px-4 py-2">Zusammenfassung & Ausblick (Wrap up & Outlook)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* III */}
+<AccordionItem value="item-3">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>III. BIOMASS Sekundäre Missionsprodukte (BIOMASS Secondary Mission Products)</b> 25. November 2021
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
+               <a href='/workshop/3 BIOMASS Secondary Mission Objectives; Ice Applications.pdf'><Image src="/workshop/3 BIOMASS Secondary Mission Objectives; Ice Applications.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/3 BIOMASS-Office_BIOMASS-DEM_DLR_2021-11-25.pdf'><Image src="/workshop/3 BIOMASS-Office_BIOMASS-DEM_DLR_2021-11-25.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/3 Georg_Fischer_DLR_P_band_land_ice_structures_PolSAR_TomoSAR.pdf'><Image src="/workshop/3 Georg_Fischer_DLR_P_band_land_ice_structures_PolSAR_TomoSAR.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">14:00 – 14:10</td><td className="border px-4 py-2">Willkommen & Einführung in das Projekt <br /> Nuno Carvalhais</td></tr>
+          <tr><td className="border px-4 py-2">14:10 – 14:35</td><td className="border px-4 py-2">Digitales Höhenmodell (DEM) für Sekundärmissionsprodukte der BIOMASS-Mission <br /> Pau Prats, German Aerospace Center – Microwaves and Radar Institute</td></tr>
+          <tr><td className="border px-4 py-2">14:35 – 15:00</td><td className="border px-4 py-2">Sekundäre Missionsziele der BIOMASS-Mission: Eis-Anwendungen <br /> Jørgen Dall, Technical University of Denmark</td></tr>
+          <tr><td className="border px-4 py-2">15:00 – 15:25</td><td className="border px-4 py-2">Eisstrukturen (Ice Structures) <br /> Georg Fischer, German Aerospace Center – Microwaves and Radar Institute</td></tr>
+          <tr><td className="border px-4 py-2">15:25 – 15:55</td><td className="border px-4 py-2">Gemeinsame Diskussion (Joint Discussion)</td></tr>
+          <tr><td className="border px-4 py-2">15:55 – 16:00</td><td className="border px-4 py-2">Zusammenfassung & Ausblick (Wrap up & Outlook)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* II */}
+<AccordionItem value="item-2">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>II. DLR Neue Perspektiven der Erdbeobachtung (DLR Neue Perspektiven der Erdbeobachtung)</b> 15. Juni 2021
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
+               <a href='/workshop/2 GSFP_David_Urquiza_DLR_jun_2021_Shared.pdf'><Image src="/workshop/2 GSFP_David_Urquiza_DLR_jun_2021_Shared.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/2 Introducing the Forest Canopy Disturbance Monitoring (FCDM) Tool - JRC Andreas Langner.pdf'><Image src="/workshop/2 Introducing the Forest Canopy Disturbance Monitoring (FCDM) Tool - JRC Andreas Langner.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/2 KostasPapathanassiou_BIOMASS_Office_WS_DLR_.pdf'><Image src="/workshop/2 KostasPapathanassiou_BIOMASS_Office_WS_DLR_.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">14:40 – 15:00</td><td className="border px-4 py-2">Welcome & introduction <br /> Nuno Carvalhais, Max Planck Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">15:00 – 15:40</td><td className="border px-4 py-2">Presentation of BIOMASS mission / products <br /> Kostas Papathanassiou, DLR, Institut für Hochfrequenztechnik und Radarsysteme</td></tr>
+          <tr><td className="border px-4 py-2">15:40 – 15:55</td><td className="border px-4 py-2">Operational Forest Degradation Monitoring in the Tropics – Introducing the Forest Canopy Disturbance Monitoring Tool <br /> Andreas Johannes Langner, Joint Research Centre (JRC-Ispra)</td></tr>
+          <tr><td className="border px-4 py-2">15:55 – 16:10</td><td className="border px-4 py-2">Geospatial forest patterns in northwestern and central amazon forests affected by wind disturbances <br /> José David Urquiza Muńoz, Max Planck Institut für Biogeochemie</td></tr>
+          <tr><td className="border px-4 py-2">16:10 – 17:10</td><td className="border px-4 py-2">Break and discussion on BIOMASS products to “Monitoring” & “Modelling” in Breakout Rooms</td></tr>
+          <tr><td className="border px-4 py-2">17:10 – 17:25</td><td className="border px-4 py-2">Joint Discussion</td></tr>
+          <tr><td className="border px-4 py-2">17:25 – 17:30</td><td className="border px-4 py-2">Outlook</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+{/* I */}
+<AccordionItem value="item-1">
+  <AccordionTrigger className="border border-[var(--accent-1)] px-4 py-2">
+    <b>I. BIOMASS Datenprodukte & Ökologie, Kohlenstoffkreislauf und Erdsystemwissenschaften (BIOMASS data products & Ecology, Carbon Cycle and Earth System Science)</b> 15. April 2021
+  </AccordionTrigger>
+  <AccordionContent className="flex flex-col gap-4 text-balance">
+  <p></p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+               <a href='/workshop/1 AnnaBerninger_Biomass estimation in tropical forests in Indonesia using active remote sensing systems.pdf'><Image src="/workshop/1 AnnaBerninger_Biomass estimation in tropical forests in Indonesia using active remote sensing systems.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/1 FranziskaTaubert_Fragmentation_.pdf'><Image src="/workshop/1 FranziskaTaubert_Fragmentation_.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/1 KostasPapathanassiou_BIOMASS_Office_WS_DLR_.pdf'><Image src="/workshop/1 KostasPapathanassiou_BIOMASS_Office_WS_DLR_.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+               <a href='/workshop/1 MW_MPI_biomass_Apr21.pdf'><Image src="/workshop/1 MW_MPI_biomass_Apr21.png" alt="Workshop Talk" width={400} height={200} className="object-contain" /> </a>  
+        </div>   
+    <div className="flex justify-center">
+      <table className="min-w-3/4 border-collapse border border-gray-400">
+        <tbody>
+          <tr><td className="border px-4 py-2">14:00 – 14:15</td><td className="border px-4 py-2">Willkommen und Eisbrecherphase <br /> Nuno Carvalhais</td></tr>
+          <tr><td className="border px-4 py-2">14:15 – 14:40</td><td className="border px-4 py-2">Präsentation der BIOMASS-Mission / -Produkte <br /> Kostas Papathanassiou (DLR)</td></tr>
+          <tr><td className="border px-4 py-2">14:40 – 14:55</td><td className="border px-4 py-2">Biomasseschätzung in tropischen Wäldern Indonesiens mit aktiven Fernerkundungssystemen <br /> Anna Berninger</td></tr>
+          <tr><td className="border px-4 py-2">14:55 – 15:10</td><td className="border px-4 py-2">Globale Muster der tropischen Waldfragmentierung <br /> Franziska Taubert</td></tr>
+          <tr><td className="border px-4 py-2">15:10 – 15:25</td><td className="border px-4 py-2">Wie können Biomasse-Daten die Kalibrierung und das Testen von C-Modellen informieren <br /> Mathew Williams</td></tr>
+          <tr><td className="border px-4 py-2">15:25 – 16:05</td><td className="border px-4 py-2">Pause und Diskussion in Breakout-Räumen (Break and Discussion in Break Out Rooms)</td></tr>
+          <tr><td className="border px-4 py-2">16:05 – 17:00</td><td className="border px-4 py-2">Diskussion (Discussion)</td></tr>
+          <tr><td className="border px-4 py-2">17:00</td><td className="border px-4 py-2">Beendigung (Adjourn)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </AccordionContent>
+</AccordionItem>
+
+
+  </Accordion>
+</div>

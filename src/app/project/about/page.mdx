@@ -1,0 +1,95 @@
+import ContentSplitSection from '@/components/ContentSplitSection';
+import Image from 'next/image';
+import EarthGlobe from '@/components/EarthGlobe'; 
+import { Button } from "@/components/ui/button"
+import { SiGithub } from "react-icons/si";
+import { SiLucide } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMdx } from "react-icons/si";
+import { SiThreedotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaHeartbeat } from "react-icons/fa";
+import { MdOutlineSatelliteAlt } from "react-icons/md";
+import { FaGlobeEurope } from "react-icons/fa";
+import { FaGlobeAmericas } from "react-icons/fa";
+import { TbCalendarTime } from "react-icons/tb";
+import { FaTools } from "react-icons/fa";
+import { GiOrbit } from "react-icons/gi";
+import { FaSatelliteDish } from "react-icons/fa";
+
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+
+<div  className="flex flex-wrap justify-center gap-4 my-6">
+# <WP number={1}> Project Office BIOMASS</WP>
+</div>
+<p></p>
+<div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
+  {/* Logo */}
+  <Image src="/Logo1.png" alt="eebiomass" width={200} height={10} className="object-contain bg-black" />
+  {/* Text */}
+  <p className="text-center sm:text-left whitespace-nowrap">
+        <h2 className="text-xl font-bold mb-3">a collaboration of</h2>
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.bgc-jena.mpg.de/en'>Max-Planck Institute for Biogeochemistry (MPI-BGC)</a>  
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.uni-jena.de/en'>Friedrich-Schiller University Jena (FSU)</a>  
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.dlr.de/en/hr/'>German Aerospace Center (DLR)</a>  
+        <a className="text-justify text-[var(--accent-1)]" href='https://www.ufz.de/index.php?en=33573'>Helmholtz Centre for Environmental Research (UFZ)</a>
+  </p>
+</div>
+
+<hr className="w-3/4 mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
+
+<div className="flex flex-col items-center text-center">
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 
+                  border-[var(--accent-1)] bg-white mb-3">
+    <FaSatelliteDish style={{ color: 'black' }} size={48} />
+  </div>
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">we aim at</h2>
+  <p className="leading-tight">
+    synthesize, produce, and disseminate information within the national BIOMASS community<br />
+    identify gaps<br />
+    investigate solutions within the context of the BIOMASS mission<br />
+    establish communication to maintain a necessary dialogue within the broader context of the BIOMASS mission
+  </p>
+</div>
+
+<hr className="w-3/4 mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
+
+<div className="flex flex-col items-center text-center">
+  <div className="flex items-center justify-center w-14 h-14 rounded-full border-4 
+                  border-[var(--accent-1)] bg-white mb-3">
+    <FaGlobeEurope style={{ color: 'black' }} size={48} />
+  </div>
+  <h2 style={{ fontVariant: 'small-caps' }} className="text-xl font-bold mb-3">for our community, we host</h2>
+  <p className="leading-tight">
+    regular <a className="text-[var(--accent-1)]" href="/events/webinar">virtual workshops</a> on different topics around BIOMASS  
+    <a className="text-[var(--accent-1)]" href="/events/summerschool">summer Schools</a> (2022, 2024, 2025 in Jena)  
+    an <a className="text-[var(--accent-1)]" href="https://eo-college.org/resource/the-esa-biomass-mission/">online presentation</a> on all aspects of the BIOMASS mission via eo-college
+    </p>
+</div>
+
+<hr className="w-3/4 mx-auto border-t border-dotted border-[var(--accent-1)] my-4" />
+
+ <div className="flex justify-center mb-4">
+        <Image src="/Biomass_mission-768x432.jpg" alt="BIOMASS Satellite" width={420} height={200} className="object-contain"
+        /> Earth Explorer BIOMASS @ ESA / Airbus Defence and Space
+    </div> 
+ 
+<p className="text-justify">
+In the advent of <a href='https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass' className="text-[var(--accent-1)]">ESA’s BIOMASS mission</a> it is relevant to synthesize and bring forth the current understanding of challenges and opportunities in monitoring biomass in terrestrial ecosystems to further develop our knowledge of the Earth system. Within ESA’s Earth Explorers, the primary objective of BIOMASS is to improve our understanding on the role of the land biosphere on the global carbon cycle, with clear implications in a context of climate change. The information content in characterizing the spatial and temporal variability in P-band biomass is unprecedented and unique for terrestrial ecosystem studies, especially with what relates to land use change and disturbance dynamics fluxes, ultimately improving the ability to model the global carbon. The mission necessarily embeds challenges across the board, from instrument design, definition of retrieval algorithms and calibration-validation strategies, to downstream data concepts and deployment for a wide diversity of applications.
+</p>
+ <div className="flex justify-center mb-4">
+        <Image src="/Poster_AlumniDay22_BiomassOffice.CP.V01.jpg" alt="Poster on Biomass Office" width={400} height={200} className="object-contain"
+        /> 
+        Our project partners Carten Pathe and Christiane Schmullius (FSU) created this visual overview on the Project Office and the BIOMASS mission, which you can download <a className="text-[var(--accent-1)]" href='https://eebiomass.org/wp-content/uploads/2022/11/Poster_AlumniDay22_BiomassOffice.CP_.V01.pdf'>here</a>. 
+    </div> 
+

@@ -5,47 +5,85 @@ import { Button } from "@/components/ui/button"
 </div>
 <p></p>
 
-Die BIOMASS-Mission liefert eine Reihe <b>globaler, konsistenter Waldprodukte</b> aus P-Band-SAR-Beobachtungen. Zu den Kerndatenprodukten zählen <b>oberirdische Waldbiomasse</b>, <b>Waldhöhe</b> und <b>Waldschäden</b> und bieten neue Einblicke in Waldstruktur, Kohlenstoffvorräte und ihre Veränderung. Die Produkte werden als Level-2- und Level-3-Datensätze erzeugt und dienen der Langzeitbeobachtung, Klimaforschung und Erdsystemmodellierung.
+Die BIOMASS-Mission liefert eine Reihe <b>globaler, konsistenter Waldprodukte</b>, die auf P-Band-SAR-Beobachtungen basieren. Zu den Kerndatenprodukten zählen <b>oberirdische Waldbiomasse</b>, <b>die Waldhöhe</b> und <b>Waldstörungen</b>. Sie ermöglichen beispiellose Einblicke in die Waldstruktur, die Kohlenstoffvorräte und deren Veränderungen über die Zeit. Diese Produkte werden als Level-2- und Level-3-Datensätze generiert und sind für Langzeitbeobachtungen, Klimastudien und die Erdsystemmodellierung konzipiert.
 
-Zusätzlich erstellt BIOMASS <b>experimentelle und explorative Datensätze</b>, die die Besonderheiten von P-Band-SAR nutzen – für Forschung zu Walddynamik, Untersaatenstreuung und Ökosystemprozessen. Alle Produkte werden mit Unsicherheitsangaben geliefert und folgen Prinzipien offener Wissenschaft.
+Zusätzlich zu den Kernprodukten erstellt BIOMASS <b>experimentelle und explorative Datensätze</b>, die die einzigartigen Möglichkkeiten des P-Band-SAR nutzen und die fortgeschrittene Forschung zu Walddynamik, Untergrundstreuung und Ökosystemprozessen unterstützen. Alle Produkte werden mit Unsicherheitsangaben bereitgestellt und folgen Prinzipien der offenen Wissenschaft.
 
-<div className="overflow-x-auto">
-  <table className="w-full border text-left text-sm border border-gray-200">
-    <thead className="bg-[var(--accent-3)] font-bold ">
-      <tr>
-        <th>Level</th>
-        <th>Produkttyp</th>
-        <th>Beschreibung</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Level-1</td>
-        <td>SAR-Rückstreuung & interferometrische Daten</td>
-        <td>Kalibrierte P-Band-SAR-Messungen als Grundlage aller höheren Produkte.</td>
-      </tr>
-      <tr>
-        <td>Level-2</td>
-        <td>Waldbiophysikalische Produkte</td>
-        <td>Globale Karten zu oberirdischer Biomasse, Waldhöhe und Waldschäden inkl. Unsicherheiten.</td>
-      </tr>
-      <tr>
-        <td>Level-3</td>
-        <td>Raster- & Zeitreihenprodukte</td>
-        <td>Räumlich und zeitlich aggregierte Datensätze für Klimastudien, Kohlenstoffbilanzen und Langzeitmonitoring.</td>
-      </tr>
-      <tr>
-        <td>Experimental</td>
-        <td>Fortgeschrittene Forschungsprodukte</td>
-        <td>Explorative Datensätze zur Nutzung der P-Band-SAR-Möglichkeiten für Wald- und Ökosystemforschung.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+
+    <div className="overflow-x-auto">
+      <table className="w-full border text-left text-sm border border-gray-200" >
+        <thead className="bg-[var(--accent-2)] font-bold ">
+          <tr>
+            <th>
+              Level
+            </th>
+            <th>
+              Produkttyp
+            </th>
+            <th>
+              Beschreibung
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+            Level-1
+            </td>
+             <td>
+             SAR-Rückstreuung & interferometrische Daten
+            </td>
+            <td>
+            Kalibrierte P-Band-SAR-Messungen als Grundlage aller höheren Produkte.
+            </td>
+          </tr>
+
+          <tr>
+        <td>
+        Level-2
+        </td>
+        <td>
+        Waldbiophysikalische Produkte
+        </td>
+        <td>
+        Globale Karten zu oberirdischer Biomasse, Waldhöhe und Waldschäden inkl. Unsicherheiten.
+        </td>
+          </tr>
+
+          <tr>
+            <td>
+            Level-3
+            </td>
+            <td>
+            Raster- & Zeitreihenprodukte
+            </td>
+            <td>
+            Räumlich und zeitlich aggregierte Datensätze für Klimastudien, Kohlenstoffbilanzen und Langzeitmonitoring.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+            Experimentell
+            </td>
+            <td>
+            Fortgeschrittene Forschungsprodukte
+            </td>
+            <td>
+            Explorative Datensätze zur Nutzung der P-Band-SAR-Möglichkeiten für Wald- und Ökosystemforschung.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
 
 ## <p style={{ fontVariant: 'small-caps' }}>Open Access, Open Science und Beteiligung der Community</p>
 
-BIOMASS-Produkte, Algorithmen und Validierungswerkzeuge werden nach Prinzipien offener Wissenschaft und Open Source entwickelt. Die Prozessierungssoftware und Algorithmen sind im BIOMASS Product Algorithm Laboratory (<b>BioPAL</b>) verankert – für Transparenz, Reproduzierbarkeit und gemeinsame Weiterentwicklung. Offener Zugang zu Daten, Prozessierungsumgebungen und Auswertewerkzeugen wird über die Multi-mission Algorithm and Analysis Platform (<b>MAAP</b>) unterstützt.
+Alle BIOMASS-Produkte, Algorithmen und Validierungswerkzeuge werden nach den Prinzipien Open Science und Open Source entwickelt. Die Entwicklung der Prozessierungssoftware und zugehöriger Algorithmen sind im BIOMASS Product Algorithm Laboratory (<b>BioPAL</b>) gebündelt – für Transparenz, Reproduzierbarkeit und gemeinschaftliche Weiterentwicklung. Der offene Zugang zu Daten, Prozessierungsumgebungen und Analysewerkzeugen wird über die Multi-mission Algorithm and Analysis Platform (<b>MAAP</b>) unterstützt, die kollaborative Forschung, reproduzierbare Arbeitsabläufe und die missionsübergreifende wissenschaftliche Nutzung fördert.
 
 🔗 MAAP: <a target='blank' style={{color: "var(--accent-1)"}} href='https://maap-project.org'>https://maap-project.org</a>  
 🔗 BioPAL: <a target='blank' style={{color: "var(--accent-1)"}} href='https://github.com/BioPAL/BioPAL'>https://github.com/BioPAL/BioPAL</a>
@@ -58,7 +96,7 @@ Am 12. Dezember 2025 veröffentlichte die ESA die ersten <b>BIOMASS-Open-Access-
 
 <p><WP number={1}>Kernaufgaben</WP></p>
 
-Der BIOMASS DISC sichert Qualität, Zuverlässigkeit und wissenschaftlichen Nutzen der BIOMASS-Produkte. Zu den Hauptaufgaben zählen:
+Das BIOMASS DISC sichert Qualität, Zuverlässigkeit und wissenschaftlichen Nutzen der BIOMASS-Produkte. Zu den Hauptaufgaben zählen:
 
 <p className="leading-tight">
 <b>Instrumenten- und Datenqualitätsüberwachung</b><br />
