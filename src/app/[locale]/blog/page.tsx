@@ -1,5 +1,5 @@
 import { BlogPosts } from '@/components/posts'
-import { isValidLocale, defaultLocale, type Locale } from '@/config/i18n'
+import { isValidLocale, defaultLocale, type Locale, locales } from '@/config/i18n'
 
 export const metadata = {
   title: 'Posts',
@@ -8,6 +8,10 @@ export const metadata = {
 
 interface PageProps {
   params: Promise<{ locale?: string }>
+}
+
+export function generateStaticParams() {
+  return (locales as readonly string[]).map((locale) => ({ locale }))
 }
 
 export default async function Page({ params }: PageProps) {

@@ -11,10 +11,6 @@ interface PageProps {
   params: Promise<{ locale: string }>
 }
 
-export async function generateStaticParams() {
-  return (locales as readonly string[]).map((locale) => ({ locale }))
-}
-
 export default async function LocaleHomePage({ params }: PageProps) {
   const { locale: raw } = await params
   const locale: Locale = isValidLocale(raw) ? raw : defaultLocale

@@ -7,28 +7,29 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import ThemeImage from "@/components/ThemeImage";
 
 
 <div className="grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 gap-4 justify-center items-stretch max-w-5xl mx-auto">
 
- <a href="/project/about" target='blank'> 
+ <a href="/de/project/about" target='blank'> 
   <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
     <CardHeader>
      <CardTitle className="flex justify-center mb-4 font-bold"> Projektbüro BIOMASS </CardTitle><p></p>
     <div className="flex justify-center mb-4">
-        <Image src="/image1.png" alt="eebiomass" width={400} height={200} />
+      <ThemeImage lightSrc="/image2.png" darkSrc="/image3.png" alt="eebiomass" width={400} height={200} />        
     </div> 
       <CardDescription></CardDescription>
     </CardHeader>
   </Card>
     </a>
    
-   <a href="/decalval/about" target='blank'> 
+   <a href="/de/decalval/about" target='blank'> 
   <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
     <CardHeader>
    <CardTitle className="flex justify-center mb-4 font-bold"> Deutsche BIOMASS Cal/Val-Aktivitäten </CardTitle><p></p>
     <div className="flex justify-center mb-4">
-        <Image src="/decalval_logo_small.png" alt="eebiomass" width={198} height={80} />
+        <ThemeImage lightSrc="/decalval_logo_transparent.png" darkSrc="/decalval_logo_white.png" alt="eebiomass" width={300} height={80} />
     </div> 
         </CardHeader>
   </Card>
@@ -44,11 +45,11 @@ import {
   <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
     <CardHeader>
      <CardTitle className="flex justify-center mb-2">
-     <a style={{color: "var(--accent-1)"}} href='/blog'>Erste BIOMASS-Produkte verfügbar!</a>
+     <a style={{color: "var(--accent-1)"}} href='/de/blog'>Erste BIOMASS-Produkte verfügbar!</a>
      </CardTitle>  
    
     <div className="flex justify-center mb-4">
-        <a href='/blog'>
+        <a href='/de/blog'>
         <Image src="/news/news24.png" alt="LPS2025" width={500} height={200} />
         </a>
     </div> 
@@ -82,7 +83,7 @@ import {
 </div>
 
 <div className="flex justify-end w-ful">
-  <Button className="bg-[var(--accent-1)] text-white hover:opacity-90">AKTUELLES → </Button>
+  <Button className="bg-[var(--accent-1)] text-white hover:opacity-90"><a href='/de/blog' target='_blank'>AKTUELLES → </a></Button> 
 </div>
 
 ------------------
@@ -109,8 +110,8 @@ Der <b><WP number={1}>Koordinierte Deutsche Beitrag zu den BIOMASS Cal/Val-Aktiv
 
 Für unsere Community bieten wir
 <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
--    Regelmäßige Webinare zu BIOMASS-Wissenschaft und Anwendungen <Button variant="secondary"><a href='/events/webinar' target='_blank'> Webinare → </a></Button>
--    Sommerschulen zur BIOMASS-Mission <Button variant="secondary"><a href='/events/summerschool' target='_blank'>Sommerschulen → </a></Button>
+-    Regelmäßige Webinare zu BIOMASS-Wissenschaft und Anwendungen <Button variant="secondary"><a href='/de/events/webinar' target='_blank'> Webinare → </a></Button>
+-    Sommerschulen zur BIOMASS-Mission <Button variant="secondary"><a href='/de/events/summerschool' target='_blank'>Sommerschulen → </a></Button>
 -    Tutorials und Hintergründe über das eo-college <Button variant="secondary"><a href='https://eo-college.org/' target='_blank'>eo college → </a></Button>
 -    Unterstützung für die DLR PolInSAR-Kurse <Button variant="secondary"><a href='/events/polinsar' target='_blank'>PolInSAR → </a></Button>  
 </ul>

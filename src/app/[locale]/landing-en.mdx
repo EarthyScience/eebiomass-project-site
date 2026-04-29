@@ -9,6 +9,7 @@ import { SiMdx } from "react-icons/si";
 import { SiThreedotjs } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaHeartbeat } from "react-icons/fa";
+import ThemeImage from "@/components/ThemeImage";
 
 import {
   Card,
@@ -23,24 +24,24 @@ import {
 
 <div className="grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 gap-4 justify-center items-stretch max-w-5xl mx-auto">
 
- <a href="/project/about" target='blank'> 
+ <a href="/en/project/about" target='blank'> 
   <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
     <CardHeader>
      <CardTitle className="flex justify-center mb-4 font-bold"> Project Office BIOMASS </CardTitle><p></p>
     <div className="flex justify-center mb-4">
-        <Image src="/image1.png" alt="eebiomass" width={400} height={200} />
+        <ThemeImage lightSrc="/image2.png" darkSrc="/image3.png" alt="eebiomass" width={400} height={200} />
     </div> 
       <CardDescription></CardDescription>
     </CardHeader>
   </Card>
     </a>
    
-   <a href="/decalval/about" target='blank'> 
+   <a href="/en/decalval/about" target='blank'> 
   <Card className="w-[420px] h-[440px] hover:bg-[var(--accent)] transition-colors duration-200 flex flex-col justify-between border border-[var(--accent-1)]">
     <CardHeader>
    <CardTitle className="flex justify-center mb-4 font-bold"> German BIOMASS Cal/Val Activities </CardTitle><p></p>
-    <div className="flex justify-center mb-4">
-        <Image src="/decalval_logo_small.png" alt="eebiomass" width={198} height={80} />
+    <div className="flex justify-center mb-8">
+        <ThemeImage lightSrc="/decalval_logo_transparent.png" darkSrc="/decalval_logo_white.png"  alt="eebiomass" width={300} height={200} />
     </div> 
         </CardHeader>
   </Card>
@@ -56,11 +57,11 @@ import {
   <Card className="w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200">
     <CardHeader>
      <CardTitle className="flex justify-center mb-2">
-     <a style={{color: "var(--accent-1)"}} href='/blog' target='_blank'>Now available: First BIOMASS products!</a>
+     <a style={{color: "var(--accent-1)"}} href='/en/blog' target='_blank'>Now available: First BIOMASS products!</a>
      </CardTitle>  
    
     <div className="flex justify-center mb-4">
-        <a href='/blog'>
+        <a href='/en/blog'>
         <Image src="/news/news24.png" alt="LPS2025" width={500} height={200} />
         </a>
     </div> 
@@ -96,7 +97,7 @@ import {
 </div>
 
 <div className="flex justify-end w-ful">
-  <Button className="bg-[var(--accent-1)] text-white hover:opacity-90">NEWS → </Button>
+    <Button className="bg-[var(--accent-1)] text-white hover:opacity-90"><a href='/en/blog' target='_blank'>NEWS → </a></Button> 
 </div>
 
 ------------------
@@ -123,8 +124,8 @@ The <b><WP number={1}>Coordinated German Contribution to the BIOMASS Cal/Val Act
 
 For our community, we host
 <ul className="list-disc list-inside ml-10 mt-2 space-y-0">
--    Regular webinars on topics related to BIOMASS science and applications <Button variant="secondary"><a href='/events/webinar' target='_blank'> Webinars → </a></Button>
--    Summer schools on the upcoming BIOMASS mission and its context in current research goals <Button variant="secondary"><a href='/events/summerschool' target='_blank'>Summer Schools → </a></Button>
+-    Regular webinars on topics related to BIOMASS science and applications <Button variant="secondary"><a href='/en/events/webinar' target='_blank'> Webinars → </a></Button>
+-    Summer schools on the upcoming BIOMASS mission and its context in current research goals <Button variant="secondary"><a href='/en/events/summerschool' target='_blank'>Summer Schools → </a></Button>
 -    Tutorials and background information on the BIOMASS mission via the eo-college <Button variant="secondary"><a href='https://eo-college.org/' target='_blank'>eo college → </a></Button>
 -    Support for the DLR's PolInSAR courses <Button variant="secondary"><a href='/events/polinsar' target='_blank'>PolInSAR → </a></Button>  
 </ul>
