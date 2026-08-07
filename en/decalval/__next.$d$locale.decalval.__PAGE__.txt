@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[8537,["/_next/static/chunks/3vjtecdlzhfyr.js","/_next/static/chunks/3jpupkthkvuog.js","/_next/static/chunks/21194e31sdjfl.js","/_next/static/chunks/3jyj7eocd8qlc.js","/_next/static/chunks/0km62ov2hhxxx.js","/_next/static/chunks/00mf_ol-yzhg1.js","/_next/static/chunks/0gf1aj44m_70u.js"],"default"]
+3:I[85070,["/_next/static/chunks/3vjtecdlzhfyr.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[85070,["/_next/static/chunks/3vjtecdlzhfyr.js"],"ViewportBoundary"]
+9:I[85070,["/_next/static/chunks/3vjtecdlzhfyr.js"],"MetadataBoundary"]
+a:I[67460,["/_next/static/chunks/3vjtecdlzhfyr.js"],"IconMark"]
+c:I[25351,["/_next/static/chunks/3vjtecdlzhfyr.js"],"default"]
+d:I[61251,["/_next/static/chunks/3vjtecdlzhfyr.js"],"default"]
+:HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
+7:X
+f:X
+f:C
+0:{"buildId":"3TU0xZHoGnD24bJNtozny","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4","children":[["$","p",null,{"className":"flex justify-center mb-4","children":["$","h1",null,{"className":"font-bold text-3xl pt-12 mb-0","id":"koordinierter-deutscher-beitrag-zu-den-kalibrierungs-und-validierungs-aktivitten-der-biomass-mission","children":"Koordinierter Deutscher Beitrag zu den Kalibrierungs- und Validierungs-Aktivitäten der BIOMASS Mission"}]}],"\n",["$","div",null,{"className":"flex justify-center mb-4","children":["$","$L2",null,{"lightSrc":"/decalval_logo_transparent.png","darkSrc":"/decalval_logo_white.png","alt":"eebiomass","width":400,"height":200}]}],"\n",["$","hr",null,{}],"\n",["$","br",null,{}],"\n",["$","p",null,{"className":"leading-snug","children":["The ",["$","b",null,{"children":["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":"Coordinated German Contribution to the BIOMASS Cal/Val Activities"}]}]," is a collaboration of the Max-Planck Institute for Biogeochemistry, GFZ Helmholtz Centre for Geosciences, the German Aerospace Center (DLR), the Helmholtz Centre for Environmental Research (UFZ) and the Technical University Dresden (TUD), supported by University of Maryland and Wilderness International. We aim to"]}],"\n",["$","ul",null,{"className":"list-disc list-inside ml-10 mt-2 space-y-0","children":["$","ul",null,{"className":"list-disc pl-5 space-y-1","children":["\n",["$","li",null,{"className":"pl-1","children":"collection of extensive databases of opportunity by and harmonising reference data from airborne LiDAR, drone imagery, and legacy radar transect"}],"\n",["$","li",null,{"className":"pl-1","children":"design observational campaigns to span the existing observational domains and forest density gradients"}],"\n",["$","li",null,{"className":"pl-1","children":"validate BIOMASS products for above-ground biomass densities (AGBD), forest height (FH) and forest change / disturbances (FD)"}],"\n",["$","li",null,{"className":"pl-1","children":"utilize process-based modelling frameworks to support high level data interpretation and cross-variable consistency"}],"\n"]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/00mf_ol-yzhg1.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0gf1aj44m_70u.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$La","3",{}]]}]}]}],null]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$7","varyParams":"$f"}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
+5:null
+11:true
+7:300
+7:C
+10:0
+b:"$undefined"
+e:"$undefined"
+6:"$undefined"
