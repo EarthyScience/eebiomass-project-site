@@ -13,9 +13,19 @@ import ThemeImage from "@/components/ThemeImage";
 <p className="flex justify-center mb-4">
 # Koordinierter Deutscher Beitrag zu den Kalibrierungs- und Validierungs-Aktivitäten der BIOMASS Mission 
 </p>
-<div className="flex justify-center mb-4">
-        <ThemeImage lightSrc="/decalval_logo_transparent.png" darkSrc="/decalval_logo_white.png" alt="eebiomass" width={400} height={200} />
-</div>
+<ContentSplitSection
+    title="DE:CalVal" 
+    subtitle="Kalibrierungs- und Validierungsaktivitäten sind von entscheidender Bedeutung für die Bewertung des Potenzials der BIOMASS-Datenprodukte und der zugrunde liegenden Algorithmen für die BIOMASS-Missionsziele."
+        media={
+        <Image src="/decalval_logo_small.png"
+        alt="DECalVal"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+    >     
+</ContentSplitSection>
 ----------------------------------------------
 
 <br></br>
@@ -28,7 +38,12 @@ Der <b><WP number={1}>Koordinierte Deutsche Beitrag zu den BIOMASS Cal/Val-Aktiv
 -    prozessbasierte Modelle für die Dateninterpretation nutzen
 </ul>
 
+Erfahre mehr über die Forschungsarebiten- und Ziele unserer Cal/Val-Aktivitäten <Button variant="secondary"><a href='/en/decalval/about' >Projektdetails → </a></Button>  
+Möchtest du wissen, welche Forscher in die deutschen Cal/Val-Aktiväten involviert ist? Erfahre mehr über unser <Button variant="secondary"><a href='/en/decalval/team' >Team → </a></Button>
 
+
+
+----------------------------------------------
 <div className="flex justify-center mb-4">
-        <Image src="/BMWK-en.png" alt="Bundesministerium für Wirtschaft und Klimaschutz" width={200} height={200} />
+        <Image src="/BMWK-de.png" alt="Bundesministerium für Wirtschaft und Klimaschutz" width={200} height={200} />
 </div>

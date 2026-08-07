@@ -23,11 +23,21 @@ import {
 
 
 <p className="flex justify-center mb-4">
-# Koordinierter Deutscher Beitrag zu den Kalibrierungs- und Validierungs-Aktivitäten der BIOMASS Mission 
+# Coordinated German Contribution to the BIOMASS Cal/Val Activities 
 </p>
-<div className="flex justify-center mb-4">
-        <ThemeImage lightSrc="/decalval_logo_transparent.png" darkSrc="/decalval_logo_white.png" alt="eebiomass" width={400} height={200} />
-</div>
+<ContentSplitSection
+    title="DE:CalVal" 
+    subtitle="Calibration and validation activities are instrumental for evaluating the potential of the BIOMASS data products and underlying algorithms to the BIOMASS mission objectives."
+        media={
+        <Image src="/decalval_logo_small.png"
+        alt="DECalVal"
+        width={200} height={200}
+        />}
+    mediaPosition="left"
+    layout='text-emphasis'
+    shadow="true"
+    >     
+</ContentSplitSection>
 
 ------------------
 
@@ -40,3 +50,13 @@ The <b><WP number={1}>Coordinated German Contribution to the BIOMASS Cal/Val Act
 -    validate BIOMASS products for above-ground biomass densities (AGBD), forest height (FH) and forest change / disturbances (FD)  
 -    utilize process-based modelling frameworks to support high level data interpretation and cross-variable consistency
 </ul>
+
+Find out more about our research goals <Button variant="secondary"><a href='/en/decalval/about' >Research focus → </a></Button>  
+Want to know who is involved in the German Cal/Val activities? Learn more about our <Button variant="secondary"><a href='/en/decalval/team' >Team → </a></Button>
+
+
+
+----------------------------------------------
+<div className="flex justify-center mb-4">
+        <Image src="/BMWK-en.png" alt="Bundesministerium für Wirtschaft und Klimaschutz" width={200} height={200} />
+</div>
