@@ -1,34 +1,45 @@
-1:"$Sreact.fragment"
-2:I[66228,["/_next/static/chunks/1z40ob7w8mmvb.js","/_next/static/chunks/0dq8dowydvu4-.js","/_next/static/chunks/245zxy1x0e9q6.js","/_next/static/chunks/0vpg35mf4jp6b.js","/_next/static/chunks/1z98oz44jya-t.js","/_next/static/chunks/1ok77s7wqhotm.js"],""]
-3:I[17251,["/_next/static/chunks/1z40ob7w8mmvb.js","/_next/static/chunks/0dq8dowydvu4-.js","/_next/static/chunks/245zxy1x0e9q6.js","/_next/static/chunks/0vpg35mf4jp6b.js","/_next/static/chunks/1z98oz44jya-t.js","/_next/static/chunks/1ok77s7wqhotm.js"],"Image"]
-c:X
-11:X
-11:C
-0:{"buildId":"RMcwZmQ6v_vOs_OrC2HXX","data":[{"rsc":["$","$1","c",{"children":[["$","section",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-12","children":[["$","script",null,{"type":"application/ld+json","suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"EEBIOMASS Summer School 2024\",\"datePublished\":\"2024-05-20\",\"dateModified\":\"2024-05-20\",\"description\":\"The second EEBIOMASS Summer School took place in October 2024 in Jena and welcomed 35 participants from 21 nationalities. The event focused on the ESA BIOMASS mission, key SAR concepts, hands-on training, and scientific exchange.\",\"image\":\"/og?title=EEBIOMASS%20Summer%20School%202024\",\"url\":\"https://portfolio-blog-starter.vercel.app/en/blog/summerschool24\",\"author\":{\"@type\":\"Person\",\"name\":\"My Portfolio\"}}"}}],["$","div",null,{"className":"flex items-center mb-2","children":["$","$L2",null,{"href":"/en/blog","className":"text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200","children":"← Back to Posts"}]}],["$","div",null,{"className":"flex justify-between items-center mb-4","children":[["$","div",null,{"className":"w-1/4"}],["$","h1",null,{"className":"title font-semibold text-neutral-600 dark:text-neutral-400 text-2xl tracking-tighter text-center w-1/2","children":"EEBIOMASS Summer School 2024"}],["$","div",null,{"className":"w-1/4 flex justify-end","children":["$","p",null,{"className":"text-sm text-neutral-600 dark:text-neutral-400","children":"May 20, 2024"}]}]]}],["$","br",null,{}],"$undefined",["$","article",null,{"className":"prose","children":["$","div",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4","children":["\n",["$","section",null,{"className":"max-w-6xl mx-auto px-6","children":["$","div",null,{"className":"flex flex-col md:flex-row gap-8 items-start","children":[["$","div",null,{"className":"flex-shrink-0 w-full md:w-[420px]","children":["$","$L3",null,{"alt":"EEBIOMASS Summer School 2024 group photo","className":"w-full h-auto rounded-xl","src":"/news/summerschool24.jpg","width":900,"height":600}]}],["$","div",null,{"className":"space-y-2 leading-tight","children":[["$","p",null,{"className":"leading-snug","children":["The second ",["$","b",null,{"children":"EEBIOMASS Summer School"}]," took place from ",["$","b",null,{"children":"21–25 October 2024"}]," at the ",["$","b",null,{"children":"Max Planck Institute for Biogeochemistry"}]," in Jena. We received a total of ",["$","b",null,{"children":"102 applications"}]," (33% female, 28% from German institutions), representing a 50% increase compared to the first EEBIOMASS Summer School in 2022."]}],["$","p",null,{"className":"leading-snug","children":["A total of 43 applicants were invited to attend the summer school in person in Jena. Eight participants declined the invitation for various reasons. In the end, ",["$","b",null,{"children":"35 participants"}]," attended the summer school in Jena (17 women, 18 participants from German institutions, ",["$","b",null,{"children":"21 nationalities"}],")."]}],["$","p",null,{"className":"leading-snug","children":["The summer school focused on the different aspects of the ESA Earth Explorer mission ",["$","b",null,{"children":"BIOMASS"}],", introducing participants to the mission objectives, technical background (including ",["$","b",null,{"children":"SAR, tomography, interferometry, and polarimetry"}],"), and related research topics (such as ",["$","b",null,{"children":"above-ground biomass"}]," and the carbon cycle)."]}],["$","p",null,{"className":"leading-snug","children":["We were pleased to welcome two external speakers: ",["$","b",null,{"children":"Björn Rommen"}]," from the European Space Agency presented the BIOMASS mission, and ",["$","b",null,{"children":"Anja Rammig"}]," from the Technical University of Munich shared her research on forest dynamics in the Amazon region. In addition to lectures and hands-on exercises, participants had the opportunity to present their own research through talks or poster sessions and discuss their work with experts on site."]}],"$L4"]}]]}]}],"\n","$L5","\n","$L6","\n","$L7"]}]}]]}],["$L8","$L9"],"$La"]}],"isPartial":"$@b","staleTime":"$c","varyParams":null},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$c","varyParams":null},{"rsc":"$Lf","isPartial":"$@10","staleTime":"$c","varyParams":"$11"},{"rsc":"$L12","isPartial":"$@13","staleTime":"$c","varyParams":"$11"}],"isUpgradeableISRFallback":false,"a":"$@14","rootVaryParams":null,"needsRuntimeRequest":"$@15"}
-16:I[79014,["/_next/static/chunks/1z40ob7w8mmvb.js"],"OutletBoundary"]
-17:"$Sreact.suspense"
-19:I[79014,["/_next/static/chunks/1z40ob7w8mmvb.js"],"ViewportBoundary"]
-1a:I[79014,["/_next/static/chunks/1z40ob7w8mmvb.js"],"MetadataBoundary"]
-1b:I[81329,["/_next/static/chunks/1z40ob7w8mmvb.js"],"IconMark"]
-1c:I[37280,["/_next/static/chunks/1z40ob7w8mmvb.js"],"default"]
-1d:I[75701,["/_next/static/chunks/1z40ob7w8mmvb.js"],"default"]
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/3a0al6nyjyxou.js"
+5:I[87766,["$4"],"default"]
+6:I[19216,["$4"],"default"]
+d:"/_next/static/chunks/2wcoepudho0yq.js"
+e:"/_next/static/chunks/3r6k-epfdn4-p.js"
+f:"/_next/static/chunks/0tnb_9dyzs2td.js"
+10:"/_next/static/chunks/1mixsles7_x5g.js"
+11:"/_next/static/chunks/20p3bss9m0lgp.js"
+12:I[78530,["$4","$d","$e","$f","$10","$11"],""]
+13:I[10778,["$4","$d","$e","$f","$10","$11"],"Image"]
+1e:"ViewportBoundary"
+1f:I[43071,["$4"],"$1e"]
+20:"MetadataBoundary"
+21:I[43071,["$4"],"$20"]
+22:"$Sreact.suspense"
+23:I[20231,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","section",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-12","children":[["$","script",null,{"type":"application/ld+json","suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"EEBIOMASS Summer School 2024\",\"datePublished\":\"2024-05-20\",\"dateModified\":\"2024-05-20\",\"description\":\"The second EEBIOMASS Summer School took place in October 2024 in Jena and welcomed 35 participants from 21 nationalities. The event focused on the ESA BIOMASS mission, key SAR concepts, hands-on training, and scientific exchange.\",\"image\":\"/og?title=EEBIOMASS%20Summer%20School%202024\",\"url\":\"https://portfolio-blog-starter.vercel.app/en/blog/summerschool24\",\"author\":{\"@type\":\"Person\",\"name\":\"My Portfolio\"}}"}}],["$","div",null,{"className":"flex items-center mb-2","children":["$","$L12",null,{"href":"/en/blog","className":"text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200","children":"← Back to Posts"}]}],["$","div",null,{"className":"flex justify-between items-center mb-4","children":[["$","div",null,{"className":"w-1/4"}],["$","h1",null,{"className":"title font-semibold text-neutral-600 dark:text-neutral-400 text-2xl tracking-tighter text-center w-1/2","children":"EEBIOMASS Summer School 2024"}],["$","div",null,{"className":"w-1/4 flex justify-end","children":["$","p",null,{"className":"text-sm text-neutral-600 dark:text-neutral-400","children":"May 20, 2024"}]}]]}],["$","br",null,{}],"$undefined",["$","article",null,{"className":"prose","children":["$","div",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4","children":["\n",["$","section",null,{"className":"max-w-6xl mx-auto px-6","children":["$","div",null,{"className":"flex flex-col md:flex-row gap-8 items-start","children":[["$","div",null,{"className":"flex-shrink-0 w-full md:w-[420px]","children":["$","$L13",null,{"alt":"EEBIOMASS Summer School 2024 group photo","className":"w-full h-auto rounded-xl","src":"/news/summerschool24.jpg","width":900,"height":600}]}],["$","div",null,{"className":"space-y-2 leading-tight","children":[["$","p",null,{"className":"leading-snug","children":["The second ",["$","b",null,{"children":"EEBIOMASS Summer School"}]," took place from ",["$","b",null,{"children":"21–25 October 2024"}]," at the ",["$","b",null,{"children":"Max Planck Institute for Biogeochemistry"}]," in Jena. We received a total of ",["$","b",null,{"children":"102 applications"}]," (33% female, 28% from German institutions), representing a 50% increase compared to the first EEBIOMASS Summer School in 2022."]}],["$","p",null,{"className":"leading-snug","children":["A total of 43 applicants were invited to attend the summer school in person in Jena. Eight participants declined the invitation for various reasons. In the end, ",["$","b",null,{"children":"35 participants"}]," attended the summer school in Jena (17 women, 18 participants from German institutions, ",["$","b",null,{"children":"21 nationalities"}],")."]}],["$","p",null,{"className":"leading-snug","children":["The summer school focused on the different aspects of the ESA Earth Explorer mission ",["$","b",null,{"children":"BIOMASS"}],", introducing participants to the mission objectives, technical background (including ",["$","b",null,{"children":"SAR, tomography, interferometry, and polarimetry"}],"), and related research topics (such as ",["$","b",null,{"children":"above-ground biomass"}]," and the carbon cycle)."]}],["$","p",null,{"className":"leading-snug","children":["We were pleased to welcome two external speakers: ","$L14"," from the European Space Agency presented the BIOMASS mission, and ","$L15"," from the Technical University of Munich shared her research on forest dynamics in the Amazon region. In addition to lectures and hands-on exercises, participants had the opportunity to present their own research through talks or poster sessions and discuss their work with experts on site."]}],"$L16"]}]]}]}],"\n","$L17","\n","$L18","\n","$L19"]}]}]]}],["$L1a","$L1b"],"$L1c"]}],"p":"$@1d","v":null,"s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":"summerschool24","s":["posts"]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"blog","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L23","3",{}]]}]}],null]}],null]}],"p":"$@24","v":null,"s":"$9"}},"a":"$@25","u":"$@26","b":"XQo9lbLz_6gi7UAKGjRNQ"}
+27:I[43071,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
-4:["$","p",null,{"className":"leading-snug","children":["📌 ",["$","b",null,{"children":"Teaching materials"}],", including lecture slides, Jupyter notebooks, and exercise guidelines, were made available to participants online."]}]
-5:["$","h4",null,{"className":"font-bold","id":"programm","children":"Programm"}]
-6:["$","div",null,{"className":"flex justify-center mb-4 leading-tight","children":["$","$L3",null,{"alt":"summer school eebiomass","className":"object-contain","src":"/materials/summerschool24_program1.png","width":800,"height":200}]}]
-7:["$","div",null,{"className":"flex justify-center mb-4 leading-tight","children":["$","$L3",null,{"alt":"summer school eebiomass","className":"object-contain","src":"/materials/summerschool24_program2.png","width":800,"height":200}]}]
-8:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-9:["$","script","script-0",{"src":"/_next/static/chunks/1ok77s7wqhotm.js","async":true}]
-a:["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
-d:["$","$1","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L1a",null,{"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1b","3",{}]]}]}]}],null]}]
-f:["$","$1","c",{"children":[null,["$","$L1c",null,{"parallelRouterKey":"children","template":["$","$L1d",null,{}]}]]}]
-12:["$","$1","c",{"children":[null,["$","$L1c",null,{"parallelRouterKey":"children","template":["$","$L1d",null,{}]}]]}]
-15:true
-18:null
-c:300
-c:C
-14:0
-e:"$undefined"
-10:"$undefined"
-13:"$undefined"
+14:["$","b",null,{"children":"Björn Rommen"}]
+15:["$","b",null,{"children":"Anja Rammig"}]
+16:["$","p",null,{"className":"leading-snug","children":["📌 ",["$","b",null,{"children":"Teaching materials"}],", including lecture slides, Jupyter notebooks, and exercise guidelines, were made available to participants online."]}]
+17:["$","h4",null,{"className":"font-bold","id":"programm","children":"Programm"}]
+18:["$","div",null,{"className":"flex justify-center mb-4 leading-tight","children":["$","$L13",null,{"alt":"summer school eebiomass","className":"object-contain","src":"/materials/summerschool24_program1.png","width":800,"height":200}]}]
+19:["$","div",null,{"className":"flex justify-center mb-4 leading-tight","children":["$","$L13",null,{"alt":"summer school eebiomass","className":"object-contain","src":"/materials/summerschool24_program2.png","width":800,"height":200}]}]
+1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
+1b:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+1c:["$","$L27",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+26:true
+9:300
+28:null
+9:C
+25:0
 b:"$undefined"
+7:"$undefined"
+24:"$undefined"
+1d:"$undefined"

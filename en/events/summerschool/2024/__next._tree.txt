@@ -1,3 +1,8 @@
-:HL["/_next/static/chunks/05v0-fy9p-yut.css","style"]
+:HL["/_next/static/chunks/2-mj0dg1ljf90.css","style"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":["backup","project"]},"prefetchHints":4128,"slots":{"children":{"name":"events","param":null,"prefetchHints":4160,"slots":{"children":{"name":"summerschool","param":null,"prefetchHints":4192,"slots":{"children":{"name":"2024","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"RMcwZmQ6v_vOs_OrC2HXX"}
+5:[["children",{"s":"__PAGE__","h":160}]]
+4:[["children",{"s":"2024","h":96,"c":"$Q5"}]]
+3:[["children",{"s":"summerschool","h":96,"c":"$Q4"}]]
+2:[["children",{"s":"events","h":64,"c":"$Q3"}]]
+1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
+0:{"b":"XQo9lbLz_6gi7UAKGjRNQ","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
