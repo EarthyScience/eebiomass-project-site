@@ -1,12 +1,12 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
-d:"/_next/static/chunks/2wcoepudho0yq.js"
-e:"/_next/static/chunks/3r6k-epfdn4-p.js"
-f:"/_next/static/chunks/0tnb_9dyzs2td.js"
-10:"/_next/static/chunks/1mixsles7_x5g.js"
-11:"/_next/static/chunks/20p3bss9m0lgp.js"
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
+d:"/_next/static/chunks/308ogk71deprp.js"
+e:"/_next/static/chunks/0qc6hejbcervp.js"
+f:"/_next/static/chunks/32b3x_x7jsu8f.js"
+10:"/_next/static/chunks/3-p69uw2r7by7.js"
+11:"/_next/static/chunks/2-w0k1rdft3ir.js"
 12:I[73443,["$4","$d","$e","$f","$10","$11"],"Accordion"]
 13:I[73443,["$4","$d","$e","$f","$10","$11"],"AccordionItem"]
 14:"AccordionTrigger"
@@ -14,11 +14,11 @@ f:"/_next/static/chunks/0tnb_9dyzs2td.js"
 16:"AccordionContent"
 17:I[73443,["$4","$d","$e","$f","$10","$11"],"$16"]
 30:"ViewportBoundary"
-31:I[43071,["$4"],"$30"]
+31:I[56047,["$4"],"$30"]
 32:"MetadataBoundary"
-33:I[43071,["$4"],"$32"]
+33:I[56047,["$4"],"$32"]
 34:"$Sreact.suspense"
-35:I[20231,["$4"],"IconMark"]
+35:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -26,8 +26,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"publications","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"resources","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L31",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L33",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$34",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L35","3",{}]]}]}],null]}],null]}],"p":"$@36","v":null,"s":"$9"}},"a":"$@37","u":"$@38","b":"0PFeJUNsWZKlw8hhdQCqL"}
-57:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L31",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L33",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$34",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L35","3",{}]]}]}],null]}],null]}],"p":"$@36","v":null,"s":"$9"}},"a":"$@37","u":"$@38","b":"maT_pB1uhfnhnW8fMa5Hu"}
+57:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 18:["$","p",null,{"children":["Qin, Y., Xiao, X., Wigneron, JP. ",["$","em",null,{"children":"et al."}]," (2021). Carbon loss from forest degradation exceeds that from deforestation in the Brazilian Amazon. ",["$","em",null,{"children":"Nat. Clim. Chang."}]," 11, 442–448. ",["$","a",null,{"href":"https://doi.org/10.1038/s41558-021-01026-5","children":"https://doi.org/10.1038/s41558-021-01026-5"}]]}]
 19:["$","p",null,{"children":["Rödig, E., Cuntz, M., Rammig, A., Fischer, R., Taubert, F., & Huth, A. (2018). The importance of forest structure for carbon fluxes of the Amazon rainforest. Environmental Research Letters, 13(5), 054013. ",["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://doi.org/10.1088/1748-9326/aabc61","children":"https://doi.org/10.1088/1748-9326/aabc61"}]]}]
@@ -50,7 +50,7 @@ a:[["children",{"s":"publications","h":96,"d":{"r":["$","$3","c",{"children":[nu
 2a:["$","$L13",null,{"value":"item-14","children":[["$","$L15",null,{"className":"p-6 rounded-xl shadow-lg text-[var(--accent-7)] bg-[var(--accent-1)]","children":["$","h2",null,{"className":"text-xl text-white font-bold flex justify-center","children":"BIOMASS PRODUCT"}]}],["$","$L17",null,{"className":"leading-tight space-y-0","children":[["$","p",null,{"children":"Avitabile, V. et al.. (2016). An Integrated Pan-Tropical Biomass Map Using Multiple Reference Datasets. Global Change Biology. 22 (4): Art. no. 4. doi: 10.1111/gcb.13139."}],["$","p",null,{"children":"Baccini, A. et al.. (2012). Estimated Carbon Dioxide Emissions from Tropical Deforestation Improved by CarbonDensity Maps. Nature Climate Change. 2 (3): 182—85. doi: 10.1038/nclimate1354."}],["$","p",null,{"children":"Bouvet, A. et al.. (2018). “An Above-Ground Biomass Map of African Savannahs and Woodlands at 25 m Resolution Derived from ALOS PALSAR. Remote Sensing of Environment. 206: 156—173. doi: 10.1016/j.rse.2017.12.030."}],["$","p",null,{"children":"Fan, L., et al.. (2019). Satellite-observed pantropical carbon dynamics. Nature Plants, 5(9), 944-951."}],["$","p",null,{"children":"Liu, Y. Y., Van Dijk, A. I., De Jeu, R. A., Canadell, J. G., McCabe, M. F., Evans, J. P., and Wang, G. 2015. Recent reversal in loss of global terrestrial biomass. Nature Climate Change, 5(5), 470-474."}],["$","p",null,{"children":"Matsuo, T, Martínez-Ramos, M, Bongers, F, van der Sande, MT, Poorter, L. Forest structure drives changes in light heterogeneity during tropical secondary forest succession. J Ecol. 2021; 00: 1– 14. https://doi.org/10.1111/1365-2745.13680"}],["$","p",null,{"children":"Saatchi, S. S. et al.. (2011). Benchmark Map of Forest Carbon Stocks in Tropical Regions Across Three Continents. Proceedings of the National Academy of Sciences. 108 (24): 9899-9904. doi: 10.1073/pnas.1019576108."}],["$","p",null,{"children":"Santoro, M. et al.. (2020). The Global Forest Above-Ground Biomass Pool for 2010 Estimated from High-Resolution Satellite Observations. Earth System Science Data Discussions. July, 1—38. doi: 10.5194/essd-2020-148."}],["$","p",null,{"children":"Thurner, M., et al.. (2014). Carbon stock and density of northern boreal and temperate forests. Global Ecology and Biogeography, 23(3), 297-310."}],["$","p",null,{"children":"Weemstra, M., Zambrano, J., Allen, D. and Natalia Umaña, M. (2021), Tree growth increases through opposing above- and belowground resource strategies. J Ecol. Accepted Author Manuscript. https://doi.org/10.1111/1365-2745.13729"}]]}]]}]
 2b:["$","$L13",null,{"value":"item-15","children":[["$","$L15",null,{"className":"p-6 rounded-xl shadow-lg text-[var(--accent-7)] bg-[var(--accent-1)]","children":["$","h2",null,{"className":"text-xl text-white font-bold flex justify-center","children":"CARBON CYCLE"}]}],["$","$L17",null,{"className":"leading-tight space-y-0","children":[["$","p",null,{"children":"Baccini, A., Walker, W., Carvalho, L., Farina, M., Sulla-Menashe, D., and Houghton, R. A. (2017) Tropical forests are a net carbon source based on aboveground measurements of gain and loss.” Science, 358(6360), 230-234."}],["$","p",null,{"children":"Bloom, A. A., Exbrayat, J. F., Van Der Velde, I. R., Feng, L., and Williams, M. (2016). The decadal state of the terrestrial carbon cycle: Global retrievals of terrestrial carbon allocation, pools, and residence times. Proceedings of the National Academy of Sciences, 113(5), 1285-1290."}],["$","p",null,{"children":"Carvalhais, N., et al.. (2014). Global covariation of carbon turnover times with climate in terrestrial ecosystems. Nature, 514(7521), 213-217."}],["$","p",null,{"children":"Fan, N., Koirala, S., Reichstein, M., Thurner, M., Avitabile, V., Santoro, M., Ahrens, B., Weber, U., and Carvalhais, N. (2020). Apparent ecosystem carbon turnover time: uncertainties and robust features. Earth System Science Data, 12(4), 2517-2536."}],["$","p",null,{"children":"McNicol, I. M., C. M. Ryan, and E. T. A. Mitchard. (2018). Carbon Losses from Deforestation and Widespread Degradation Offset by Extensive Growth in African Woodlands.” Nature Communications 9: Art. no. 3045, 1-19. doi: 10.1038/s41467-018-05386-z"}],["$","p",null,{"children":"Saatchi, S., Longo, M., Xu, L., Yang, Y., Abe, H., André, M., Aukema, J. E., Carvalhais, N., Cadillo-Quiroz, H., Cerbu, G. A., Chernela, J. M., Covey, K., Sánchez-Clavijo, L. M., Cubillos, I. V., Davies, S. J., Sy, V. D., Vleeschouwer, F. D., Duque, A., Durieux, A. M. S., Fernandes, K. D. A., Fernandez, L. E., Gammino, V., Garrity, D. P., Gibbs, D. A., Gibbon, L., Gowae, G. Y., Hansen, M., Harris, N. L., Healey, S. P., Hilton, R. G., Johnson, C. M., Kankeu, R. S., Laporte-Goetz, N. T., Lee, H., Lovejoy, T., Lowman, M., Lumbuenamo, R., Malhi, Y., Martinez, J.-M.-M.-A., Nobre, C., Pellegrini, A., Radachowsky, J., Román, F., Russell, D., Sheil, D., Smith, T. B., Spencer, R. G., Stolle, F., Tata, H. L., Torres, D. d. C., Tshimanga, R. M., Vargas, R., Venter, M., West, J., Widayati, A., Wilson, S. N., Brumby, S., Elmore, A. C. (2021). Detecting vulnerability of humid tropical forests to multiple stressors. One Earth, 4(7), 988-1003. doi:10.1016/j.oneear.2021.06.002."}],["$","p",null,{"children":"Thurner, M., Beer, C., Carvalhais, N., Forkel, M., Santoro, M., Tum, M., and Schmullius, C. (2016). “Large‐scale variation in boreal and temperate forest carbon turnover rate related to climate.” Geophysical Research Letters, 43(9), 4576-4585."}],["$","p",null,{"children":"Yang, H., et al.. (2021). Variations of carbon allocation and turnover time across tropical forests. Global Ecology and Biogeography, 30(6), 1271-1285."}]]}]]}]
 2c:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-2d:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+2d:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 2e:["$","$L57",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@58"}]}]
 38:true
 9:300

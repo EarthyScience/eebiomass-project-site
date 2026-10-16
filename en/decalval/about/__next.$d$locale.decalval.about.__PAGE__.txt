@@ -1,14 +1,14 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
-d:"/_next/static/chunks/2wcoepudho0yq.js"
-e:"/_next/static/chunks/3r6k-epfdn4-p.js"
-f:"/_next/static/chunks/0tnb_9dyzs2td.js"
-10:"/_next/static/chunks/1mixsles7_x5g.js"
-11:"/_next/static/chunks/1yemucsnjuehh.js"
-12:"/_next/static/chunks/20p3bss9m0lgp.js"
-13:I[10778,["$4","$d","$e","$f","$10","$11","$12"],"Image"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
+d:"/_next/static/chunks/308ogk71deprp.js"
+e:"/_next/static/chunks/0qc6hejbcervp.js"
+f:"/_next/static/chunks/32b3x_x7jsu8f.js"
+10:"/_next/static/chunks/3-p69uw2r7by7.js"
+11:"/_next/static/chunks/3pg-ffwf2dup1.js"
+12:"/_next/static/chunks/2-w0k1rdft3ir.js"
+13:I[65591,["$4","$d","$e","$f","$10","$11","$12"],"Image"]
 14:I[73443,["$4","$d","$e","$f","$10","$11","$12"],"Accordion"]
 15:I[73443,["$4","$d","$e","$f","$10","$11","$12"],"AccordionItem"]
 16:"AccordionTrigger"
@@ -16,11 +16,11 @@ f:"/_next/static/chunks/0tnb_9dyzs2td.js"
 18:"AccordionContent"
 19:I[73443,["$4","$d","$e","$f","$10","$11","$12"],"$18"]
 27:"ViewportBoundary"
-28:I[43071,["$4"],"$27"]
+28:I[56047,["$4"],"$27"]
 29:"MetadataBoundary"
-2a:I[43071,["$4"],"$29"]
+2a:I[56047,["$4"],"$29"]
 2b:"$Sreact.suspense"
-2c:I[20231,["$4"],"IconMark"]
+2c:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -28,10 +28,10 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"about","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"decalval","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L28",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L2a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L2c","3",{}]]}]}],null]}],null]}],"p":"$@2d","v":null,"s":"$9"}},"a":"$@2e","u":"$@2f","b":"0PFeJUNsWZKlw8hhdQCqL"}
-30:I[78530,["$4","$d","$e","$f","$10","$11","$12"],""]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L28",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L2a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L2c","3",{}]]}]}],null]}],null]}],"p":"$@2d","v":null,"s":"$9"}},"a":"$@2e","u":"$@2f","b":"maT_pB1uhfnhnW8fMa5Hu"}
+30:I[78943,["$4","$d","$e","$f","$10","$11","$12"],""]
 31:I[8537,["$4","$d","$e","$f","$10","$11","$12"],"default"]
-32:I[43071,["$4"],"OutletBoundary"]
+32:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 1a:["$","p",null,{"className":"leading-snug","children":["The objective of WP1 is to assemble the datasets as groundwork for subsequent tasks by conducting and process ",["$","b",null,{"children":"comprehensive in-situ field campaigns"}]," and ",["$","b",null,{"children":"harmonising reference data"}]," from airborne LiDAR, drone imagery, and legacy radar transect."]}]
 1b:["$","p",null,{"className":"my-0","children":["$","p",null,{"className":"leading-snug","children":[["$","u",null,{"children":"Task T1.1: In situ campaigns (GFZ, TUD, DLR)"}],["$","br",null,{}],"\n","We will conduct dedicated field campaigns in strategically selected tropical and subtropical regions to directly support the validation of BIOMASS mission products."]}]}]
@@ -42,8 +42,8 @@ a:[["children",{"s":"about","h":96,"d":{"r":["$","$3","c",{"children":[null,["$"
 20:["$","p",null,{"className":"bg-[var(--accent-3)]  font-bold px-4 py-2","children":["$","span",null,{"style":{"color":"var(--var-wp-6)","fontWeight":"bold"},"children":"Partners"}]}]
 21:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-2","children":[["$","div",null,{"className":"grid grid-flow-col gap-2 auto-cols-max justify-center items-center","children":[["$","$L30",null,{"href":"https://www.bgc-jena.mpg.de/en/bgi/mdi","target":"_blank","rel":"noreferrer","className":"flex items-center justify-center p-3 hover:opacity-90 transition","title":"MPI-BGC","children":["$","$L31",null,{"lightSrc":"/MPI_BGC_wide_E_green_cmyk.png","darkSrc":"/MPI_BGC_wide_E_green_cmyk.png","alt":"MPI-BGC","width":300,"height":150,"className":"h-24 w-auto object-contain"}]}],["$","$L30",null,{"href":"https://www.dlr.de/en/hr","target":"_blank","rel":"noreferrer","className":"flex items-center justify-center p-3 hover:opacity-90 transition","title":"DLR","children":["$","$L31",null,{"lightSrc":"/DLR_AR_kurz_EN_bk.png","darkSrc":"/DLR_AR_kurz_EN_wh.png","alt":"DLR","width":300,"height":150,"className":"h-24 w-auto object-contain"}]}],["$","$L30",null,{"href":"https://tu-dresden.de/bu/umwelt/geo/ipf/envrs","target":"_blank","rel":"noreferrer","className":"flex items-center justify-center p-3 hover:opacity-90 transition","title":"TU Dresden","children":["$","$L31",null,{"lightSrc":"/Logo_TU_Dresden_en_2025.svg.png","darkSrc":"/TUD_weis_en.png","alt":"TU Dresden","width":300,"height":150,"className":"h-24 w-auto object-contain"}]}]]}],["$","div",null,{"className":"grid grid-flow-col gap-2 auto-cols-max justify-center items-center","children":[["$","$L30",null,{"href":"https://www.gfz.de/en/section/remote-sensing-and-geoinformatics/overview","target":"_blank","rel":"noreferrer","className":"flex items-center justify-center p-3 hover:opacity-90 transition","title":"UFZ","children":["$","$L31",null,{"lightSrc":"/GFZ_en.png","darkSrc":"/GFZ-grey.png","alt":"GFZ","width":300,"height":150,"className":"h-18 w-auto object-contain"}]}],["$","$L30",null,{"href":"https://www.ufz.de/index.php?en=36559","target":"_blank","rel":"noreferrer","className":"flex items-center justify-center p-3 hover:opacity-90 transition","title":"UFZ","children":["$","$L13",null,{"src":"/UFZ_Logo_RGB_EN.png","alt":"UFZ","width":300,"height":150,"className":"h-24 w-auto object-contain"}]}]]}],["$","div",null,{"className":"grid grid-flow-col gap-2 auto-cols-max justify-center items-center","children":[["$","$L30",null,{"href":"https://www.wilderness-international.org/","target":"_blank","rel":"noreferrer","className":"flex items-center justify-center p-3 hover:opacity-90 transition","title":"Wilderness International","children":["$","$L31",null,{"lightSrc":"/wilderness_international.png","darkSrc":"/wilderness_international_wh.png","alt":"Wilderness International","width":600,"height":250,"className":"h-30 w-auto object-contain"}]}],["$","$L30",null,{"href":"https://geog.umd.edu/facultyprofile/dubayah/ralph","target":"_blank","rel":"noreferrer","className":"flex items-center justify-center p-3 hover:opacity-90 transition","title":"University of Maryland","children":["$","$L31",null,{"lightSrc":"/university Maryland.png","darkSrc":"/university Maryland_wh.png","alt":"University of Maryland","width":300,"height":150,"className":"h-24 w-auto object-contain"}]}]]}]]}]
 22:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-23:["$","script","script-0",{"src":"/_next/static/chunks/1yemucsnjuehh.js","async":true}]
-24:["$","script","script-1",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+23:["$","script","script-0",{"src":"/_next/static/chunks/3pg-ffwf2dup1.js","async":true}]
+24:["$","script","script-1",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 25:["$","$L32",null,{"children":["$","$2b",null,{"name":"Next.MetadataOutlet","children":"$@33"}]}]
 2f:true
 9:300

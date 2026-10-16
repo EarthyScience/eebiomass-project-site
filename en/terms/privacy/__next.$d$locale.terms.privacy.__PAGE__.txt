@@ -1,13 +1,13 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
 2f:"ViewportBoundary"
-30:I[43071,["$4"],"$2f"]
+30:I[56047,["$4"],"$2f"]
 31:"MetadataBoundary"
-32:I[43071,["$4"],"$31"]
+32:I[56047,["$4"],"$31"]
 33:"$Sreact.suspense"
-34:I[20231,["$4"],"IconMark"]
+34:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -15,14 +15,14 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"privacy","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"terms","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L30",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L32",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$33",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L34","3",{}]]}]}],null]}],null]}],"p":"$@35","v":null,"s":"$9"}},"a":"$@36","u":"$@37","b":"0PFeJUNsWZKlw8hhdQCqL"}
-38:"/_next/static/chunks/2wcoepudho0yq.js"
-39:"/_next/static/chunks/3r6k-epfdn4-p.js"
-3a:"/_next/static/chunks/0tnb_9dyzs2td.js"
-3b:"/_next/static/chunks/1mixsles7_x5g.js"
-3c:"/_next/static/chunks/20p3bss9m0lgp.js"
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L30",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L32",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$33",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L34","3",{}]]}]}],null]}],null]}],"p":"$@35","v":null,"s":"$9"}},"a":"$@36","u":"$@37","b":"maT_pB1uhfnhnW8fMa5Hu"}
+38:"/_next/static/chunks/308ogk71deprp.js"
+39:"/_next/static/chunks/0qc6hejbcervp.js"
+3a:"/_next/static/chunks/32b3x_x7jsu8f.js"
+3b:"/_next/static/chunks/3-p69uw2r7by7.js"
+3c:"/_next/static/chunks/2-w0k1rdft3ir.js"
 3d:I[91367,["$4","$38","$39","$3a","$3b","$3c"],"LocaleLink"]
-40:I[43071,["$4"],"OutletBoundary"]
+40:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 d:["$","br",null,{}]
 e:["$","blockquote",null,{"className":"ml-[0.075em] border-l-3 border-gray-300 pl-4 text-gray-700 dark:border-zinc-600 dark:text-zinc-300","children":["\n",["$","p",null,{"className":"leading-snug","children":["Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. (MPG)",["$","br",null,{}],"\n","Hofgartenstrasse 8",["$","br",null,{}],"\n","D-80539 Munich",["$","br",null,{}],"\n","Telephone: +49 (89) 2108-0",["$","br",null,{}],"\n","Contact form: ",["$","a",null,{"target":"_blank","rel":"noopener noreferrer","href":"https://www.mpg.de/contact/requests","children":"https://www.mpg.de/contact/requests"}],["$","br",null,{}],"\n","Internet: ",["$","a",null,{"target":"_blank","rel":"noopener noreferrer","href":"https://www.mpg.de","children":"https://www.mpg.de"}]]}],"\n"]}]
@@ -55,7 +55,7 @@ f:["$","li",null,{"className":"pl-1","children":["\n",["$","p",null,{"className"
 29:["$","p",null,{"className":"leading-snug","children":"As an individual whose personal data are gathered as part of the aforementioned services, you have, in principle, the following rights, to the extent that no legal exceptions are applicable in individual cases:"}]
 2a:["$","ul",null,{"className":"list-disc pl-5 space-y-1","children":["\n",["$","li",null,{"className":"pl-1","children":"Information (Article 15 GDPR)"}],"\n",["$","li",null,{"className":"pl-1","children":"Correction (Article 16 GDPR)"}],"\n",["$","li",null,{"className":"pl-1","children":"Deletion (Article 17 (1) GDPR)"}],"\n",["$","li",null,{"className":"pl-1","children":"Restriction of processing (Article 18 GDPR)"}],"\n",["$","li",null,{"className":"pl-1","children":"Data transmission (Article 20 GDPR)"}],"\n",["$","li",null,{"className":"pl-1","children":"Revocation of processing (Article 21 GDPR)"}],"\n",["$","li",null,{"className":"pl-1","children":"Revocation of consent (Article 7 (3) GDPR)"}],"\n",["$","li",null,{"className":"pl-1","children":"Right to complain to the regulator (Article 77 GDPR). For the MPG, this is the Bavarian Data Protection Authority (BayLDA), Postfach 1349, 91504 Ansbach, Germany."}],"\n"]}]
 2b:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-2c:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+2c:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 2d:["$","$L40",null,{"children":["$","$33",null,{"name":"Next.MetadataOutlet","children":"$@41"}]}]
 37:true
 9:300

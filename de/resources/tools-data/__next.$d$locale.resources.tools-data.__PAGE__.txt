@@ -1,13 +1,13 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
 13:"ViewportBoundary"
-14:I[43071,["$4"],"$13"]
+14:I[56047,["$4"],"$13"]
 15:"MetadataBoundary"
-16:I[43071,["$4"],"$15"]
+16:I[56047,["$4"],"$15"]
 17:"$Sreact.suspense"
-18:I[20231,["$4"],"IconMark"]
+18:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -15,13 +15,13 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"tools-data","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"resources","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L18","3",{}]]}]}],null]}],null]}],"p":"$@19","v":null,"s":"$9"}},"a":"$@1a","u":"$@1b","b":"0PFeJUNsWZKlw8hhdQCqL"}
-1c:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L18","3",{}]]}]}],null]}],null]}],"p":"$@19","v":null,"s":"$9"}},"a":"$@1a","u":"$@1b","b":"maT_pB1uhfnhnW8fMa5Hu"}
+1c:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 d:["$","h3",null,{"className":"font-bold text-2xl mt-8 mb-3","id":"werkzeuge","children":"Werkzeuge"}]
 e:["$","ul",null,{"className":"list-disc pl-5 space-y-1","children":["\n",["$","li",null,{"className":"pl-1","children":["\n",["$","a",null,{"href":"https://scimaap.net/","target":"blank","children":[["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":"MAAP Multi Mission Algorithm and Analysis platform (ESA & NASA)"}]," "]}],"\n"]}],"\n",["$","li",null,{"className":"pl-1","children":["\n",["$","a",null,{"href":"https://www.biopal.org/","target":"blank","children":[["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":" BioPAL"}]," "]}],"\n"]}],"\n",["$","li",null,{"className":"pl-1","children":["\n",["$","a",null,{"href":"https://scimaap.net/","target":"blank","children":[["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":"pyGEDI"}]," "]}],"\n"]}],"\n",["$","li",null,{"className":"pl-1","children":["\n",["$","a",null,{"href":"https://nrtwur.users.earthengine.app/view/raddalert","target":"blank","children":[["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":"RADD alert"}]," "]}],"\n"]}],"\n",["$","li",null,{"className":"pl-1","children":["\n",["$","a",null,{"href":"https://earthengine.google.com/","target":"blank","children":[["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":"Google Earth Engine"}]," "]}],"\n"]}],"\n",["$","li",null,{"className":"pl-1","children":["\n",["$","a",null,{"href":"https://earthdata.nasa.gov/maap-biomass/","target":"blank","children":[["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":"NASA BIOMASS Earthdata Dashboard"}]," "]}],"\n"]}],"\n",["$","li",null,{"className":"pl-1","children":["\n",["$","a",null,{"href":"https://eo4society.esa.int/scientific-toolboxes/","target":"blank","children":[["$","span",null,{"style":{"color":"var(--var-wp-1)","fontWeight":"bold"},"children":"EO4Society – Sammlung wissenschaftlicher Toolkits"}]," "]}],"\n"]}],"\n"]}]
 f:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-10:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+10:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 11:["$","$L1c",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
 1b:true
 9:300

@@ -1,13 +1,13 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
 1a:"ViewportBoundary"
-1b:I[43071,["$4"],"$1a"]
+1b:I[56047,["$4"],"$1a"]
 1c:"MetadataBoundary"
-1d:I[43071,["$4"],"$1c"]
+1d:I[56047,["$4"],"$1c"]
 1e:"$Sreact.suspense"
-1f:I[20231,["$4"],"IconMark"]
+1f:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -15,8 +15,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"disc&data","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"biomass","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1f","3",{}]]}]}],null]}],null]}],"p":"$@20","v":null,"s":"$9"}},"a":"$@21","u":"$@22","b":"0PFeJUNsWZKlw8hhdQCqL"}
-23:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1f","3",{}]]}]}],null]}],null]}],"p":"$@20","v":null,"s":"$9"}},"a":"$@21","u":"$@22","b":"maT_pB1uhfnhnW8fMa5Hu"}
+23:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 d:["$","p",null,{"className":"leading-snug","children":["Alle BIOMASS-Produkte, Algorithmen und Validierungswerkzeuge werden nach den Prinzipien Open Science und Open Source entwickelt. Die Entwicklung der Prozessierungssoftware und zugehöriger Algorithmen sind im BIOMASS Product Algorithm Laboratory (",["$","b",null,{"children":"BioPAL"}],") gebündelt – für Transparenz, Reproduzierbarkeit und gemeinschaftliche Weiterentwicklung. Der offene Zugang zu Daten, Prozessierungsumgebungen und Analysewerkzeugen wird über die Multi-mission Algorithm and Analysis Platform (",["$","b",null,{"children":"MAAP"}],") unterstützt, die kollaborative Forschung, reproduzierbare Arbeitsabläufe und die missionsübergreifende wissenschaftliche Nutzung fördert."]}]
 e:["$","p",null,{"className":"leading-snug","children":["🔗 MAAP: ",["$","a",null,{"target":"blank","style":{"color":"var(--accent-1)"},"href":"https://maap-project.org","children":"https://maap-project.org"}],["$","br",null,{}],"\n","🔗 BioPAL: ",["$","a",null,{"target":"blank","style":{"color":"var(--accent-1)"},"href":"https://github.com/BioPAL/BioPAL","children":"https://github.com/BioPAL/BioPAL"}]]}]
@@ -28,7 +28,7 @@ f:["$","p",null,{"className":"leading-snug","children":["Am 12. Dezember 2025 ve
 14:["$","p",null,{"className":"leading-tight","children":[["$","p",null,{"className":"leading-snug","children":[["$","b",null,{"children":"Instrumenten- und Datenqualitätsüberwachung"}],["$","br",null,{}],"\nLaufende Kalibrierung, Leistungsüberwachung und Qualitätssicherung für zuverlässige BIOMASS-SAR-Daten."]}],["$","p",null,{"className":"leading-snug","children":[["$","b",null,{"children":"Prozessierung und Produktentwicklung"}],["$","br",null,{}],"\nPflege und Weiterentwicklung der Prozessierungsketten und Kerndaten, Einbindung neuer Erkenntnisse, Kalibrierung und Validierung."]}],["$","p",null,{"className":"leading-snug","children":[["$","b",null,{"children":"Validierung und Neunprozessierung"}],["$","br",null,{}],"\nValidierung der Waldprodukte anhand von Referenzdaten aus Boden- und Flugzeugmessungen sowie regelmäßige Neuprozessierungen für konsistente Langzeitdaten."]}],["$","p",null,{"className":"leading-snug","children":[["$","b",null,{"children":"Wissenschaftliche Innovation und Nutzerunterstützung"}],["$","br",null,{}],"\nEntwicklung experimenteller Produkte, Unterstützung der Nutzenden und Erweiterung der BIOMASS-Möglichkeiten."]}]]}]
 15:["$","p",null,{"className":"leading-snug","children":["Weitere Informationen: ",["$","a",null,{"style":{"color":"var(--accent-1)"},"href":"https://biomass-disc.info/","children":"https://biomass-disc.info/"}]]}]
 16:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-17:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+17:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 18:["$","$L23",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@24"}]}]
 22:true
 9:300

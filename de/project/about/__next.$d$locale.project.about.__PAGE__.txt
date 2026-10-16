@@ -1,19 +1,19 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
-d:"/_next/static/chunks/2wcoepudho0yq.js"
-e:"/_next/static/chunks/3r6k-epfdn4-p.js"
-f:"/_next/static/chunks/0tnb_9dyzs2td.js"
-10:"/_next/static/chunks/1mixsles7_x5g.js"
-11:"/_next/static/chunks/20p3bss9m0lgp.js"
-12:I[10778,["$4","$d","$e","$f","$10","$11"],"Image"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
+d:"/_next/static/chunks/308ogk71deprp.js"
+e:"/_next/static/chunks/0qc6hejbcervp.js"
+f:"/_next/static/chunks/32b3x_x7jsu8f.js"
+10:"/_next/static/chunks/3-p69uw2r7by7.js"
+11:"/_next/static/chunks/2-w0k1rdft3ir.js"
+12:I[65591,["$4","$d","$e","$f","$10","$11"],"Image"]
 1d:"ViewportBoundary"
-1e:I[43071,["$4"],"$1d"]
+1e:I[56047,["$4"],"$1d"]
 1f:"MetadataBoundary"
-20:I[43071,["$4"],"$1f"]
+20:I[56047,["$4"],"$1f"]
 21:"$Sreact.suspense"
-22:I[20231,["$4"],"IconMark"]
+22:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -21,8 +21,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"about","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"project","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1e",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L20",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L22","3",{}]]}]}],null]}],null]}],"p":"$@23","v":null,"s":"$9"}},"a":"$@24","u":"$@25","b":"0PFeJUNsWZKlw8hhdQCqL"}
-27:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1e",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L20",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L22","3",{}]]}]}],null]}],null]}],"p":"$@23","v":null,"s":"$9"}},"a":"$@24","u":"$@25","b":"maT_pB1uhfnhnW8fMa5Hu"}
+27:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 13:["$","hr",null,{"className":"w-3/4 mx-auto border-t border-dotted border-[var(--accent-1)] my-4"}]
 26:T562,M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm200 248c0 22.5-3.9 44.2-10.8 64.4h-20.3c-4.3 0-8.4-1.7-11.4-4.8l-32-32.6c-4.5-4.6-4.5-12.1.1-16.7l12.5-12.5v-8.7c0-3-1.2-5.9-3.3-8l-9.4-9.4c-2.1-2.1-5-3.3-8-3.3h-16c-6.2 0-11.3-5.1-11.3-11.3 0-3 1.2-5.9 3.3-8l9.4-9.4c2.1-2.1 5-3.3 8-3.3h32c6.2 0 11.3-5.1 11.3-11.3v-9.4c0-6.2-5.1-11.3-11.3-11.3h-36.7c-8.8 0-16 7.2-16 16v4.5c0 6.9-4.4 13-10.9 15.2l-31.6 10.5c-3.3 1.1-5.5 4.1-5.5 7.6v2.2c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8s-3.6-8-8-8H247c-3 0-5.8 1.7-7.2 4.4l-9.4 18.7c-2.7 5.4-8.2 8.8-14.3 8.8H194c-8.8 0-16-7.2-16-16V199c0-4.2 1.7-8.3 4.7-11.3l20.1-20.1c4.6-4.6 7.2-10.9 7.2-17.5 0-3.4 2.2-6.5 5.5-7.6l40-13.3c1.7-.6 3.2-1.5 4.4-2.7l26.8-26.8c2.1-2.1 3.3-5 3.3-8 0-6.2-5.1-11.3-11.3-11.3H258l-16 16v8c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8v-20c0-2.5 1.2-4.9 3.2-6.4l28.9-21.7c1.9-.1 3.8-.3 5.7-.3C358.3 56 448 145.7 448 256zM130.1 149.1c0-3 1.2-5.9 3.3-8l25.4-25.4c2.1-2.1 5-3.3 8-3.3 6.2 0 11.3 5.1 11.3 11.3v16c0 3-1.2 5.9-3.3 8l-9.4 9.4c-2.1 2.1-5 3.3-8 3.3h-16c-6.2 0-11.3-5.1-11.3-11.3zm128 306.4v-7.1c0-8.8-7.2-16-16-16h-20.2c-10.8 0-26.7-5.3-35.4-11.8l-22.2-16.7c-11.5-8.6-18.2-22.1-18.2-36.4v-23.9c0-16 8.4-30.8 22.1-39l42.9-25.7c7.1-4.2 15.2-6.5 23.4-6.5h31.2c10.9 0 21.4 3.9 29.6 10.9l43.2 37.1h18.3c8.5 0 16.6 3.4 22.6 9.4l17.3 17.3c3.4 3.4 8.1 5.3 12.9 5.3H423c-32.4 58.9-93.8 99.5-164.9 103.1z14:["$","div",null,{"className":"flex flex-col items-center text-center","children":[["$","div",null,{"className":"flex items-center justify-center w-14 h-14 rounded-full border-4 border-[var(--accent-1)] bg-white mb-3","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","style":{"color":"black"},"children":["$undefined",[["$","path","0",{"d":"$26","children":[]}]]],"height":48,"width":48,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","h2",null,{"style":{"fontVariant":"small-caps"},"className":"text-xl font-bold mb-3","children":"für unsere Community bieten wir"}],["$","p",null,{"className":"leading-tight","children":["$","p",null,{"className":"leading-snug","children":["regelmäßige ",["$","a",null,{"className":"text-[var(--accent-1)]","href":"/de/events/webinar","children":"virtuelle Workshops"}]," zu verschiedenen BIOMASS-Themen",["$","br",null,{}],"\n",["$","a",null,{"className":"text-[var(--accent-1)]","href":"/de/events/summerschool","children":"Sommerschulen"}]," (2022, 2024, 2025 in Jena)",["$","br",null,{}],"\neine ",["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://eo-college.org/resource/the-esa-biomass-mission/","children":"Online-Präsentation"}]," zu allen Aspekten der BIOMASS-Mission über eo-college"]}]}]]}]
@@ -31,7 +31,7 @@ a:[["children",{"s":"about","h":96,"d":{"r":["$","$3","c",{"children":[null,["$"
 17:["$","p",null,{"className":"text-justify","children":["$","p",null,{"className":"leading-snug","children":["Anlässlich der ",["$","a",null,{"href":"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass","className":"text-[var(--accent-1)]","children":"ESA BIOMASS-Mission"}]," ist es wichtig, den aktuellen Kenntnisstand zu Herausforderungen und Chancen bei der Beobachtung von Biomasse in terrestrischen Ökosystemen zu bündeln und weiterzuentwickeln. Bei den ESA Earth Explorers zielt BIOMASS darauf ab, die Rolle der Landbiosphäre im globalen Kohlenstoffkreislauf besser zu verstehen – mit deutlichen Auswirkungen im Kontext des Klimawandels. Der Informationsgehalt zur räumlichen und zeitlichen Variabilität von P-Band-Biomasse ist für terrestrische Ökosystemstudien beispiellos, besonders in Bezug auf Landnutzungsänderungen und Störungsdynamiken, und verbessert die Modellierung des globalen Kohlenstoffs. Die Mission bringt Herausforderungen in Instrumentendesign, Retrieval-Algorithmen, Kalibrierungs- und Validierungsstrategien sowie bei Datenkonzepten und Anwendungen mit sich."]}]}]
 18:["$","div",null,{"className":"flex justify-center mb-4","children":[["$","$L12",null,{"src":"/Poster_AlumniDay22_BiomassOffice.CP.V01.jpg","alt":"Poster zum Biomass-Büro","width":400,"height":200,"className":"object-contain"}],["$","p",null,{"className":"leading-snug","children":["Unsere Projektpartner Carsten Pathe und Christiane Schmullius (FSU) haben diese Übersicht zum Projektbüro und zur BIOMASS-Mission erstellt; sie können sie ",["$","a",null,{"className":"text-[var(--accent-1)]","href":"/Poster_AlumniDay22_BiomassOffice.CP_.V01.pdf","children":"hier"}]," herunterladen."]}]]}]
 19:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-1a:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+1a:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 1b:["$","$L27",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
 25:true
 9:300

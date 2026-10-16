@@ -1,19 +1,19 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
-d:"/_next/static/chunks/2wcoepudho0yq.js"
-e:"/_next/static/chunks/3r6k-epfdn4-p.js"
-f:"/_next/static/chunks/0tnb_9dyzs2td.js"
-10:"/_next/static/chunks/1mixsles7_x5g.js"
-11:"/_next/static/chunks/20p3bss9m0lgp.js"
-12:I[10778,["$4","$d","$e","$f","$10","$11"],"Image"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
+d:"/_next/static/chunks/308ogk71deprp.js"
+e:"/_next/static/chunks/0qc6hejbcervp.js"
+f:"/_next/static/chunks/32b3x_x7jsu8f.js"
+10:"/_next/static/chunks/3-p69uw2r7by7.js"
+11:"/_next/static/chunks/2-w0k1rdft3ir.js"
+12:I[65591,["$4","$d","$e","$f","$10","$11"],"Image"]
 19:"ViewportBoundary"
-1a:I[43071,["$4"],"$19"]
+1a:I[56047,["$4"],"$19"]
 1b:"MetadataBoundary"
-1c:I[43071,["$4"],"$1b"]
+1c:I[56047,["$4"],"$1b"]
 1d:"$Sreact.suspense"
-1e:I[20231,["$4"],"IconMark"]
+1e:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -21,13 +21,13 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"summerschool","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"events","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1e","3",{}]]}]}],null]}],null]}],"p":"$@1f","v":null,"s":"$9"}},"a":"$@20","u":"$@21","b":"0PFeJUNsWZKlw8hhdQCqL"}
-28:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1e","3",{}]]}]}],null]}],null]}],"p":"$@1f","v":null,"s":"$9"}},"a":"$@20","u":"$@21","b":"maT_pB1uhfnhnW8fMa5Hu"}
+28:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 13:["$","br",null,{}]
 14:["$","div",null,{"className":"overflow-x-auto","children":["$","table",null,{"className":"w-full border text-left text-sm border border-gray-200","children":[["$","thead",null,{"className":"bg-[var(--accent-2)] font-bold ","children":["$","tr",null,{"children":[["$","th",null,{"children":["$","p",null,{"className":"leading-snug","children":"Lecture title"}]}],["$","th",null,{"children":["$","p",null,{"className":"leading-snug","children":"Speaker"}]}],["$","th",null,{"children":["$","p",null,{"className":"leading-snug","children":"Link"}]}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"ESA BIOMASS: Overview"}]}],["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"Björn Rommen, ESA"}]}],["$","td",null,{"children":["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://eo-college.org/resource/the-esa-biomass-mission-overview/","target":"blank","children":" https://eo-college.org/resource/the-esa-biomass-mission-overview/"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"ESA BIOMASS: Introduction to Synthetic Aperture Radar"}]}],["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"Kostas Papathanassiou, DLR"}]}],["$","td",null,{"children":["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://eo-college.org/resource/esa-biomass-introduction-to-synthetic-aperture-radar/","target":"blank","children":" https://eo-college.org/resource/esa-biomass-introduction-to-synthetic-aperture-radar/"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"ESA BIOMASS: SAR interferometry – The path to 3D forest structure"}]}],["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"Kostas Papathanassiou, DLR"}]}],["$","td",null,{"children":["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://eo-college.org/resource/esa-biomass-sar-interferometry-the-way-to-3d-forest-structure/","target":"blank","children":" https://eo-college.org/resource/esa-biomass-sar-interferometry-the-way-to-3d-forest-structure/"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"ESA BIOMASS: SAR Interferometry – Forest Height – Do It Yourself"}]}],["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"Matteo Pardini, DLR"}]}],["$","td",null,{"children":["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://eo-college.org/resource/esa-biomass-sar-interferometry-forest-height-do-it-yourself/","target":"blank","children":" https://eo-college.org/resource/esa-biomass-sar-interferometry-forest-height-do-it-yourself/"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"ESA BIOMASS: How do biomass mission products compare with other biomass products?"}]}],["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"Christiane Schmullius, FSU Jena"}]}],["$","td",null,{"children":["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://eo-college.org/resource/esa-biomass-how-do-biomass-mission-products-compare-to-other-biomass-products/","target":"blank","children":" https://eo-college.org/resource/esa-biomass-how-do-biomass-mission-products-compare-to-other-biomass-products/"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"ESA BIOMASS: Practical exercise on biomass products"}]}],["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"Carsten Pathe, FSU Jena"}]}],["$","td",null,{"children":["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://eo-college.org/resource/esa-biomass-hands-on-exercise-biomass-products/","target":"blank","children":" https://eo-college.org/resource/esa-biomass-hands-on-exercise-biomass-products/"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"ESA BIOMASS: Modeling Amazon rainforest responses to environmental changes"}]}],["$","td",null,{"children":["$","p",null,{"className":"leading-snug","children":"Anja Rammig, TUM"}]}],"$L22"]}],"$L23","$L24","$L25","$L26","$L27"]}]]}]}]
 15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-16:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+16:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 17:["$","$L28",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
 21:true
 9:300

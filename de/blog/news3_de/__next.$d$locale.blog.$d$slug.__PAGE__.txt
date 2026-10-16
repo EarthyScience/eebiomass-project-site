@@ -1,30 +1,30 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
-d:"/_next/static/chunks/2wcoepudho0yq.js"
-e:"/_next/static/chunks/3r6k-epfdn4-p.js"
-f:"/_next/static/chunks/0tnb_9dyzs2td.js"
-10:"/_next/static/chunks/1mixsles7_x5g.js"
-11:"/_next/static/chunks/20p3bss9m0lgp.js"
-12:I[78530,["$4","$d","$e","$f","$10","$11"],""]
-13:I[10778,["$4","$d","$e","$f","$10","$11"],"Image"]
-14:I[43071,["$4"],"OutletBoundary"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
+d:"/_next/static/chunks/308ogk71deprp.js"
+e:"/_next/static/chunks/0qc6hejbcervp.js"
+f:"/_next/static/chunks/32b3x_x7jsu8f.js"
+10:"/_next/static/chunks/3-p69uw2r7by7.js"
+11:"/_next/static/chunks/2-w0k1rdft3ir.js"
+12:I[78943,["$4","$d","$e","$f","$10","$11"],""]
+13:I[65591,["$4","$d","$e","$f","$10","$11"],"Image"]
+14:I[56047,["$4"],"OutletBoundary"]
 15:"$Sreact.suspense"
 18:"ViewportBoundary"
-19:I[43071,["$4"],"$18"]
+19:I[56047,["$4"],"$18"]
 1a:"MetadataBoundary"
-1b:I[43071,["$4"],"$1a"]
-1c:I[20231,["$4"],"IconMark"]
+1b:I[56047,["$4"],"$1a"]
+1c:I[97641,["$4"],"IconMark"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 8:X
 8:C
 9:X
-c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","section",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-12","children":[["$","script",null,{"type":"application/ld+json","suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"MPI-BGC veranstaltete das Kickoff-Meeting der zweiten Phase des Projektbüros BIOMASS!\",\"datePublished\":\"2023-10-06\",\"dateModified\":\"2023-10-06\",\"description\":\"Am 5. Oktober 2023 fand das Kickoff-Meeting für die zweite Phase des Projektbüros BIOMASS am Max-Planck-Institut für Biogeochemie in Jena statt. Anwesend waren Kostas vom DLR und Andreas vom UFZ, die persönlich am Meeting teilnahmen. Aufgrund laufender Feldarbeiten befand sich Christiane in Afrika und nahm per Zoom teil…\",\"image\":\"https://portfolio-blog-starter.vercel.app/news/news3.jpg\",\"url\":\"https://portfolio-blog-starter.vercel.app/de/blog/news3_de\",\"author\":{\"@type\":\"Person\",\"name\":\"My Portfolio\"}}"}}],["$","div",null,{"className":"flex items-center mb-2","children":["$","$L12",null,{"href":"/de/blog","className":"text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200","children":"← Back to Posts"}]}],["$","div",null,{"className":"flex justify-between items-center mb-4","children":[["$","div",null,{"className":"w-1/4"}],["$","h1",null,{"className":"title font-semibold text-neutral-600 dark:text-neutral-400 text-2xl tracking-tighter text-center w-1/2","children":"MPI-BGC veranstaltete das Kickoff-Meeting der zweiten Phase des Projektbüros BIOMASS!"}],["$","div",null,{"className":"w-1/4 flex justify-end","children":["$","p",null,{"className":"text-sm text-neutral-600 dark:text-neutral-400","children":"October 6, 2023"}]}]]}],["$","br",null,{}],["$","div",null,{"className":"relative -mx-10 h-[350px] mb-6 rounded-xl","children":["$","$L13",null,{"src":"/news/news3.jpg","alt":"MPI-BGC veranstaltete das Kickoff-Meeting der zweiten Phase des Projektbüros BIOMASS!","fill":true,"priority":true,"className":"object-contain"}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4","children":["$","p",null,{"className":"leading-snug","children":"Am 5. Oktober 2023 fand das Kickoff-Meeting für die zweite Phase des Projektbüros BIOMASS am Max-Planck-Institut für Biogeochemie in Jena statt. Anwesend waren Kostas vom DLR und Andreas vom UFZ, die persönlich am Meeting teilnahmen. Aufgrund laufender Feldarbeiten befand sich Christiane in Afrika und nahm per Zoom teil…"}]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]],["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","section",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-12","children":[["$","script",null,{"type":"application/ld+json","suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"MPI-BGC veranstaltete das Kickoff-Meeting der zweiten Phase des Projektbüros BIOMASS!\",\"datePublished\":\"2023-10-06\",\"dateModified\":\"2023-10-06\",\"description\":\"Am 5. Oktober 2023 fand das Kickoff-Meeting für die zweite Phase des Projektbüros BIOMASS am Max-Planck-Institut für Biogeochemie in Jena statt. Anwesend waren Kostas vom DLR und Andreas vom UFZ, die persönlich am Meeting teilnahmen. Aufgrund laufender Feldarbeiten befand sich Christiane in Afrika und nahm per Zoom teil…\",\"image\":\"https://portfolio-blog-starter.vercel.app/news/news3.jpg\",\"url\":\"https://portfolio-blog-starter.vercel.app/de/blog/news3_de\",\"author\":{\"@type\":\"Person\",\"name\":\"My Portfolio\"}}"}}],["$","div",null,{"className":"flex items-center mb-2","children":["$","$L12",null,{"href":"/de/blog","className":"text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200","children":"← Back to Posts"}]}],["$","div",null,{"className":"flex justify-between items-center mb-4","children":[["$","div",null,{"className":"w-1/4"}],["$","h1",null,{"className":"title font-semibold text-neutral-600 dark:text-neutral-400 text-2xl tracking-tighter text-center w-1/2","children":"MPI-BGC veranstaltete das Kickoff-Meeting der zweiten Phase des Projektbüros BIOMASS!"}],["$","div",null,{"className":"w-1/4 flex justify-end","children":["$","p",null,{"className":"text-sm text-neutral-600 dark:text-neutral-400","children":"October 6, 2023"}]}]]}],["$","br",null,{}],["$","div",null,{"className":"relative -mx-10 h-[350px] mb-6 rounded-xl","children":["$","$L13",null,{"src":"/news/news3.jpg","alt":"MPI-BGC veranstaltete das Kickoff-Meeting der zweiten Phase des Projektbüros BIOMASS!","fill":true,"priority":true,"className":"object-contain"}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4","children":["$","p",null,{"className":"leading-snug","children":"Am 5. Oktober 2023 fand das Kickoff-Meeting für die zweite Phase des Projektbüros BIOMASS am Max-Planck-Institut für Biogeochemie in Jena statt. Anwesend waren Kostas vom DLR und Andreas vom UFZ, die persönlich am Meeting teilnahmen. Aufgrund laufender Feldarbeiten befand sich Christiane in Afrika und nahm per Zoom teil…"}]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]],["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],"p":"$@17","v":null,"s":"$9"}}]]
 a:[["children",{"s":{"n":"slug","t":"d","k":"news3_de","s":["posts"]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"blog","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1c","3",{}]]}]}],null]}],null]}],"p":"$@1d","v":null,"s":"$9"}},"a":"$@1e","u":"$@1f","b":"0PFeJUNsWZKlw8hhdQCqL"}
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1c","3",{}]]}]}],null]}],null]}],"p":"$@1d","v":null,"s":"$9"}},"a":"$@1e","u":"$@1f","b":"maT_pB1uhfnhnW8fMa5Hu"}
 16:null
 1f:true
 9:300

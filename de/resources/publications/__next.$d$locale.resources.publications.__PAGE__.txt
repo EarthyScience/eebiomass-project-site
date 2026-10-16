@@ -1,13 +1,13 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
 60:"ViewportBoundary"
-61:I[43071,["$4"],"$60"]
+61:I[56047,["$4"],"$60"]
 62:"MetadataBoundary"
-63:I[43071,["$4"],"$62"]
+63:I[56047,["$4"],"$62"]
 64:"$Sreact.suspense"
-65:I[20231,["$4"],"IconMark"]
+65:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -15,8 +15,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"publications","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"resources","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L61",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L63",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$64",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L65","3",{}]]}]}],null]}],null]}],"p":"$@66","v":null,"s":"$9"}},"a":"$@67","u":"$@68","b":"0PFeJUNsWZKlw8hhdQCqL"}
-69:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L61",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L63",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$64",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L65","3",{}]]}]}],null]}],null]}],"p":"$@66","v":null,"s":"$9"}},"a":"$@67","u":"$@68","b":"maT_pB1uhfnhnW8fMa5Hu"}
+69:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 d:["$","em",null,{"children":"et al."}]
 e:["$","em",null,{"children":"Nat. Clim. Chang."}]
@@ -98,7 +98,7 @@ f:["$","a",null,{"href":"https://doi.org/10.1038/s41558-021-01026-5","children":
 5a:["$","p",null,{"children":"Thurner, M., Beer, C., Carvalhais, N., Forkel, M., Santoro, M., Tum, M., and Schmullius, C. (2016). “Large‐scale variation in boreal and temperate forest carbon turnover rate related to climate.” Geophysical Research Letters, 43(9), 4576-4585."}]
 5b:["$","p",null,{"children":"Yang, H., et al.. (2021). Variations of carbon allocation and turnover time across tropical forests. Global Ecology and Biogeography, 30(6), 1271-1285."}]
 5c:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-5d:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+5d:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 5e:["$","$L69",null,{"children":["$","$64",null,{"name":"Next.MetadataOutlet","children":"$@6a"}]}]
 68:true
 9:300

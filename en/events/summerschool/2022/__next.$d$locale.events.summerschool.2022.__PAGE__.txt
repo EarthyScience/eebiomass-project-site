@@ -1,13 +1,13 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
 22:"ViewportBoundary"
-23:I[43071,["$4"],"$22"]
+23:I[56047,["$4"],"$22"]
 24:"MetadataBoundary"
-25:I[43071,["$4"],"$24"]
+25:I[56047,["$4"],"$24"]
 26:"$Sreact.suspense"
-27:I[20231,["$4"],"IconMark"]
+27:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -16,8 +16,8 @@ c:[["children",{"s":"2022","h":96,"d":{"r":["$","$3","c",{"children":[null,["$",
 a:[["children",{"s":"summerschool","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"events","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$26",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L27","3",{}]]}]}],null]}],null]}],"p":"$@28","v":null,"s":"$9"}},"a":"$@29","u":"$@2a","b":"0PFeJUNsWZKlw8hhdQCqL"}
-2d:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$26",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L27","3",{}]]}]}],null]}],null]}],"p":"$@28","v":null,"s":"$9"}},"a":"$@29","u":"$@2a","b":"maT_pB1uhfnhnW8fMa5Hu"}
+2d:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 f:["$","td",null,{"className":"px-3 py-2 align-top whitespace-normal break-words","children":""}]
 10:["$","tr","6",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top whitespace-normal break-words","children":"13:00 – 14:00"}],["$","td",null,{"className":"px-3 py-2 align-top whitespace-normal break-words","children":"The changing Amazon carbon balance"}],["$","td",null,{"className":"px-3 py-2 align-top whitespace-normal break-words","children":"Paulo Artaxo, University of São Paulo"}]]}]
@@ -35,7 +35,7 @@ f:["$","td",null,{"className":"px-3 py-2 align-top whitespace-normal break-words
 1c:["$","h3",null,{"className":"font-bold text-2xl mt-8 mb-3","id":"object-object","children":["$","strong",null,{"className":"font-bold","children":"June 01"}]}]
 1d:["$","div",null,{"className":"overflow-x-auto","children":["$","table",null,{"className":"w-full table-fixed border border-gray-200 text-left text-sm","children":[["$","thead",null,{"className":"bg-[var(--accent-3)] font-bold","children":["$","tr",null,{"children":[["$","th",null,{"className":"w-[130px] px-3 py-2 align-top","children":"Time"}],["$","th",null,{"className":"w-[420px] px-3 py-2 align-top","children":"Session"}],["$","th",null,{"className":"px-3 py-2 align-top","children":"Speaker / Institution"}]]}]}],["$","tbody",null,{"children":[["$","tr","0",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"09:00 – 10:00"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Amazon rainforest responses to environmental change & Discussion"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Anja Rammig, TUM"}]]}],["$","tr","1",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"10:00 – 10:30"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Introduction to Forest Modelling"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Friedrich Bohn, UFZ"}]]}],["$","tr","2",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"10:30 – 11:00"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Coffee Break"}],["$","td",null,{"className":"px-3 py-2 align-top","children":""}]]}],["$","tr","3",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"11:00 – 12:30"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Simulation and Analysis of Forest Factory RTM"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Hans Henniger & Kim Schmidt, UFZ"}]]}],["$","tr","4",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"12:30 – 13:30"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Lunch"}],["$","td",null,{"className":"px-3 py-2 align-top","children":""}]]}],["$","tr","5",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"13:30 – 14:00"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Bridging models and observations"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Nuno Carvalhais, MPI-BGC"}]]}],["$","tr","6",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"14:00 – 15:30"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Exploratory model–data integration exercises"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Yang, Koirala & Wang, MPI-BGC"}]]}],["$","tr","7",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"15:30 – 16:00"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Coffee Break"}],["$","td",null,{"className":"px-3 py-2 align-top","children":""}]]}],["$","tr","8",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"16:00 – 17:30"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Q & A"}],["$","td",null,{"className":"px-3 py-2 align-top","children":""}]]}],["$","tr","9",{"className":"border-t","children":[["$","td",null,{"className":"px-3 py-2 align-top","children":"17:30 – 18:00"}],["$","td",null,{"className":"px-3 py-2 align-top","children":"Feedback & Wrap-up"}],["$","td",null,{"className":"px-3 py-2 align-top","children":""}]]}]]}]]}]}]
 1e:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-1f:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+1f:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 20:["$","$L2d",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@2e"}]}]
 2a:true
 9:300

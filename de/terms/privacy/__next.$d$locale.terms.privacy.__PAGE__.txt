@@ -1,13 +1,13 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
 30:"ViewportBoundary"
-31:I[43071,["$4"],"$30"]
+31:I[56047,["$4"],"$30"]
 32:"MetadataBoundary"
-33:I[43071,["$4"],"$32"]
+33:I[56047,["$4"],"$32"]
 34:"$Sreact.suspense"
-35:I[20231,["$4"],"IconMark"]
+35:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -15,14 +15,14 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"privacy","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"terms","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L31",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L33",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$34",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L35","3",{}]]}]}],null]}],null]}],"p":"$@36","v":null,"s":"$9"}},"a":"$@37","u":"$@38","b":"0PFeJUNsWZKlw8hhdQCqL"}
-39:"/_next/static/chunks/2wcoepudho0yq.js"
-3a:"/_next/static/chunks/3r6k-epfdn4-p.js"
-3b:"/_next/static/chunks/0tnb_9dyzs2td.js"
-3c:"/_next/static/chunks/1mixsles7_x5g.js"
-3d:"/_next/static/chunks/20p3bss9m0lgp.js"
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L31",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L33",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$34",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L35","3",{}]]}]}],null]}],null]}],"p":"$@36","v":null,"s":"$9"}},"a":"$@37","u":"$@38","b":"maT_pB1uhfnhnW8fMa5Hu"}
+39:"/_next/static/chunks/308ogk71deprp.js"
+3a:"/_next/static/chunks/0qc6hejbcervp.js"
+3b:"/_next/static/chunks/32b3x_x7jsu8f.js"
+3c:"/_next/static/chunks/3-p69uw2r7by7.js"
+3d:"/_next/static/chunks/2-w0k1rdft3ir.js"
 3e:I[91367,["$4","$39","$3a","$3b","$3c","$3d"],"LocaleLink"]
-3f:I[43071,["$4"],"OutletBoundary"]
+3f:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 d:["$","li",null,{"className":"pl-1","children":["\n",["$","p",null,{"className":"leading-snug","children":"Kontaktdaten der Verantwortlichen\nVerantwortlich im Sinne der Datenschutz-Grundverordnung und anderer nationaler Datenschutzgesetze sowie sonstiger datenschutzrechtlicher Bestimmungen ist die"}],"\n"]}]
 e:["$","blockquote",null,{"className":"ml-[0.075em] border-l-3 border-gray-300 pl-4 text-gray-700 dark:border-zinc-600 dark:text-zinc-300","children":["\n",["$","p",null,{"className":"leading-snug","children":"Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. (MPG)\nHofgartenstraße 8\nD-80539 München\nTelefon: +49 (89) 2108-0"}],"\n",["$","p",null,{"className":"leading-snug","children":["Kontaktformular: ",["$","a",null,{"href":"https://www.mpg.de/kontakt/anfragen","children":"https://www.mpg.de/kontakt/anfragen"}],"\nInternet: ",["$","a",null,{"href":"https://www.mpg.de","children":"https://www.mpg.de"}]]}],"\n"]}]
@@ -56,7 +56,7 @@ f:["$","ol",null,{"className":"list-decimal pl-5 space-y-2","start":"5","childre
 2a:["$","p",null,{"className":"leading-snug","children":"Als betroffene Person, deren personenbezogene Daten im Rahmen der oben genannten Dienste erhoben werden, haben Sie grundsätzlich folgende Rechte, soweit in Einzelfällen keine gesetzlichen Ausnahmen zur Anwendung kommen:"}]
 2b:["$","ul",null,{"className":"list-disc pl-5 space-y-1","children":["\n",["$","li",null,{"className":"pl-1","children":"Auskunft (Art. 15 DS-GVO)"}],"\n",["$","li",null,{"className":"pl-1","children":"Berichtigung (Art. 16 DS-GVO)"}],"\n",["$","li",null,{"className":"pl-1","children":"Löschung (Art. 17 Abs. 1 DS-GVO)"}],"\n",["$","li",null,{"className":"pl-1","children":"Einschränkung der Verarbeitung (Art. 18 DS-GVO)"}],"\n",["$","li",null,{"className":"pl-1","children":"Datenübertragbarkeit (Art. 20 DS-GVO)"}],"\n",["$","li",null,{"className":"pl-1","children":"Widerspruch gegen die Verarbeitung (Art. 21 DS-GVO)"}],"\n",["$","li",null,{"className":"pl-1","children":"Widerruf der Einwilligung (Art. 7 Abs. 3 DS-GVO)"}],"\n",["$","li",null,{"className":"pl-1","children":"Beschwerderecht bei der Aufsichtsbehörde (Art. 77 DS-GVO). Dies ist für die MPG das Bayerische Landesamt für Datenschutzaufsicht, Postfach 606, 91511 Ansbach."}],"\n"]}]
 2c:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-2d:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+2d:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 2e:["$","$L3f",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@40"}]}]
 38:true
 9:300

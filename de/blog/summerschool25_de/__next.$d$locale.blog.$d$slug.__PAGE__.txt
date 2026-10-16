@@ -1,20 +1,20 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
-d:"/_next/static/chunks/2wcoepudho0yq.js"
-e:"/_next/static/chunks/3r6k-epfdn4-p.js"
-f:"/_next/static/chunks/0tnb_9dyzs2td.js"
-10:"/_next/static/chunks/1mixsles7_x5g.js"
-11:"/_next/static/chunks/20p3bss9m0lgp.js"
-12:I[78530,["$4","$d","$e","$f","$10","$11"],""]
-13:I[10778,["$4","$d","$e","$f","$10","$11"],"Image"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
+d:"/_next/static/chunks/308ogk71deprp.js"
+e:"/_next/static/chunks/0qc6hejbcervp.js"
+f:"/_next/static/chunks/32b3x_x7jsu8f.js"
+10:"/_next/static/chunks/3-p69uw2r7by7.js"
+11:"/_next/static/chunks/2-w0k1rdft3ir.js"
+12:I[78943,["$4","$d","$e","$f","$10","$11"],""]
+13:I[65591,["$4","$d","$e","$f","$10","$11"],"Image"]
 1e:"ViewportBoundary"
-1f:I[43071,["$4"],"$1e"]
+1f:I[56047,["$4"],"$1e"]
 20:"MetadataBoundary"
-21:I[43071,["$4"],"$20"]
+21:I[56047,["$4"],"$20"]
 22:"$Sreact.suspense"
-23:I[20231,["$4"],"IconMark"]
+23:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -22,8 +22,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":{"n":"slug","t":"d","k":"summerschool25_de","s":["posts"]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"blog","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L23","3",{}]]}]}],null]}],null]}],"p":"$@24","v":null,"s":"$9"}},"a":"$@25","u":"$@26","b":"0PFeJUNsWZKlw8hhdQCqL"}
-27:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L23","3",{}]]}]}],null]}],null]}],"p":"$@24","v":null,"s":"$9"}},"a":"$@25","u":"$@26","b":"maT_pB1uhfnhnW8fMa5Hu"}
+27:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 14:["$","b",null,{"children":"Klaus Scipal (ESA)"}]
 15:["$","p",null,{"className":"leading-snug","children":["📌 ",["$","b",null,{"children":"Lehrmaterialien"}]," (Folien, Jupyter-Notebooks und Übungsanleitungen)\nstehen den Teilnehmenden online zur Verfügung."]}]
@@ -32,7 +32,7 @@ a:[["children",{"s":{"n":"slug","t":"d","k":"summerschool25_de","s":["posts"]},"
 18:["$","h4",null,{"className":"font-bold","id":"programm","children":"Programm"}]
 19:["$","div",null,{"className":"flex justify-center mb-4 leading-tight","children":["$","$L13",null,{"alt":"summer school eebiomass","className":"object-contain","src":"/materials/summerschool25_program.png","width":800,"height":200}]}]
 1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-1b:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+1b:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 1c:["$","$L27",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
 26:true
 9:300

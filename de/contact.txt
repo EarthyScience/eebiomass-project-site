@@ -1,33 +1,33 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/3a0al6nyjyxou.js"
+2:"/_next/static/chunks/3226k49hczve7.js"
 3:I[75050,["$2"],"ThemeProvider"]
-4:I[87766,["$2"],"default"]
-5:I[19216,["$2"],"default"]
-6:"/_next/static/chunks/16fhl_m7_pnmh.js"
-7:I[78530,["$2","$6"],""]
-e:I[43071,["$2"],"OutletBoundary"]
+4:I[5274,["$2"],"default"]
+5:I[47516,["$2"],"default"]
+6:"/_next/static/chunks/20cnazn9_9dw8.js"
+7:I[78943,["$2","$6"],""]
+e:I[56047,["$2"],"OutletBoundary"]
 f:"$Sreact.suspense"
 11:"ViewportBoundary"
-12:I[43071,["$2"],"$11"]
+12:I[56047,["$2"],"$11"]
 14:"MetadataBoundary"
-15:I[43071,["$2"],"$14"]
-17:I[72692,["$2"],"default",1]
+15:I[56047,["$2"],"$14"]
+17:I[7678,["$2"],"default",1]
 :HL["/_next/static/chunks/2-mj0dg1ljf90.css","style"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 b:X
-c:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$Ld",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true,"nonce":"$undefined"}]],["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":false,"v":null}}]]
+c:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$Ld",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true,"nonce":"$undefined"}]],["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":false,"v":null}}]]
 a:[["children",{"s":"contact","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$b"},"c":"$Qc"}]]
-8:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":512,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2wcoepudho0yq.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3r6k-epfdn4-p.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0tnb_9dyzs2td.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/1mixsles7_x5g.js","async":true,"nonce":"$undefined"}]],"$L9"]}],"p":false,"v":null},"c":"$Qa"}]]
-0:{"P":null,"c":["","de","contact"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-mj0dg1ljf90.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3a0al6nyjyxou.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"suppressHydrationWarning":true,"lang":"de","children":["$","body",null,{"className":"antialiased","children":["$","$L3",null,{"defaultTheme":"system","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"h-128 flex items-center justify-center","children":["$","div",null,{"className":"text-center max-w-lg px-4","children":[["$","h1",null,{"className":"text-2xl font-bold mb-3","children":"404 - A Moment of Insight"}],["$","p",null,{"className":"text-gray-600 mb-4 text-lg","children":"Like science seeking truth before utility, we've wandered into uncharted territory. Let insight guide us back to familiar ground."}],["$","div",null,{"children":["$","$L7",null,{"href":"/de","className":"underline","children":"Go back to Home"}]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L12",null,{"children":"$L13"}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":"$L16"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$17",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-mj0dg1ljf90.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"0PFeJUNsWZKlw8hhdQCqL"}
-18:"/_next/static/chunks/2wcoepudho0yq.js"
-19:"/_next/static/chunks/3r6k-epfdn4-p.js"
-1a:"/_next/static/chunks/0tnb_9dyzs2td.js"
-1b:"/_next/static/chunks/1mixsles7_x5g.js"
+8:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":512,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/308ogk71deprp.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0qc6hejbcervp.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/32b3x_x7jsu8f.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3-p69uw2r7by7.js","async":true,"nonce":"$undefined"}]],"$L9"]}],"p":false,"v":null},"c":"$Qa"}]]
+0:{"P":null,"c":["","de","contact"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-mj0dg1ljf90.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3226k49hczve7.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"suppressHydrationWarning":true,"lang":"de","children":["$","body",null,{"className":"antialiased","children":["$","$L3",null,{"defaultTheme":"system","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"h-128 flex items-center justify-center","children":["$","div",null,{"className":"text-center max-w-lg px-4","children":[["$","h1",null,{"className":"text-2xl font-bold mb-3","children":"404 - A Moment of Insight"}],["$","p",null,{"className":"text-gray-600 mb-4 text-lg","children":"Like science seeking truth before utility, we've wandered into uncharted territory. Let insight guide us back to familiar ground."}],["$","div",null,{"children":["$","$L7",null,{"href":"/de","className":"underline","children":"Go back to Home"}]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L12",null,{"children":"$L13"}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":"$L16"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$17",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-mj0dg1ljf90.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"maT_pB1uhfnhnW8fMa5Hu"}
+18:"/_next/static/chunks/308ogk71deprp.js"
+19:"/_next/static/chunks/0qc6hejbcervp.js"
+1a:"/_next/static/chunks/32b3x_x7jsu8f.js"
+1b:"/_next/static/chunks/3-p69uw2r7by7.js"
 1c:I[63174,["$2","$18","$19","$1a","$1b"],"LocaleProvider"]
 1d:I[90902,["$2","$18","$19","$1a","$1b"],"SetHtmlLang"]
-1e:I[21127,["$2","$18","$19","$1a","$1b"],"default"]
-1f:"/_next/static/chunks/20p3bss9m0lgp.js"
-20:I[10778,["$2","$18","$19","$1a","$1b","$1f"],"Image"]
+1e:I[85632,["$2","$18","$19","$1a","$1b"],"default"]
+1f:"/_next/static/chunks/2-w0k1rdft3ir.js"
+20:I[65591,["$2","$18","$19","$1a","$1b","$1f"],"Image"]
 21:I[66441,["$2","$18","$19","$1a","$1b"],"default"]
 25:I[91367,["$2","$18","$19","$1a","$1b","$1f"],"LocaleLink"]
 b:C
@@ -37,6 +37,6 @@ d:["$","div",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4","chi
 23:["$","a","2",{"href":"https://x.com/eebiomass","target":"_blank","rel":"noopener noreferrer","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":22,"width":22,"xmlns":"http://www.w3.org/2000/svg"}]}]
 24:["$","div",null,{"className":"pt-2 border-t border-[var(--navbar-border)] flex flex-col md:flex-row md:justify-between","children":[["$","p",null,{"className":"text-sm text-[var(--secondary-link-color)]","children":["© ",2026," ","Project Office BIOMASS"]}],["$","ul",null,{"className":"flex flex-row flex-wrap space-x-4 gap-y-2 mt-2 md:mt-0 ","children":[["$","li","/de/terms/imprint",{"children":["$","a",null,{"href":"/de/terms/imprint","className":"text-[var(--secondary-link-color)] hover:text-[var(--link-hover)] transition-colors text-sm","children":"Impressum"}]}],["$","li","/de/terms/privacy",{"children":["$","a",null,{"href":"/de/terms/privacy","className":"text-[var(--secondary-link-color)] hover:text-[var(--link-hover)] transition-colors text-sm","children":"Datenschutz"}]}]]}]]}]
 13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-26:I[20231,["$2"],"IconMark"]
+26:I[97641,["$2"],"IconMark"]
 10:null
 16:[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L26","3",{}]]

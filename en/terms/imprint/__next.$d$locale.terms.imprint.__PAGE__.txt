@@ -1,13 +1,13 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
 18:"ViewportBoundary"
-19:I[43071,["$4"],"$18"]
+19:I[56047,["$4"],"$18"]
 1a:"MetadataBoundary"
-1b:I[43071,["$4"],"$1a"]
+1b:I[56047,["$4"],"$1a"]
 1c:"$Sreact.suspense"
-1d:I[20231,["$4"],"IconMark"]
+1d:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -15,8 +15,8 @@ d:T49b,As the provider of contents in accordance with Section 7 Paragraph 1 of t
 a:[["children",{"s":"imprint","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"terms","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1d","3",{}]]}]}],null]}],null]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"0PFeJUNsWZKlw8hhdQCqL"}
-21:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L1d","3",{}]]}]}],null]}],null]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"maT_pB1uhfnhnW8fMa5Hu"}
+21:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 e:["$","h3",null,{"className":"font-bold text-2xl mt-8 mb-3","id":"links-to-internet-sites-of-third-parties","children":"Links to Internet Sites of Third Parties"}]
 f:["$","p",null,{"className":"leading-snug","children":"This Internet site includes links to external pages. The respective provider shall be responsible for the contents of any linked external pages. In establishing the initial link, the project office BIOMASS has reviewed the respective external content in order to determine whether such link entailed possible civil or criminal responsibility. However, a constant review of linked external pages is unreasonable without concrete reason to believe that a violation of the law may be involved. If the project office BIOMASS determines such or it is pointed out by others that an external offer to which it is connected via a link entails civil or criminal responsibility, then the project office BIOMASS will immediately eliminate any link to this offer. The project office BIOMASS expressly dissociates itself from such contents."}]
@@ -25,7 +25,7 @@ f:["$","p",null,{"className":"leading-snug","children":"This Internet site inclu
 12:["$","h3",null,{"className":"font-bold text-2xl mt-8 mb-3","id":"design","children":"Design"}]
 13:["$","p",null,{"className":"leading-snug","children":"Design by the next.js template: https://earthyscience.github.io/next-project-site/ (Copyright (c) 2025 Lazaro Alonso)"}]
 14:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-15:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
 20:true
 9:300

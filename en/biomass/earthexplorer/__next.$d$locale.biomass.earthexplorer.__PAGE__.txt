@@ -1,19 +1,19 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3a0al6nyjyxou.js"
-5:I[87766,["$4"],"default"]
-6:I[19216,["$4"],"default"]
-d:"/_next/static/chunks/2wcoepudho0yq.js"
-e:"/_next/static/chunks/3r6k-epfdn4-p.js"
-f:"/_next/static/chunks/0tnb_9dyzs2td.js"
-10:"/_next/static/chunks/1mixsles7_x5g.js"
-11:"/_next/static/chunks/20p3bss9m0lgp.js"
-12:I[10778,["$4","$d","$e","$f","$10","$11"],"Image"]
+4:"/_next/static/chunks/3226k49hczve7.js"
+5:I[5274,["$4"],"default"]
+6:I[47516,["$4"],"default"]
+d:"/_next/static/chunks/308ogk71deprp.js"
+e:"/_next/static/chunks/0qc6hejbcervp.js"
+f:"/_next/static/chunks/32b3x_x7jsu8f.js"
+10:"/_next/static/chunks/3-p69uw2r7by7.js"
+11:"/_next/static/chunks/2-w0k1rdft3ir.js"
+12:I[65591,["$4","$d","$e","$f","$10","$11"],"Image"]
 22:"ViewportBoundary"
-23:I[43071,["$4"],"$22"]
+23:I[56047,["$4"],"$22"]
 24:"MetadataBoundary"
-25:I[43071,["$4"],"$24"]
+25:I[56047,["$4"],"$24"]
 26:"$Sreact.suspense"
-27:I[20231,["$4"],"IconMark"]
+27:I[97641,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -21,8 +21,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"earthexplorer","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"biomass","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$26",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L27","3",{}]]}]}],null]}],null]}],"p":"$@28","v":null,"s":"$9"}},"a":"$@29","u":"$@2a","b":"0PFeJUNsWZKlw8hhdQCqL"}
-30:I[43071,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L25",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$26",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L27","3",{}]]}]}],null]}],null]}],"p":"$@28","v":null,"s":"$9"}},"a":"$@29","u":"$@2a","b":"maT_pB1uhfnhnW8fMa5Hu"}
+30:I[56047,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 13:["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold flex justify-center mb-2","children":[" ",["$","a",null,{"href":"https://earth.esa.int/eogateway/missions/swarm","target":"_blank","children":" Swarm "}]," "]}]
 14:["$","div",null,{"className":"flex justify-center mb-4","children":["$","a",null,{"href":"https://earth.esa.int/eogateway/missions/swarm","children":["$","$L12",null,{"alt":"Swarm","className":"rounded-lg","src":"/materials/swarm.png","width":500,"height":200}]}]}]
@@ -36,7 +36,7 @@ a:[["children",{"s":"earthexplorer","h":96,"d":{"r":["$","$3","c",{"children":[n
 1c:["$","p",null,{}]
 1d:["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4","children":[["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200","children":["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold flex justify-center mb-2","children":[" ",["$","a",null,{"href":"https://landsat.gsfc.nasa.gov/","target":"_blank","children":" LandSat series "}]," "]}],["$","div",null,{"className":"flex justify-center mb-4","children":["$","a",null,{"href":"https://landsat.gsfc.nasa.gov/","children":["$","$L12",null,{"alt":"Landsat","className":"rounded-lg","src":"/materials/landsat.png","width":400,"height":100}]}]}]]}]}],["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200","children":["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold flex justify-center mb-2","children":[" ",["$","a",null,{"href":"https://earth.esa.int/eogateway/missions/terrasar-x-and-tandem-x","target":"_blank","children":" TerraSAR-X and TanDEM-X "}]," "]}],["$","div",null,{"className":"flex justify-center mb-4","children":["$","a",null,{"href":"https://earth.esa.int/eogateway/missions/terrasar-x-and-tandem-x","children":["$","$L12",null,{"alt":"GOCE","className":"rounded-lg","src":"/materials/terrasarx.png","width":400,"height":100}]}]}]]}]}],["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200","children":["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold flex justify-center mb-2","children":[" ",["$","a",null,{"href":"https://www.enmap.org/","target":"_blank","children":" EnMAP "}]," "]}],["$","div",null,{"className":"flex justify-center mb-4","children":["$","a",null,{"href":"https://www.enmap.org/","children":["$","$L12",null,{"alt":"EnMAP","className":"rounded-lg","src":"/materials/enmap.png","width":400,"height":100}]}]}]]}]}],["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200","children":["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold flex justify-center mb-2","children":[" ",["$","a",null,{"href":"https://gedi.umd.edu/","target":"_blank","children":" GEDI "}]," "]}],["$","div",null,{"className":"flex justify-center mb-4","children":["$","a",null,{"href":"https://gedi.umd.edu/","children":["$","$L12",null,{"alt":"GEDI","className":"rounded-lg","src":"/materials/gedi.png","width":400,"height":100}]}]}]]}]}],["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-sm hover:bg-[var(--accent)] transition-colors duration-200","children":["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":["$L2b","$L2c"]}]}],"$L2d","$L2e","$L2f"]}]
 1e:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-1f:["$","script","script-0",{"src":"/_next/static/chunks/20p3bss9m0lgp.js","async":true}]
+1f:["$","script","script-0",{"src":"/_next/static/chunks/2-w0k1rdft3ir.js","async":true}]
 20:["$","$L30",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@31"}]}]
 2a:true
 9:300
