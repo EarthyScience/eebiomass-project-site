@@ -1,20 +1,20 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3nohk-6fau5-_.js"
-5:I[22950,["$4"],"default"]
-6:I[63384,["$4"],"default"]
-d:"/_next/static/chunks/1qx0a8cuhywgl.js"
-e:"/_next/static/chunks/1zoopascef2sw.js"
-f:"/_next/static/chunks/116zwi8ot9b0x.js"
-10:"/_next/static/chunks/28oz5e1kgspy4.js"
-11:"/_next/static/chunks/11wzkvdokpwqu.js"
-12:I[54560,["$4","$d","$e","$f","$10","$11"],""]
-13:I[27079,["$4","$d","$e","$f","$10","$11"],"Image"]
+4:"/_next/static/chunks/1a5j2pmegk8wn.js"
+5:I[83585,["$4"],"default"]
+6:I[75662,["$4"],"default"]
+d:"/_next/static/chunks/14-y-bwvfz2x_.js"
+e:"/_next/static/chunks/2w6hnoypvv4c4.js"
+f:"/_next/static/chunks/176ucoc4kq51s.js"
+10:"/_next/static/chunks/3o4mmv-d39l03.js"
+11:"/_next/static/chunks/3_82boahsf3rw.js"
+12:I[57060,["$4","$d","$e","$f","$10","$11"],""]
+13:I[34912,["$4","$d","$e","$f","$10","$11"],"Image"]
 1f:"ViewportBoundary"
-20:I[12616,["$4"],"$1f"]
+20:I[3637,["$4"],"$1f"]
 21:"MetadataBoundary"
-22:I[12616,["$4"],"$21"]
+22:I[3637,["$4"],"$21"]
 23:"$Sreact.suspense"
-24:I[74958,["$4"],"IconMark"]
+24:I[27313,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -22,8 +22,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":{"n":"slug","t":"d","k":"news20_de","s":["posts"]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"blog","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L20",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L22",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$23",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L24","3",{}]]}]}],null]}],null]}],"p":"$@25","v":null,"s":"$9"}},"a":"$@26","u":"$@27","b":"mGjlbXpbGglAIcFP0OTbD"}
-28:I[12616,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L20",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L22",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$23",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L24","3",{}]]}]}],null]}],null]}],"p":"$@25","v":null,"s":"$9"}},"a":"$@26","u":"$@27","b":"o5aksQ1a8dbdAl4TDPguL"}
+28:I[3637,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 14:["$","br",null,{}]
 15:["$","br",null,{}]
@@ -33,7 +33,7 @@ a:[["children",{"s":{"n":"slug","t":"d","k":"news20_de","s":["posts"]},"h":96,"d
 19:["$","a",null,{"style":{"color":"var(--accent-1)"},"href":"https://lps25.esa.int/programme/programme-session/?id=7175685A-A8C8-48AE-9DAE-72F6E5B22385&presentationId=8CD19073-4F04-4B5B-8DAB-62CC0379427F","children":"Einschränkung der Vegetationsumsatzraten im Terrestrial Biosphere Model mittels L-Band-Rückstreuung"}]
 1a:["$","br",null,{}]
 1b:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-1c:["$","script","script-0",{"src":"/_next/static/chunks/11wzkvdokpwqu.js","async":true}]
+1c:["$","script","script-0",{"src":"/_next/static/chunks/3_82boahsf3rw.js","async":true}]
 1d:["$","$L28",null,{"children":["$","$23",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
 27:true
 9:300

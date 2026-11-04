@@ -1,19 +1,19 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3nohk-6fau5-_.js"
-5:I[22950,["$4"],"default"]
-6:I[63384,["$4"],"default"]
-d:"/_next/static/chunks/1qx0a8cuhywgl.js"
-e:"/_next/static/chunks/1zoopascef2sw.js"
-f:"/_next/static/chunks/116zwi8ot9b0x.js"
-10:"/_next/static/chunks/28oz5e1kgspy4.js"
-11:"/_next/static/chunks/11wzkvdokpwqu.js"
-12:I[27079,["$4","$d","$e","$f","$10","$11"],"Image"]
+4:"/_next/static/chunks/1a5j2pmegk8wn.js"
+5:I[83585,["$4"],"default"]
+6:I[75662,["$4"],"default"]
+d:"/_next/static/chunks/14-y-bwvfz2x_.js"
+e:"/_next/static/chunks/2w6hnoypvv4c4.js"
+f:"/_next/static/chunks/176ucoc4kq51s.js"
+10:"/_next/static/chunks/3o4mmv-d39l03.js"
+11:"/_next/static/chunks/3_82boahsf3rw.js"
+12:I[34912,["$4","$d","$e","$f","$10","$11"],"Image"]
 25:"ViewportBoundary"
-26:I[12616,["$4"],"$25"]
+26:I[3637,["$4"],"$25"]
 27:"MetadataBoundary"
-28:I[12616,["$4"],"$27"]
+28:I[3637,["$4"],"$27"]
 29:"$Sreact.suspense"
-2a:I[74958,["$4"],"IconMark"]
+2a:I[27313,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -21,8 +21,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"about","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"biomass","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L26",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L28",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$29",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L2a","3",{}]]}]}],null]}],null]}],"p":"$@2b","v":null,"s":"$9"}},"a":"$@2c","u":"$@2d","b":"mGjlbXpbGglAIcFP0OTbD"}
-34:I[12616,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L26",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L28",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$29",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L2a","3",{}]]}]}],null]}],null]}],"p":"$@2b","v":null,"s":"$9"}},"a":"$@2c","u":"$@2d","b":"o5aksQ1a8dbdAl4TDPguL"}
+34:I[3637,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 13:["$","br",null,{}]
 14:["$","p",null,{"className":"leading-snug","children":["Weitere Informationen finden Sie ",["$","a",null,{"style":{"color":"var(--accent-1)"},"href":"https://earth.esa.int/eogateway/missions/biomass/objectives","target":"_blank","children":"hier."}]]}]
@@ -39,7 +39,7 @@ a:[["children",{"s":"about","h":96,"d":{"r":["$","$3","c",{"children":[null,["$"
 1f:["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center","children":[["$","div",null,{"className":"w-full","children":["$","div",null,{"className":"aspect-video w-full","children":["$","iframe",null,{"className":"w-full h-full rounded-xl shadow","src":"https://www.youtube.com/embed/42u1E63BLkg","title":"YouTube video 1","allow":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture","allowFullScreen":true}]}]}],["$","div",null,{"className":"w-full","children":["$","div",null,{"className":"aspect-video w-full","children":["$","iframe",null,{"className":"w-full h-full rounded-xl shadow","src":"https://www.youtube.com/embed/VZQOhoDZPxk","title":"YouTube video 2","allow":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture","allowFullScreen":true}]}]}]]}]
 20:["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center","children":[["$","div",null,{"className":"w-full","children":["$","div",null,{"className":"aspect-video w-full","children":["$","iframe",null,{"className":"w-full h-full rounded-xl shadow","src":"https://www.youtube.com/embed/BL0EIVc43p0","title":"YouTube video 1","allow":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture","allowFullScreen":true}]}]}],["$","div",null,{"className":"w-full","children":["$","div",null,{"className":"aspect-video w-full","children":["$","iframe",null,{"className":"w-full h-full rounded-xl shadow","src":"https://www.youtube.com/embed/yfQHBN5tSJg","title":"YouTube video 2","allow":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture","allowFullScreen":true}]}]}]]}]
 21:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-22:["$","script","script-0",{"src":"/_next/static/chunks/11wzkvdokpwqu.js","async":true}]
+22:["$","script","script-0",{"src":"/_next/static/chunks/3_82boahsf3rw.js","async":true}]
 23:["$","$L34",null,{"children":["$","$29",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
 2d:true
 9:300

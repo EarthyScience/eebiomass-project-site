@@ -1,19 +1,19 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3nohk-6fau5-_.js"
-5:I[22950,["$4"],"default"]
-6:I[63384,["$4"],"default"]
-d:"/_next/static/chunks/1qx0a8cuhywgl.js"
-e:"/_next/static/chunks/1zoopascef2sw.js"
-f:"/_next/static/chunks/116zwi8ot9b0x.js"
-10:"/_next/static/chunks/28oz5e1kgspy4.js"
-11:"/_next/static/chunks/11wzkvdokpwqu.js"
-12:I[54560,["$4","$d","$e","$f","$10","$11"],""]
+4:"/_next/static/chunks/1a5j2pmegk8wn.js"
+5:I[83585,["$4"],"default"]
+6:I[75662,["$4"],"default"]
+d:"/_next/static/chunks/14-y-bwvfz2x_.js"
+e:"/_next/static/chunks/2w6hnoypvv4c4.js"
+f:"/_next/static/chunks/176ucoc4kq51s.js"
+10:"/_next/static/chunks/3o4mmv-d39l03.js"
+11:"/_next/static/chunks/3_82boahsf3rw.js"
+12:I[57060,["$4","$d","$e","$f","$10","$11"],""]
 24:"ViewportBoundary"
-25:I[12616,["$4"],"$24"]
+25:I[3637,["$4"],"$24"]
 26:"MetadataBoundary"
-27:I[12616,["$4"],"$26"]
+27:I[3637,["$4"],"$26"]
 28:"$Sreact.suspense"
-29:I[74958,["$4"],"IconMark"]
+29:I[27313,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -21,9 +21,9 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":{"n":"slug","t":"d","k":"launch","s":["posts"]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"blog","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L25",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L27",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$28",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L29","3",{}]]}]}],null]}],null]}],"p":"$@2a","v":null,"s":"$9"}},"a":"$@2b","u":"$@2c","b":"mGjlbXpbGglAIcFP0OTbD"}
-2d:I[27079,["$4","$d","$e","$f","$10","$11"],"Image"]
-2e:I[12616,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L25",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L27",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$28",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L29","3",{}]]}]}],null]}],null]}],"p":"$@2a","v":null,"s":"$9"}},"a":"$@2b","u":"$@2c","b":"o5aksQ1a8dbdAl4TDPguL"}
+2d:I[34912,["$4","$d","$e","$f","$10","$11"],"Image"]
+2e:I[3637,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 13:["$","p",null,{"className":"leading-snug","children":[["$","em",null,{"className":"font-bold","children":"\"With the successful launch of BIOMASS, we'll be looking at dense forests through completely new lenses. This is the first satellite with a P-band radar in space, which enables us to see deeper into forest canopies than ever before and thus estimate biomass, and its changes, much more precisely.\""}],"\nDr. Nuno Carvalhais, Project Manager at the BIOMASS Project Office from Max Planck Institute for Biogeochemistry in Jena, Germany."]}]
 14:["$","div",null,{"className":"flex justify-center mb-4","children":["$","$L2d",null,{"alt":"launch of the rocket from French Guiana","className":"rounded-lg","src":"/launch1.png","width":400,"height":400}]}]
@@ -39,7 +39,7 @@ a:[["children",{"s":{"n":"slug","t":"d","k":"launch","s":["posts"]},"h":96,"d":{
 1e:["$","p",null,{"className":"leading-snug","children":"In Germany, the Project Office BIOMASS plays a key role in supporting the scientific community in harnessing the full potential of the mission. Coordinated by Dr. Nuno Carvalhais at the Max Planck Institute for Biogeochemistry (MPI-BGC) in collaboration with the Friedrich Schiller University Jena (FSU), the German Aerospace Center (DLR) and the Helmholtz Centre for Environmental Research (UFZ), the Project Office acts as a central hub for scientific exchange. Its mission is to synthesize, produce and share critical knowledge with the BIOMASS community, identifying knowledge gaps, and driving forward solutions within the mission framework. It also fosters communication to maintain an active dialogue on BIOMASS science and application."}]
 1f:["$","p",null,{"className":"leading-snug","children":"To actively engage researchers and practitioners, the Project Office offers a dynamic program of training courses, workshops, and scientific events, all designed to empower users to make the most of BIOMASS data for advancing forest research, climate studies, and ecological applications. By fostering a vibrant dialogue between scientists, stakeholders, and decision-makers, the Project Office BIOMASS ensures that the mission’s groundbreaking data translates into real-world impact."}]
 20:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-21:["$","script","script-0",{"src":"/_next/static/chunks/11wzkvdokpwqu.js","async":true}]
+21:["$","script","script-0",{"src":"/_next/static/chunks/3_82boahsf3rw.js","async":true}]
 22:["$","$L2e",null,{"children":["$","$28",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
 2c:true
 9:300

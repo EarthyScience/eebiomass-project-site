@@ -1,34 +1,34 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/3nohk-6fau5-_.js"
+2:"/_next/static/chunks/1a5j2pmegk8wn.js"
 3:I[75050,["$2"],"ThemeProvider"]
-4:I[22950,["$2"],"default"]
-5:I[63384,["$2"],"default"]
-6:"/_next/static/chunks/44ymo6hqyoi5s.js"
-7:I[54560,["$2","$6"],""]
-f:I[12616,["$2"],"OutletBoundary"]
+4:I[83585,["$2"],"default"]
+5:I[75662,["$2"],"default"]
+6:"/_next/static/chunks/2h2l80dgo7t5t.js"
+7:I[57060,["$2","$6"],""]
+f:I[3637,["$2"],"OutletBoundary"]
 10:"$Sreact.suspense"
 12:"ViewportBoundary"
-13:I[12616,["$2"],"$12"]
+13:I[3637,["$2"],"$12"]
 15:"MetadataBoundary"
-16:I[12616,["$2"],"$15"]
-18:I[9558,["$2"],"default",1]
-:HL["/_next/static/chunks/2-mj0dg1ljf90.css","style"]
+16:I[3637,["$2"],"$15"]
+18:I[50697,["$2"],"default",1]
+:HL["/_next/static/chunks/43dvlj8kxkb0v.css","style"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 b:X
-d:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$Le",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/11wzkvdokpwqu.js","async":true,"nonce":"$undefined"}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":false,"v":null}}]]
+d:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$Le",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3_82boahsf3rw.js","async":true,"nonce":"$undefined"}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":false,"v":null}}]]
 c:[["children",{"s":"publications","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$b"},"c":"$Qd"}]]
 a:[["children",{"s":"resources","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$b"},"c":"$Qc"}]]
-8:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":512,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/1qx0a8cuhywgl.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1zoopascef2sw.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/116zwi8ot9b0x.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/28oz5e1kgspy4.js","async":true,"nonce":"$undefined"}]],"$L9"]}],"p":false,"v":null},"c":"$Qa"}]]
-0:{"P":null,"c":["","en","resources","publications"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-mj0dg1ljf90.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3nohk-6fau5-_.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"suppressHydrationWarning":true,"lang":"de","children":["$","body",null,{"className":"antialiased","children":["$","$L3",null,{"defaultTheme":"system","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"h-128 flex items-center justify-center","children":["$","div",null,{"className":"text-center max-w-lg px-4","children":[["$","h1",null,{"className":"text-2xl font-bold mb-3","children":"404 - A Moment of Insight"}],["$","p",null,{"className":"text-gray-600 mb-4 text-lg","children":"Like science seeking truth before utility, we've wandered into uncharted territory. Let insight guide us back to familiar ground."}],["$","div",null,{"children":["$","$L7",null,{"href":"/de","className":"underline","children":"Go back to Home"}]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L13",null,{"children":"$L14"}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":"$L17"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$18",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-mj0dg1ljf90.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"mGjlbXpbGglAIcFP0OTbD"}
-19:"/_next/static/chunks/1qx0a8cuhywgl.js"
-1a:"/_next/static/chunks/1zoopascef2sw.js"
-1b:"/_next/static/chunks/116zwi8ot9b0x.js"
-1c:"/_next/static/chunks/28oz5e1kgspy4.js"
+8:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["backup","project"]},"h":512,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/14-y-bwvfz2x_.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2w6hnoypvv4c4.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/176ucoc4kq51s.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3o4mmv-d39l03.js","async":true,"nonce":"$undefined"}]],"$L9"]}],"p":false,"v":null},"c":"$Qa"}]]
+0:{"P":null,"c":["","en","resources","publications"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/43dvlj8kxkb0v.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1a5j2pmegk8wn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"suppressHydrationWarning":true,"lang":"de","children":["$","body",null,{"className":"antialiased","children":["$","$L3",null,{"defaultTheme":"system","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"h-128 flex items-center justify-center","children":["$","div",null,{"className":"text-center max-w-lg px-4","children":[["$","h1",null,{"className":"text-2xl font-bold mb-3","children":"404 - A Moment of Insight"}],["$","p",null,{"className":"text-gray-600 mb-4 text-lg","children":"Like science seeking truth before utility, we've wandered into uncharted territory. Let insight guide us back to familiar ground."}],["$","div",null,{"children":["$","$L7",null,{"href":"/de","className":"underline","children":"Go back to Home"}]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L13",null,{"children":"$L14"}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":"$L17"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$18",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/43dvlj8kxkb0v.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"o5aksQ1a8dbdAl4TDPguL"}
+19:"/_next/static/chunks/14-y-bwvfz2x_.js"
+1a:"/_next/static/chunks/2w6hnoypvv4c4.js"
+1b:"/_next/static/chunks/176ucoc4kq51s.js"
+1c:"/_next/static/chunks/3o4mmv-d39l03.js"
 1d:I[63174,["$2","$19","$1a","$1b","$1c"],"LocaleProvider"]
 1e:I[90902,["$2","$19","$1a","$1b","$1c"],"SetHtmlLang"]
 1f:I[21127,["$2","$19","$1a","$1b","$1c"],"default"]
-20:"/_next/static/chunks/11wzkvdokpwqu.js"
-21:I[27079,["$2","$19","$1a","$1b","$1c","$20"],"Image"]
+20:"/_next/static/chunks/3_82boahsf3rw.js"
+21:I[34912,["$2","$19","$1a","$1b","$1c","$20"],"Image"]
 22:I[66441,["$2","$19","$1a","$1b","$1c"],"default"]
 26:I[73443,["$2","$19","$1a","$1b","$1c","$20"],"Accordion"]
 27:I[73443,["$2","$19","$1a","$1b","$1c","$20"],"AccordionItem"]
@@ -94,6 +94,6 @@ e:["$","div",null,{"className":"max-w-6xl mx-auto px-6 mt-8 py-8 space-y-4","chi
 5d:["$","p",null,{"children":"Wang, J.A., Baccini, A., Farina, M. et al. Disturbance suppresses the aboveground carbon sink in North American boreal forests. Nat. Clim. Chang. 11, 435–441 (2021). https://doi.org/10.1038/s41558-021-01027-4"}]
 5e:["$","p",null,{"className":"leading-snug","children":["Zheng, B., Ciais, P., Chevallier, F., Yang, H., Canadell, J. G., Chen, Y., van der Velde, I. R., Aben, I., Chuvieco, E., Davis, S. J., Deeter, M., Hong, C., Kong, Y., Li, H., Li, H., Lin, X., He, K., & Zhang, Q. (2023). Record-high CO₂ emissions from boreal fires in 2021. Science, 379(6635), 912–917. ",["$","a",null,{"className":"text-[var(--accent-1)]","href":"https://doi.org/10.1126/science.ade0805","children":"https://doi.org/10.1126/science.ade0805"}]]}]
 14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-5f:I[74958,["$2"],"IconMark"]
+5f:I[27313,["$2"],"IconMark"]
 11:null
 17:[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L5f","3",{}]]

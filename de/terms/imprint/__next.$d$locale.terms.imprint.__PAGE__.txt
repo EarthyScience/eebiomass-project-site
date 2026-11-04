@@ -1,19 +1,19 @@
 3:"$Sreact.fragment"
-4:"/_next/static/chunks/3nohk-6fau5-_.js"
-5:I[22950,["$4"],"default"]
-6:I[63384,["$4"],"default"]
-d:"/_next/static/chunks/1qx0a8cuhywgl.js"
-e:"/_next/static/chunks/1zoopascef2sw.js"
-f:"/_next/static/chunks/116zwi8ot9b0x.js"
-10:"/_next/static/chunks/28oz5e1kgspy4.js"
-11:"/_next/static/chunks/11wzkvdokpwqu.js"
-12:I[27079,["$4","$d","$e","$f","$10","$11"],"Image"]
+4:"/_next/static/chunks/1a5j2pmegk8wn.js"
+5:I[83585,["$4"],"default"]
+6:I[75662,["$4"],"default"]
+d:"/_next/static/chunks/14-y-bwvfz2x_.js"
+e:"/_next/static/chunks/2w6hnoypvv4c4.js"
+f:"/_next/static/chunks/176ucoc4kq51s.js"
+10:"/_next/static/chunks/3o4mmv-d39l03.js"
+11:"/_next/static/chunks/3_82boahsf3rw.js"
+12:I[34912,["$4","$d","$e","$f","$10","$11"],"Image"]
 1e:"ViewportBoundary"
-1f:I[12616,["$4"],"$1e"]
+1f:I[3637,["$4"],"$1e"]
 20:"MetadataBoundary"
-21:I[12616,["$4"],"$20"]
+21:I[3637,["$4"],"$20"]
 22:"$Sreact.suspense"
-23:I[74958,["$4"],"IconMark"]
+23:I[27313,["$4"],"IconMark"]
 8:X
 8:C
 9:X
@@ -21,8 +21,8 @@ c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$",
 a:[["children",{"s":"imprint","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
 2:[["children",{"s":"terms","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"de","s":["backup","project"]},"h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L23","3",{}]]}]}],null]}],null]}],"p":"$@24","v":null,"s":"$9"}},"a":"$@25","u":"$@26","b":"mGjlbXpbGglAIcFP0OTbD"}
-28:I[12616,["$4"],"OutletBoundary"]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"eebiomass"}],["$","meta","1",{"name":"description","content":"Project Office BIOMASS."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.156ngq96ik-p3.ico","sizes":"364x364","type":"image/x-icon"}],["$","$L23","3",{}]]}]}],null]}],null]}],"p":"$@24","v":null,"s":"$9"}},"a":"$@25","u":"$@26","b":"o5aksQ1a8dbdAl4TDPguL"}
+28:I[3637,["$4"],"OutletBoundary"]
 :HL["/_next/static/chunks/25ylwrcf6mb78.css","style"]
 27:T4da,Das Projektbüro BIOMASS ist als Inhaltsanbieterin nach § 7 Abs.1 Telemediengesetz für die eigenen Inhalte, die sie zur Nutzung bereithält, nach den allgemeinen Gesetzen verantwortlich. Das Projektbüro BIOMASS ist um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen werden. Das Projektbüro BIOMASS übernimmt deshalb keine Gewähr für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Für Schäden materieller oder immaterieller Art, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen unmittelbar oder mittelbar verursacht werden, haftet das Projektbüro BIOMASS nicht, sofern ihr nicht nachweislich vorsätzliches oder grob fahrlässiges Verschulden zur Last fällt. Gleiches gilt für kostenlos zum Download bereitgehaltene Software. Das Projektbüro BIOMASS behält es sich vor, Teile des Internetangebots oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.13:["$","p",null,{"className":"leading-snug","children":"$27"}]
 14:["$","h3",null,{"className":"font-bold text-2xl mt-8 mb-3","id":"rechtliche-hinweise-zu-verknpfungen-auf-externe-seiten","children":"Rechtliche Hinweise zu Verknüpfungen auf externe Seiten"}]
@@ -32,7 +32,7 @@ a:[["children",{"s":"imprint","h":96,"d":{"r":["$","$3","c",{"children":[null,["
 18:["$","h3",null,{"className":"font-bold text-2xl mt-8 mb-3","id":"design","children":"Design"}]
 19:["$","p",null,{"className":"leading-snug","children":"Design basierend auf next.js Vorlage: https://earthyscience.github.io/next-project-site/ (Copyright (c) 2025 Lazaro Alonso)"}]
 1a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/25ylwrcf6mb78.css","precedence":"next"}]
-1b:["$","script","script-0",{"src":"/_next/static/chunks/11wzkvdokpwqu.js","async":true}]
+1b:["$","script","script-0",{"src":"/_next/static/chunks/3_82boahsf3rw.js","async":true}]
 1c:["$","$L28",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
 26:true
 9:300
